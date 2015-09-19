@@ -1,56 +1,56 @@
-body { background-color:#333; }
-#snow{
-    background: deepskyblue;
-    font-family: Androgyne;
-    background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index:1;
-    -webkit-animation: snow 10s linear infinite;
-    -moz-animation: snow 10s linear infinite;
-    -ms-animation: snow 10s linear infinite;
-    animation: snow 10s linear infinite;
+.row-table.row-table-xs {
+    display: table !important;
 }
-@keyframes snow {
-    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-    50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
-    100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+
+.row-table.row-table-xs > [class*="col-"] {
+    float: none !important;
+    display: table-cell !important;
+    vertical-align: middle;
 }
-@-moz-keyframes snow {
-    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-    50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
-    100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+
+.row-table.row-table-xs > [class*="col-"].td-top {
+    vertical-align: top !important;
 }
-@-webkit-keyframes snow {
-    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-    50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
-    100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+
+.row-table.row-table-xs > [class*="col-"].td-bottom {
+    vertical-align: bottom !important;
 }
-@-ms-keyframes snow {
-    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-    50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
-    100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+
+@media (min-width: 768px) {
+    .row-table {
+        display: table !important;
+    }
+    .row-table > [class*="col-"] {
+        float: none !important;
+        display: table-cell !important;
+        vertical-align: middle;
+    }
+    .row-table > [class*="col-"].td-top {
+        vertical-align: top !important;
+    }
+    .row-table > [class*="col-"].td-bottom {
+        vertical-align: bottom !important;
+    }
+}
+
+body {
+    background: url(http://www.traveladventures.org/countries/georgia/images/gudauri-skiing08.jpg) top center;
+    color: blue;
+    font-family: 'Raleway', sans-serif;
+    background-size: cover;
 }
 
 h1 {
+    font-family: 'Nunito', sans-serif;
+}
+
+section {
+    background: skyblue;
     color: black;
-}
+    margin-bottom: 1em;
+    padding: 2em;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-size: large;
 
-.page-header {
-    text-align: center;
-}
-
-.jumbotron {
-    text-align: center;
-    max-height: 150px;
-    background-color: red;
-}
-
-
-.container .jumbotron {
-    background-color: white;
-    opacity: 0.7;
 }
