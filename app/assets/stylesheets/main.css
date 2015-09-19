@@ -54,3 +54,21 @@ section {
     font-size: large;
 
 }
+
+h4#steamboat {
+    background-color:black;
+    color:#1CD06E;
+    display:inline;
+    font-size:large;
+    padding:5px;
+    margin: auto;
+}
+
+h4#breckenridge {
+    background-color:black;
+    color:#1CD06E;
+    display:inline;
+    font-size:large;
+    padding:5px;
+    margin: auto;
+}
