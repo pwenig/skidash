@@ -1,0 +1,33 @@
+<script>
+  var end2 = new Date('11/13/2015 8:30 AM');
+
+  var _second = 1000;
+  var _minute = _second * 60;
+  var _hour = _minute * 60;
+  var _day = _hour * 24;
+  var timer;
+
+  function showRemaining() {
+    var now = new Date();
+    var distance = end2 - now;
+    if (distance < 0) {
+
+      clearInterval(timer);
+      document.getElementById('countdown2').innerHTML = 'EXPIRED!';
+
+      return;
+    }
+    var days = Math.floor(distance / _day);
+    var hours = Math.floor((distance % _day) / _hour);
+    var minutes = Math.floor((distance % _hour) / _minute);
+    var seconds = Math.floor((distance % _minute) / _second);
+
+    document.getElementById('countdown2').innerHTML = days + 'days ';
+    document.getElementById('countdown2').innerHTML += hours + ':';
+    document.getElementById('countdown2').innerHTML += minutes + ':';
+    document.getElementById('countdown2').innerHTML += seconds + '';
+  }
+
+  timer = setInterval(showRemaining, 1000);
+</script>
+<h4 id="countdown2"></h4>
