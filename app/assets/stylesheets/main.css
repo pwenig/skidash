@@ -45,4 +45,12 @@ h1 {
 
 .jumbotron {
     text-align: center;
+    max-height: 150px;
+    background-color: red;
+}
+
+
+.container .jumbotron {
+    background-color: white;
+    opacity: 0.7;
 }
