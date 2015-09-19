@@ -61,7 +61,7 @@ h4#steamboat {
     display:inline;
     font-size:large;
     padding:5px;
-    margin: auto;
+    margin-left: 35px;
 }
 
 h4#breckenridge {
@@ -70,5 +70,6 @@ h4#breckenridge {
     display:inline;
     font-size:large;
     padding:5px;
-    margin: auto;
+    margin-left: 35px;
+
 }
