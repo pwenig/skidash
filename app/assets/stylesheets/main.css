@@ -55,21 +55,10 @@ section {
 
 }
 
-h4#steamboat {
+h4#steamboat, h4#breckenridge, h4#eldora, h4#abasin  {
     background-color:black;
     color:#1CD06E;
     display:inline;
     font-size:large;
     padding:5px;
-    margin-left: 35px;
-}
-
-h4#breckenridge {
-    background-color:black;
-    color:#1CD06E;
-    display:inline;
-    font-size:large;
-    padding:5px;
-    margin-left: 35px;
-
 }

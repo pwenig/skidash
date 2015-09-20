@@ -14,7 +14,7 @@ function showRemaining() {
   if (distance < 0) {
 
     clearInterval(timer);
-    document.getElementById(mountain).innerHTML = 'EXPIRED!';
+    document.getElementById(mountain).innerHTML = 'OPEN!';
 
     return;
   }
