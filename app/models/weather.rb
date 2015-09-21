@@ -3,11 +3,8 @@ class Weather
 
   attr_accessor :temperature, :icon, :condition, :wspd, :humidity
 
-
-
-  def initialize
-    @zip_codes = [80466, 80487, 80424, 80435]
-    weather_hourly_hash = fetch_weather_hourly(@zip_codes[0])
+  def initialize(zip)
+    weather_hourly_hash = fetch_weather_hourly(zip)
     assign_hourly_values(weather_hourly_hash)
   end
 
@@ -25,9 +22,5 @@ class Weather
     self.icon = hourly_forecast_response['icon_url']
   end
 
-  def fetch_weather_forecast(zip_code)
-    HTTParty.get("http://api.wunderground.com/api/13c25173081aa036/forecast/q/#{zip_code}.xml")
-
-  end
 
 end
