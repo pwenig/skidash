@@ -3,7 +3,7 @@ require 'httparty'
 
 feature "weather API_hourly" do
 
-  before response = Weather.new(80466) do
+  before response = WeatherHourly.new(80466) do
   end
 
   scenario "successfully connets to API for hourly forecast" do

@@ -1,4 +1,4 @@
-class Weather
+class WeatherHourly
  require 'httparty'
 
   attr_accessor :temperature, :icon, :condition, :wspd, :humidity
@@ -21,6 +21,12 @@ class Weather
     self.wspd = hourly_forecast_response['wspd']['english']
     self.icon = hourly_forecast_response['icon_url']
   end
+
+  # move to new class
+  # def fetch_weather_forecast(zip_code)
+  #   HTTParty.get("http://api.wunderground.com/api/13c25173081aa036/forecast/q/#{zip_code}.xml")
+  #
+  # end
 
 
 end
