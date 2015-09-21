@@ -1,7 +1,7 @@
 require 'rails_helper'
 require 'httparty'
 
-feature "weather API_hourly" do
+feature "weather API hourly" do
 
   before response = WeatherHourly.new(80466) do
   end
