@@ -17,6 +17,11 @@
         <p>
           Weather Forecast
         </p>
+        <p><%= @weather_lookup.temperature %>&#176; <%= @weather_lookup.condition %></p>
+        <p>Wind: <%= @weather_lookup.wspd %> mph</p>
+        <p>Humidity: <%= @weather_lookup.humidity %>%</p>
+        <%= image_tag @weather_lookup.icon %>
+
         <p>
           Total Snowfall
         </p>
@@ -39,9 +44,7 @@
           <br>
           <br>
 
-          <p>
-            Weather Forecast
-          </p>
+          <p>Weather Forecast</p>
           <p>
             Total Snowfall
           </p>
