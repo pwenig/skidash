@@ -62,3 +62,7 @@ h4#steamboat, h4#breckenridge, h4#eldora, h4#abasin  {
     font-size:large;
     padding:5px;
 }
+
+ul#eldora {
+    list-style-type: none;
+}

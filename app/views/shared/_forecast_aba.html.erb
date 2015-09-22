@@ -1,7 +1,9 @@
-<%= image_tag @weather_lookup_aba.icon %>
-<p><%= @weather_lookup_aba.temperature %>&#176; <%= @weather_lookup_aba.condition %></p>
-<p>Wind: <%= @weather_lookup_aba.wspd %> mph</p>
-<p>Humidity: <%= @weather_lookup_aba.humidity %>%</p>
+<ul style="list-style: none;">
+  <li><%= image_tag @weather_lookup_aba.icon %></li>
+<li><%= @weather_lookup_aba.temperature %>&#176; <%= @weather_lookup_aba.condition %></li>
+<li>Wind: <%= @weather_lookup_aba.wspd %> mph</li>
+<li>Humidity: <%= @weather_lookup_aba.humidity %>%</li>
+  </ul>
 <p><b>Today:</b> <%= @weather_forecast_lookup_aba.forecast_today %></p>
 <p><b><%= @weather_forecast_lookup_aba.forecast_title_day2 %>:</b> <%= @weather_forecast_lookup_aba.forecast_day2 %></p>
 

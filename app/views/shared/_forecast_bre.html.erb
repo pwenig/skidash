@@ -1,7 +1,9 @@
-<%= image_tag @weather_lookup_bre.icon %>
-<p><%= @weather_lookup_bre.temperature %>&#176; <%= @weather_lookup_bre.condition %></p>
-<p>Wind: <%= @weather_lookup_bre.wspd %> mph</p>
-<p>Humidity: <%= @weather_lookup_bre.humidity %>%</p>
+<ul style="list-style: none;">
+<li><%= image_tag @weather_lookup_bre.icon %></li>
+<li><%= @weather_lookup_bre.temperature %>&#176; <%= @weather_lookup_bre.condition %></li>
+<li>Wind: <%= @weather_lookup_bre.wspd %> mph</li>
+<li>Humidity: <%= @weather_lookup_bre.humidity %>%</li>
+  </ul>
 <p><b>Today:</b> <%= @weather_forecast_lookup_bre.forecast_today %></p>
 <p><b><%= @weather_forecast_lookup_bre.forecast_title_day2 %>:</b> <%= @weather_forecast_lookup_bre.forecast_day2 %></p>
 
