@@ -3,7 +3,10 @@
 <li><%= @weather_lookup_aba.temperature %>&#176; <%= @weather_lookup_aba.condition %></li>
 <li>Wind: <%= @weather_lookup_aba.wspd %> mph</li>
 <li>Humidity: <%= @weather_lookup_aba.humidity %>%</li>
-  </ul>
+  <li><%= @weather_forecast_lookup_aba.today_high %>&#176; / <%= @weather_forecast_lookup_aba.today_low %>&#176; </li>
+
+</ul>
 <p><b>Today:</b> <%= @weather_forecast_lookup_aba.forecast_today %></p>
 <p><b><%= @weather_forecast_lookup_aba.forecast_title_day2 %>:</b> <%= @weather_forecast_lookup_aba.forecast_day2 %></p>
+<p><b><%= @weather_forecast_lookup_aba.forecast_title_day3 %>:</b> <%= @weather_forecast_lookup_aba.forecast_day3 %></p>
 
