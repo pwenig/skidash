@@ -15,5 +15,6 @@ class DashboardController < ApplicationController
   @weather_forecast_lookup_ste = WeatherForecast.new(STE)
   @weather_forecast_lookup_bre = WeatherForecast.new(BRE)
   @weather_forecast_lookup_aba = WeatherForecast.new(ABA)
+
   end
 end
