@@ -7,65 +7,9 @@
   </h1>
 
   <section>
-    <div class="row row-table">
-      <div class="col-md-3 td-top">
-        <h2>
-          Eldora
-        </h2>
-        <h3>Opening: Dec 1(e)</h3>
-        <script>countdown("12/01/2015 8:30 AM", "eldora")</script>
-        <h4 id="eldora"></h4>
-        <br>
-        <br>
 
-        <%= render partial: "shared/forecast_eld" %>
+    <%= render partial: "shared/forecasts" %>
 
-      </div>
-
-        <div class="col-md-3 td-top">
-          <h2>
-            Steamboat
-          </h2>
-          <h3>Opening: Nov 26</h3>
-          <script>countdown("11/26/2015 8:30 AM", "steamboat")</script>
-          <h4 id="steamboat"></h4>
-          <br>
-          <br>
-
-          <%= render "shared/forecast_ste" %>
-
-
-        </div>
-
-      <div class="col-md-3 td-top">
-        <h2>
-          Breckenridge
-        </h2>
-        <h3>Opening: Nov 13</h3>
-        <script>countdown("11/13/2015 8:30 AM", "breckenridge")</script>
-        <h4 id="breckenridge"></h4>
-        <br>
-        <br>
-
-        <%= render "shared/forecast_bre" %>
-
-      </div>
-
-      <div class="col-md-3 td-top">
-        <h2>
-          Vail
-        </h2>
-        <h3>Opening: Nov 20</h3>
-        <script>countdown("11/20/2015 8:30 AM", "vail")</script>
-        <h4 id="vail"></h4>
-        <br>
-        <br>
-
-        <%= render "shared/forecast_vail" %>
-
-      </div>
-
-    </div>
     <%= render partial: "shared/camera" %>
 
     <%= render partial: "shared/tweets" %>
