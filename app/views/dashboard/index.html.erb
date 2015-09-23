@@ -1,4 +1,6 @@
-<img id="radar" src="http://api.wunderground.com/api/e00b55e1d9c62820/animatedradar/q/CO/Frisco.gif?newmaps=1&timelabel=1&timelabel.y=10&num=5&delay=50">
+<%= image_tag "http://api.wunderground.com/api/#{ENV['WEATHER_API']}/animatedradar/q/CO/Frisco.gif?newmaps=1&timelabel=1&timelabel.y=10&num=5&delay=50", :id =>"radar"%>
+
+
 <div class="container">
   <h1>
     SkiDash
@@ -65,6 +67,9 @@
 
     </div>
     <%= render partial: "shared/camera" %>
+
+    <%= render partial: "shared/tweets" %>
+
   </section>
 
 

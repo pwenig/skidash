@@ -15,7 +15,6 @@ gem 'spring',        group: :development
 
 gem 'httparty', '~> 0.13.6'
 
-
 group :development, :test do
   gem 'rspec-rails', '~> 3.3.3'
   gem 'pry'

@@ -7,7 +7,6 @@ class WeatherForecast
   def initialize(zip)
     weather_forecast_hash = fetch_weather_forecast(zip)
     assign_forecast_values(weather_forecast_hash)
-    # fetch_radar
   end
 
   def fetch_weather_forecast(zip_code)
@@ -29,8 +28,5 @@ class WeatherForecast
 
   end
 
-  # def fetch_radar
-  #   HTTParty.get("http://api.wunderground.com/api/#{ENV['WEATHER_API']}/animatedradar/q/CO/Frisco.gif?newmaps=1&timelabel=1&timelabel.y=10&num=5&delay=50")
-  # end
 
 end
