@@ -20,9 +20,13 @@ group :development, :test do
   gem 'pry'
   gem 'dotenv-rails'
 
+
 end
 
 group :test do
   gem 'capybara', '~> 2.5.0'
   gem 'database_cleaner'
+  gem 'vcr'
+  gem 'webmock'
 end
+

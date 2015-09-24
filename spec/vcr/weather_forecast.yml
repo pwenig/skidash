@@ -1,0 +1,202 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.wunderground.com/api/b2a489247362d859/forecast/q/80466.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache/2.2.15 (CentOS)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      X-Creationtime:
+      - '0.039'
+      Last-Modified:
+      - Thu, 24 Sep 2015 20:40:34 GMT
+      Content-Type:
+      - text/xml; charset=UTF-8
+      Vary:
+      - Accept-Encoding
+      Expires:
+      - Thu, 24 Sep 2015 20:40:34 GMT
+      Cache-Control:
+      - max-age=0, no-cache
+      Pragma:
+      - no-cache
+      Date:
+      - Thu, 24 Sep 2015 20:40:34 GMT
+      Content-Length:
+      - '10216'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - DT=1443127234:25742:365-c9; path=/; expires=Fri, 01-Jan-2020 00:00:00 GMT;
+        domain=.wunderground.com
+    body:
+      encoding: UTF-8
+      string: "\n<response>\n\t<version>0.1</version>\n\t<termsofService>http://www.wunderground.com/weather/api/d/terms.html</termsofService>\n\t<features>\n\t\t<feature>forecast</feature>\n\t</features>\n\t<forecast>\n\t\t<txt_forecast>\n\t\t<date>1:22
+        PM MDT</date>\n\t\t<forecastdays>\n\t\t<forecastday>\n\t\t<period>0</period>\n\t\t<icon>clear</icon>\n\t\t<icon_url>http://icons.wxug.com/i/c/k/clear.gif</icon_url>\n\t\t<title>Thursday</title>\n\t\t<fcttext><![CDATA[Lots
+        of sunshine. High 68F. Winds E at 5 to 10 mph.]]></fcttext>\n\t\t<fcttext_metric><![CDATA[Mostly
+        sunny. High near 20C. Winds E at 10 to 15 km/h.]]></fcttext_metric>\n\t\t<pop>0</pop>\n\t\t</forecastday>\n\t\t<forecastday>\n\t\t<period>1</period>\n\t\t<icon>nt_clear</icon>\n\t\t<icon_url>http://icons.wxug.com/i/c/k/nt_clear.gif</icon_url>\n\t\t<title>Thursday
+        Night</title>\n\t\t<fcttext><![CDATA[Clear skies. Low 46F. Winds SE at 5 to
+        10 mph.]]></fcttext>\n\t\t<fcttext_metric><![CDATA[Clear skies. Low 8C. Winds
+        SE at 10 to 15 km/h.]]></fcttext_metric>\n\t\t<pop>0</pop>\n\t\t</forecastday>\n\t\t<forecastday>\n\t\t<period>2</period>\n\t\t<icon>clear</icon>\n\t\t<icon_url>http://icons.wxug.com/i/c/k/clear.gif</icon_url>\n\t\t<title>Friday</title>\n\t\t<fcttext><![CDATA[Sunny.
+        High 73F. Winds E at 5 to 10 mph.]]></fcttext>\n\t\t<fcttext_metric><![CDATA[Sunny
+        skies. High 23C. Winds E at 10 to 15 km/h.]]></fcttext_metric>\n\t\t<pop>0</pop>\n\t\t</forecastday>\n\t\t<forecastday>\n\t\t<period>3</period>\n\t\t<icon>nt_clear</icon>\n\t\t<icon_url>http://icons.wxug.com/i/c/k/nt_clear.gif</icon_url>\n\t\t<title>Friday
+        Night</title>\n\t\t<fcttext><![CDATA[Clear skies. Low 48F. Winds S at 5 to
+        10 mph.]]></fcttext>\n\t\t<fcttext_metric><![CDATA[A mostly clear sky. Low
+        9C. Winds S at 10 to 15 km/h.]]></fcttext_metric>\n\t\t<pop>0</pop>\n\t\t</forecastday>\n\t\t<forecastday>\n\t\t<period>4</period>\n\t\t<icon>clear</icon>\n\t\t<icon_url>http://icons.wxug.com/i/c/k/clear.gif</icon_url>\n\t\t<title>Saturday</title>\n\t\t<fcttext><![CDATA[A
+        mainly sunny sky. High 76F. Winds ENE at 5 to 10 mph.]]></fcttext>\n\t\t<fcttext_metric><![CDATA[Sunny.
+        High 24C. Winds E at 10 to 15 km/h.]]></fcttext_metric>\n\t\t<pop>0</pop>\n\t\t</forecastday>\n\t\t<forecastday>\n\t\t<period>5</period>\n\t\t<icon>nt_clear</icon>\n\t\t<icon_url>http://icons.wxug.com/i/c/k/nt_clear.gif</icon_url>\n\t\t<title>Saturday
+        Night</title>\n\t\t<fcttext><![CDATA[A mostly clear sky. Low 52F. Winds WSW
+        at 5 to 10 mph.]]></fcttext>\n\t\t<fcttext_metric><![CDATA[Mostly clear. Low
+        11C. Winds WSW at 10 to 15 km/h.]]></fcttext_metric>\n\t\t<pop>0</pop>\n\t\t</forecastday>\n\t\t<forecastday>\n\t\t<period>6</period>\n\t\t<icon>clear</icon>\n\t\t<icon_url>http://icons.wxug.com/i/c/k/clear.gif</icon_url>\n\t\t<title>Sunday</title>\n\t\t<fcttext><![CDATA[Except
+        for a few afternoon clouds, mainly sunny. High 78F. Winds NNE at 5 to 10 mph.]]></fcttext>\n\t\t<fcttext_metric><![CDATA[Except
+        for a few afternoon clouds, mainly sunny. High near 25C. Winds NE at 10 to
+        15 km/h.]]></fcttext_metric>\n\t\t<pop>0</pop>\n\t\t</forecastday>\n\t\t<forecastday>\n\t\t<period>7</period>\n\t\t<icon>nt_clear</icon>\n\t\t<icon_url>http://icons.wxug.com/i/c/k/nt_clear.gif</icon_url>\n\t\t<title>Sunday
+        Night</title>\n\t\t<fcttext><![CDATA[A mostly clear sky. Low 52F. Winds SW
+        at 5 to 10 mph.]]></fcttext>\n\t\t<fcttext_metric><![CDATA[Mainly clear. Low
+        11C. Winds SW at 10 to 15 km/h.]]></fcttext_metric>\n\t\t<pop>0</pop>\n\t\t</forecastday>\n\t\t</forecastdays>\n\t\t</txt_forecast>\n\t\t<simpleforecast>\n\t\t<forecastdays>\n\t\t<forecastday>\n\t\t<date>\n
+        \ <epoch>1443142800</epoch>\n  <pretty_short>7:00 PM MDT</pretty_short>\n
+        \ <pretty>7:00 PM MDT on September 24, 2015</pretty>\n  <day>24</day>\n  <month>9</month>\n
+        \ <year>2015</year>\n  <yday>266</yday>\n  <hour>19</hour>\n  <min>00</min>\n
+        \ <sec>0</sec>\n  <isdst>1</isdst>\n  <monthname>September</monthname>\n  <monthname_short>Sep</monthname_short>\n
+        \ <weekday_short>Thu</weekday_short>\n  <weekday>Thursday</weekday>\n  <ampm>PM</ampm>\n
+        \ <tz_short>MDT</tz_short>\n  <tz_long>America/Denver</tz_long>\n</date>\n\t\t\t\t\t<period>1</period>\n\t\t\t\t\t<high>\n\t\t\t\t\t\t<fahrenheit>68</fahrenheit>\n\t\t\t\t\t\t<celsius>20</celsius>\n\t\t\t\t\t</high>\n\t\t\t\t\t<low>\n\t\t\t\t\t\t<fahrenheit>46</fahrenheit>\n\t\t\t\t\t\t<celsius>8</celsius>\n\t\t\t\t\t</low>\n\t\t\t\t\t<conditions>Clear</conditions>\n\t\t\t\t\t\n\t\t\t\t\t<icon>clear</icon>\n\t\t\t\t\t<icon_url>http://icons.wxug.com/i/c/k/clear.gif</icon_url>\n\t\t\t\t\t<skyicon></skyicon>\n\t\t\t\t\t<pop>0</pop>\n\t\t\t\t\t<qpf_allday>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_allday>\n\t\t\t\t\t<qpf_day>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_day>\n\t\t\t\t\t<qpf_night>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_night>\n\t\t\t\t\t<snow_allday>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_allday>\n\t\t\t\t\t<snow_day>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_day>\n\t\t\t\t\t<snow_night>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_night>\n\t\t\t\t\t<maxwind>\n\t\t\t\t\t\t<mph>10</mph>\n\t\t\t\t\t\t<kph>16</kph>\n\t\t\t\t\t\t<dir>E</dir>\n\t\t\t\t\t\t<degrees>85</degrees>\n\t\t\t\t\t</maxwind>\n\t\t\t\t\t<avewind>\n\t\t\t\t\t\t<mph>9</mph>\n\t\t\t\t\t\t<kph>14</kph>\n\t\t\t\t\t\t<dir>E</dir>\n\t\t\t\t\t\t<degrees>85</degrees>\n\t\t\t\t\t</avewind>\n\t\t\t\t\t<avehumidity>30</avehumidity>\n\t\t\t\t\t<maxhumidity>0</maxhumidity>\n\t\t\t\t\t<minhumidity>0</minhumidity>\n\t\t\t\t</forecastday>\n\t\t\t\t\n\t\t\t\t<forecastday>\n\t\t\t\t\t<date>\n
+        \ <epoch>1443229200</epoch>\n  <pretty_short>7:00 PM MDT</pretty_short>\n
+        \ <pretty>7:00 PM MDT on September 25, 2015</pretty>\n  <day>25</day>\n  <month>9</month>\n
+        \ <year>2015</year>\n  <yday>267</yday>\n  <hour>19</hour>\n  <min>00</min>\n
+        \ <sec>0</sec>\n  <isdst>1</isdst>\n  <monthname>September</monthname>\n  <monthname_short>Sep</monthname_short>\n
+        \ <weekday_short>Fri</weekday_short>\n  <weekday>Friday</weekday>\n  <ampm>PM</ampm>\n
+        \ <tz_short>MDT</tz_short>\n  <tz_long>America/Denver</tz_long>\n</date>\n\t\t\t\t\t<period>2</period>\n\t\t\t\t\t<high>\n\t\t\t\t\t\t<fahrenheit>73</fahrenheit>\n\t\t\t\t\t\t<celsius>23</celsius>\n\t\t\t\t\t</high>\n\t\t\t\t\t<low>\n\t\t\t\t\t\t<fahrenheit>48</fahrenheit>\n\t\t\t\t\t\t<celsius>9</celsius>\n\t\t\t\t\t</low>\n\t\t\t\t\t<conditions>Clear</conditions>\n\t\t\t\t\t\n\t\t\t\t\t<icon>clear</icon>\n\t\t\t\t\t<icon_url>http://icons.wxug.com/i/c/k/clear.gif</icon_url>\n\t\t\t\t\t<skyicon></skyicon>\n\t\t\t\t\t<pop>0</pop>\n\t\t\t\t\t<qpf_allday>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_allday>\n\t\t\t\t\t<qpf_day>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_day>\n\t\t\t\t\t<qpf_night>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_night>\n\t\t\t\t\t<snow_allday>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_allday>\n\t\t\t\t\t<snow_day>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_day>\n\t\t\t\t\t<snow_night>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_night>\n\t\t\t\t\t<maxwind>\n\t\t\t\t\t\t<mph>10</mph>\n\t\t\t\t\t\t<kph>16</kph>\n\t\t\t\t\t\t<dir>E</dir>\n\t\t\t\t\t\t<degrees>81</degrees>\n\t\t\t\t\t</maxwind>\n\t\t\t\t\t<avewind>\n\t\t\t\t\t\t<mph>9</mph>\n\t\t\t\t\t\t<kph>14</kph>\n\t\t\t\t\t\t<dir>E</dir>\n\t\t\t\t\t\t<degrees>81</degrees>\n\t\t\t\t\t</avewind>\n\t\t\t\t\t<avehumidity>35</avehumidity>\n\t\t\t\t\t<maxhumidity>0</maxhumidity>\n\t\t\t\t\t<minhumidity>0</minhumidity>\n\t\t\t\t</forecastday>\n\t\t\t\t\n\t\t\t\t<forecastday>\n\t\t\t\t\t<date>\n
+        \ <epoch>1443315600</epoch>\n  <pretty_short>7:00 PM MDT</pretty_short>\n
+        \ <pretty>7:00 PM MDT on September 26, 2015</pretty>\n  <day>26</day>\n  <month>9</month>\n
+        \ <year>2015</year>\n  <yday>268</yday>\n  <hour>19</hour>\n  <min>00</min>\n
+        \ <sec>0</sec>\n  <isdst>1</isdst>\n  <monthname>September</monthname>\n  <monthname_short>Sep</monthname_short>\n
+        \ <weekday_short>Sat</weekday_short>\n  <weekday>Saturday</weekday>\n  <ampm>PM</ampm>\n
+        \ <tz_short>MDT</tz_short>\n  <tz_long>America/Denver</tz_long>\n</date>\n\t\t\t\t\t<period>3</period>\n\t\t\t\t\t<high>\n\t\t\t\t\t\t<fahrenheit>76</fahrenheit>\n\t\t\t\t\t\t<celsius>24</celsius>\n\t\t\t\t\t</high>\n\t\t\t\t\t<low>\n\t\t\t\t\t\t<fahrenheit>52</fahrenheit>\n\t\t\t\t\t\t<celsius>11</celsius>\n\t\t\t\t\t</low>\n\t\t\t\t\t<conditions>Clear</conditions>\n\t\t\t\t\t\n\t\t\t\t\t<icon>clear</icon>\n\t\t\t\t\t<icon_url>http://icons.wxug.com/i/c/k/clear.gif</icon_url>\n\t\t\t\t\t<skyicon></skyicon>\n\t\t\t\t\t<pop>0</pop>\n\t\t\t\t\t<qpf_allday>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_allday>\n\t\t\t\t\t<qpf_day>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_day>\n\t\t\t\t\t<qpf_night>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_night>\n\t\t\t\t\t<snow_allday>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_allday>\n\t\t\t\t\t<snow_day>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_day>\n\t\t\t\t\t<snow_night>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_night>\n\t\t\t\t\t<maxwind>\n\t\t\t\t\t\t<mph>10</mph>\n\t\t\t\t\t\t<kph>16</kph>\n\t\t\t\t\t\t<dir>ENE</dir>\n\t\t\t\t\t\t<degrees>77</degrees>\n\t\t\t\t\t</maxwind>\n\t\t\t\t\t<avewind>\n\t\t\t\t\t\t<mph>8</mph>\n\t\t\t\t\t\t<kph>13</kph>\n\t\t\t\t\t\t<dir>ENE</dir>\n\t\t\t\t\t\t<degrees>77</degrees>\n\t\t\t\t\t</avewind>\n\t\t\t\t\t<avehumidity>26</avehumidity>\n\t\t\t\t\t<maxhumidity>0</maxhumidity>\n\t\t\t\t\t<minhumidity>0</minhumidity>\n\t\t\t\t</forecastday>\n\t\t\t\t\n\t\t\t\t<forecastday>\n\t\t\t\t\t<date>\n
+        \ <epoch>1443402000</epoch>\n  <pretty_short>7:00 PM MDT</pretty_short>\n
+        \ <pretty>7:00 PM MDT on September 27, 2015</pretty>\n  <day>27</day>\n  <month>9</month>\n
+        \ <year>2015</year>\n  <yday>269</yday>\n  <hour>19</hour>\n  <min>00</min>\n
+        \ <sec>0</sec>\n  <isdst>1</isdst>\n  <monthname>September</monthname>\n  <monthname_short>Sep</monthname_short>\n
+        \ <weekday_short>Sun</weekday_short>\n  <weekday>Sunday</weekday>\n  <ampm>PM</ampm>\n
+        \ <tz_short>MDT</tz_short>\n  <tz_long>America/Denver</tz_long>\n</date>\n\t\t\t\t\t<period>4</period>\n\t\t\t\t\t<high>\n\t\t\t\t\t\t<fahrenheit>78</fahrenheit>\n\t\t\t\t\t\t<celsius>26</celsius>\n\t\t\t\t\t</high>\n\t\t\t\t\t<low>\n\t\t\t\t\t\t<fahrenheit>52</fahrenheit>\n\t\t\t\t\t\t<celsius>11</celsius>\n\t\t\t\t\t</low>\n\t\t\t\t\t<conditions>Clear</conditions>\n\t\t\t\t\t\n\t\t\t\t\t<icon>clear</icon>\n\t\t\t\t\t<icon_url>http://icons.wxug.com/i/c/k/clear.gif</icon_url>\n\t\t\t\t\t<skyicon></skyicon>\n\t\t\t\t\t<pop>0</pop>\n\t\t\t\t\t<qpf_allday>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_allday>\n\t\t\t\t\t<qpf_day>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_day>\n\t\t\t\t\t<qpf_night>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_night>\n\t\t\t\t\t<snow_allday>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_allday>\n\t\t\t\t\t<snow_day>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_day>\n\t\t\t\t\t<snow_night>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_night>\n\t\t\t\t\t<maxwind>\n\t\t\t\t\t\t<mph>10</mph>\n\t\t\t\t\t\t<kph>16</kph>\n\t\t\t\t\t\t<dir>NNE</dir>\n\t\t\t\t\t\t<degrees>32</degrees>\n\t\t\t\t\t</maxwind>\n\t\t\t\t\t<avewind>\n\t\t\t\t\t\t<mph>9</mph>\n\t\t\t\t\t\t<kph>14</kph>\n\t\t\t\t\t\t<dir>NNE</dir>\n\t\t\t\t\t\t<degrees>32</degrees>\n\t\t\t\t\t</avewind>\n\t\t\t\t\t<avehumidity>26</avehumidity>\n\t\t\t\t\t<maxhumidity>0</maxhumidity>\n\t\t\t\t\t<minhumidity>0</minhumidity>\n\t\t\t\t</forecastday>\n\t\t\t\t\n\t\t\t</forecastdays>\n\t\t</simpleforecast>\n\t</forecast>\n\n\t\n\t\n\t\t\n\t\n\n
+        \   \n    \n    \n\t\n  \n\t\n\t\n\t\n\t\n\t\n    \n    \n\n\n    \n    \n
+        \   \n    \n</response>\n\t\n"
+    http_version: 
+  recorded_at: Thu, 24 Sep 2015 20:40:34 GMT
+- request:
+    method: get
+    uri: http://api.wunderground.com/api/e9635e643130871d/forecast/q/80466.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache/2.2.15 (CentOS)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      X-Creationtime:
+      - '0.040'
+      Last-Modified:
+      - Thu, 24 Sep 2015 21:40:21 GMT
+      Content-Type:
+      - text/xml; charset=UTF-8
+      Vary:
+      - Accept-Encoding
+      Expires:
+      - Thu, 24 Sep 2015 21:40:21 GMT
+      Cache-Control:
+      - max-age=0, no-cache
+      Pragma:
+      - no-cache
+      Date:
+      - Thu, 24 Sep 2015 21:40:21 GMT
+      Content-Length:
+      - '10200'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - DT=1443130821:20141:365-g8; path=/; expires=Fri, 01-Jan-2020 00:00:00 GMT;
+        domain=.wunderground.com
+    body:
+      encoding: UTF-8
+      string: "\n<response>\n\t<version>0.1</version>\n\t<termsofService>http://www.wunderground.com/weather/api/d/terms.html</termsofService>\n\t<features>\n\t\t<feature>forecast</feature>\n\t</features>\n\t<forecast>\n\t\t<txt_forecast>\n\t\t<date>2:33
+        PM MDT</date>\n\t\t<forecastdays>\n\t\t<forecastday>\n\t\t<period>0</period>\n\t\t<icon>clear</icon>\n\t\t<icon_url>http://icons.wxug.com/i/c/k/clear.gif</icon_url>\n\t\t<title>Thursday</title>\n\t\t<fcttext><![CDATA[Mainly
+        clear. Lows overnight in the mid 40s.]]></fcttext>\n\t\t<fcttext_metric><![CDATA[Lots
+        of sunshine. High near 20C. Winds E at 10 to 15 km/h.]]></fcttext_metric>\n\t\t<pop>0</pop>\n\t\t</forecastday>\n\t\t<forecastday>\n\t\t<period>1</period>\n\t\t<icon>nt_clear</icon>\n\t\t<icon_url>http://icons.wxug.com/i/c/k/nt_clear.gif</icon_url>\n\t\t<title>Thursday
+        Night</title>\n\t\t<fcttext><![CDATA[Clear skies. Low 46F. Winds SE at 5 to
+        10 mph.]]></fcttext>\n\t\t<fcttext_metric><![CDATA[A clear sky. Low 7C. Winds
+        SE at 10 to 15 km/h.]]></fcttext_metric>\n\t\t<pop>0</pop>\n\t\t</forecastday>\n\t\t<forecastday>\n\t\t<period>2</period>\n\t\t<icon>clear</icon>\n\t\t<icon_url>http://icons.wxug.com/i/c/k/clear.gif</icon_url>\n\t\t<title>Friday</title>\n\t\t<fcttext><![CDATA[Sunny.
+        High 72F. Winds E at 5 to 10 mph.]]></fcttext>\n\t\t<fcttext_metric><![CDATA[Mainly
+        sunny. High 22C. Winds E at 10 to 15 km/h.]]></fcttext_metric>\n\t\t<pop>0</pop>\n\t\t</forecastday>\n\t\t<forecastday>\n\t\t<period>3</period>\n\t\t<icon>nt_clear</icon>\n\t\t<icon_url>http://icons.wxug.com/i/c/k/nt_clear.gif</icon_url>\n\t\t<title>Friday
+        Night</title>\n\t\t<fcttext><![CDATA[Clear. Low 48F. Winds S at 5 to 10 mph.]]></fcttext>\n\t\t<fcttext_metric><![CDATA[A
+        mostly clear sky. Low 9C. Winds S at 10 to 15 km/h.]]></fcttext_metric>\n\t\t<pop>0</pop>\n\t\t</forecastday>\n\t\t<forecastday>\n\t\t<period>4</period>\n\t\t<icon>clear</icon>\n\t\t<icon_url>http://icons.wxug.com/i/c/k/clear.gif</icon_url>\n\t\t<title>Saturday</title>\n\t\t<fcttext><![CDATA[A
+        mainly sunny sky. High 76F. Winds E at 5 to 10 mph.]]></fcttext>\n\t\t<fcttext_metric><![CDATA[Sunny
+        skies. High 24C. Winds E at 10 to 15 km/h.]]></fcttext_metric>\n\t\t<pop>0</pop>\n\t\t</forecastday>\n\t\t<forecastday>\n\t\t<period>5</period>\n\t\t<icon>nt_clear</icon>\n\t\t<icon_url>http://icons.wxug.com/i/c/k/nt_clear.gif</icon_url>\n\t\t<title>Saturday
+        Night</title>\n\t\t<fcttext><![CDATA[A mostly clear sky. Low 52F. Winds WSW
+        at 5 to 10 mph.]]></fcttext>\n\t\t<fcttext_metric><![CDATA[Mostly clear. Low
+        11C. Winds WSW at 10 to 15 km/h.]]></fcttext_metric>\n\t\t<pop>0</pop>\n\t\t</forecastday>\n\t\t<forecastday>\n\t\t<period>6</period>\n\t\t<icon>clear</icon>\n\t\t<icon_url>http://icons.wxug.com/i/c/k/clear.gif</icon_url>\n\t\t<title>Sunday</title>\n\t\t<fcttext><![CDATA[Except
+        for a few afternoon clouds, mainly sunny. High 77F. Winds NNE at 5 to 10 mph.]]></fcttext>\n\t\t<fcttext_metric><![CDATA[Except
+        for a few afternoon clouds, mainly sunny. High around 25C. Winds NE at 10
+        to 15 km/h.]]></fcttext_metric>\n\t\t<pop>0</pop>\n\t\t</forecastday>\n\t\t<forecastday>\n\t\t<period>7</period>\n\t\t<icon>nt_clear</icon>\n\t\t<icon_url>http://icons.wxug.com/i/c/k/nt_clear.gif</icon_url>\n\t\t<title>Sunday
+        Night</title>\n\t\t<fcttext><![CDATA[Mostly clear skies. Low 52F. Winds SW
+        at 5 to 10 mph.]]></fcttext>\n\t\t<fcttext_metric><![CDATA[Mainly clear. Low
+        11C. Winds SW at 10 to 15 km/h.]]></fcttext_metric>\n\t\t<pop>0</pop>\n\t\t</forecastday>\n\t\t</forecastdays>\n\t\t</txt_forecast>\n\t\t<simpleforecast>\n\t\t<forecastdays>\n\t\t<forecastday>\n\t\t<date>\n
+        \ <epoch>1443142800</epoch>\n  <pretty_short>7:00 PM MDT</pretty_short>\n
+        \ <pretty>7:00 PM MDT on September 24, 2015</pretty>\n  <day>24</day>\n  <month>9</month>\n
+        \ <year>2015</year>\n  <yday>266</yday>\n  <hour>19</hour>\n  <min>00</min>\n
+        \ <sec>0</sec>\n  <isdst>1</isdst>\n  <monthname>September</monthname>\n  <monthname_short>Sep</monthname_short>\n
+        \ <weekday_short>Thu</weekday_short>\n  <weekday>Thursday</weekday>\n  <ampm>PM</ampm>\n
+        \ <tz_short>MDT</tz_short>\n  <tz_long>America/Denver</tz_long>\n</date>\n\t\t\t\t\t<period>1</period>\n\t\t\t\t\t<high>\n\t\t\t\t\t\t<fahrenheit>68</fahrenheit>\n\t\t\t\t\t\t<celsius>20</celsius>\n\t\t\t\t\t</high>\n\t\t\t\t\t<low>\n\t\t\t\t\t\t<fahrenheit>46</fahrenheit>\n\t\t\t\t\t\t<celsius>8</celsius>\n\t\t\t\t\t</low>\n\t\t\t\t\t<conditions>Clear</conditions>\n\t\t\t\t\t\n\t\t\t\t\t<icon>clear</icon>\n\t\t\t\t\t<icon_url>http://icons.wxug.com/i/c/k/clear.gif</icon_url>\n\t\t\t\t\t<skyicon></skyicon>\n\t\t\t\t\t<pop>0</pop>\n\t\t\t\t\t<qpf_allday>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_allday>\n\t\t\t\t\t<qpf_day>\n\t\t\t\t\t\t<in></in>\n\t\t\t\t\t\t<mm></mm>\n\t\t\t\t\t</qpf_day>\n\t\t\t\t\t<qpf_night>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_night>\n\t\t\t\t\t<snow_allday>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_allday>\n\t\t\t\t\t<snow_day>\n\t\t\t\t\t\t<in></in>\n\t\t\t\t\t\t<cm></cm>\n\t\t\t\t\t</snow_day>\n\t\t\t\t\t<snow_night>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_night>\n\t\t\t\t\t<maxwind>\n\t\t\t\t\t\t<mph>14</mph>\n\t\t\t\t\t\t<kph>22</kph>\n\t\t\t\t\t\t<dir></dir>\n\t\t\t\t\t\t<degrees>0</degrees>\n\t\t\t\t\t</maxwind>\n\t\t\t\t\t<avewind>\n\t\t\t\t\t\t<mph>1</mph>\n\t\t\t\t\t\t<kph>2</kph>\n\t\t\t\t\t\t<dir>West</dir>\n\t\t\t\t\t\t<degrees>275</degrees>\n\t\t\t\t\t</avewind>\n\t\t\t\t\t<avehumidity>54</avehumidity>\n\t\t\t\t\t<maxhumidity>0</maxhumidity>\n\t\t\t\t\t<minhumidity>0</minhumidity>\n\t\t\t\t</forecastday>\n\t\t\t\t\n\t\t\t\t<forecastday>\n\t\t\t\t\t<date>\n
+        \ <epoch>1443229200</epoch>\n  <pretty_short>7:00 PM MDT</pretty_short>\n
+        \ <pretty>7:00 PM MDT on September 25, 2015</pretty>\n  <day>25</day>\n  <month>9</month>\n
+        \ <year>2015</year>\n  <yday>267</yday>\n  <hour>19</hour>\n  <min>00</min>\n
+        \ <sec>0</sec>\n  <isdst>1</isdst>\n  <monthname>September</monthname>\n  <monthname_short>Sep</monthname_short>\n
+        \ <weekday_short>Fri</weekday_short>\n  <weekday>Friday</weekday>\n  <ampm>PM</ampm>\n
+        \ <tz_short>MDT</tz_short>\n  <tz_long>America/Denver</tz_long>\n</date>\n\t\t\t\t\t<period>2</period>\n\t\t\t\t\t<high>\n\t\t\t\t\t\t<fahrenheit>72</fahrenheit>\n\t\t\t\t\t\t<celsius>22</celsius>\n\t\t\t\t\t</high>\n\t\t\t\t\t<low>\n\t\t\t\t\t\t<fahrenheit>48</fahrenheit>\n\t\t\t\t\t\t<celsius>9</celsius>\n\t\t\t\t\t</low>\n\t\t\t\t\t<conditions>Clear</conditions>\n\t\t\t\t\t\n\t\t\t\t\t<icon>clear</icon>\n\t\t\t\t\t<icon_url>http://icons.wxug.com/i/c/k/clear.gif</icon_url>\n\t\t\t\t\t<skyicon></skyicon>\n\t\t\t\t\t<pop>0</pop>\n\t\t\t\t\t<qpf_allday>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_allday>\n\t\t\t\t\t<qpf_day>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_day>\n\t\t\t\t\t<qpf_night>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_night>\n\t\t\t\t\t<snow_allday>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_allday>\n\t\t\t\t\t<snow_day>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_day>\n\t\t\t\t\t<snow_night>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_night>\n\t\t\t\t\t<maxwind>\n\t\t\t\t\t\t<mph>10</mph>\n\t\t\t\t\t\t<kph>16</kph>\n\t\t\t\t\t\t<dir>E</dir>\n\t\t\t\t\t\t<degrees>80</degrees>\n\t\t\t\t\t</maxwind>\n\t\t\t\t\t<avewind>\n\t\t\t\t\t\t<mph>9</mph>\n\t\t\t\t\t\t<kph>14</kph>\n\t\t\t\t\t\t<dir>E</dir>\n\t\t\t\t\t\t<degrees>80</degrees>\n\t\t\t\t\t</avewind>\n\t\t\t\t\t<avehumidity>34</avehumidity>\n\t\t\t\t\t<maxhumidity>0</maxhumidity>\n\t\t\t\t\t<minhumidity>0</minhumidity>\n\t\t\t\t</forecastday>\n\t\t\t\t\n\t\t\t\t<forecastday>\n\t\t\t\t\t<date>\n
+        \ <epoch>1443315600</epoch>\n  <pretty_short>7:00 PM MDT</pretty_short>\n
+        \ <pretty>7:00 PM MDT on September 26, 2015</pretty>\n  <day>26</day>\n  <month>9</month>\n
+        \ <year>2015</year>\n  <yday>268</yday>\n  <hour>19</hour>\n  <min>00</min>\n
+        \ <sec>0</sec>\n  <isdst>1</isdst>\n  <monthname>September</monthname>\n  <monthname_short>Sep</monthname_short>\n
+        \ <weekday_short>Sat</weekday_short>\n  <weekday>Saturday</weekday>\n  <ampm>PM</ampm>\n
+        \ <tz_short>MDT</tz_short>\n  <tz_long>America/Denver</tz_long>\n</date>\n\t\t\t\t\t<period>3</period>\n\t\t\t\t\t<high>\n\t\t\t\t\t\t<fahrenheit>76</fahrenheit>\n\t\t\t\t\t\t<celsius>24</celsius>\n\t\t\t\t\t</high>\n\t\t\t\t\t<low>\n\t\t\t\t\t\t<fahrenheit>52</fahrenheit>\n\t\t\t\t\t\t<celsius>11</celsius>\n\t\t\t\t\t</low>\n\t\t\t\t\t<conditions>Clear</conditions>\n\t\t\t\t\t\n\t\t\t\t\t<icon>clear</icon>\n\t\t\t\t\t<icon_url>http://icons.wxug.com/i/c/k/clear.gif</icon_url>\n\t\t\t\t\t<skyicon></skyicon>\n\t\t\t\t\t<pop>0</pop>\n\t\t\t\t\t<qpf_allday>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_allday>\n\t\t\t\t\t<qpf_day>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_day>\n\t\t\t\t\t<qpf_night>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_night>\n\t\t\t\t\t<snow_allday>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_allday>\n\t\t\t\t\t<snow_day>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_day>\n\t\t\t\t\t<snow_night>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_night>\n\t\t\t\t\t<maxwind>\n\t\t\t\t\t\t<mph>10</mph>\n\t\t\t\t\t\t<kph>16</kph>\n\t\t\t\t\t\t<dir>E</dir>\n\t\t\t\t\t\t<degrees>79</degrees>\n\t\t\t\t\t</maxwind>\n\t\t\t\t\t<avewind>\n\t\t\t\t\t\t<mph>8</mph>\n\t\t\t\t\t\t<kph>13</kph>\n\t\t\t\t\t\t<dir>E</dir>\n\t\t\t\t\t\t<degrees>79</degrees>\n\t\t\t\t\t</avewind>\n\t\t\t\t\t<avehumidity>26</avehumidity>\n\t\t\t\t\t<maxhumidity>0</maxhumidity>\n\t\t\t\t\t<minhumidity>0</minhumidity>\n\t\t\t\t</forecastday>\n\t\t\t\t\n\t\t\t\t<forecastday>\n\t\t\t\t\t<date>\n
+        \ <epoch>1443402000</epoch>\n  <pretty_short>7:00 PM MDT</pretty_short>\n
+        \ <pretty>7:00 PM MDT on September 27, 2015</pretty>\n  <day>27</day>\n  <month>9</month>\n
+        \ <year>2015</year>\n  <yday>269</yday>\n  <hour>19</hour>\n  <min>00</min>\n
+        \ <sec>0</sec>\n  <isdst>1</isdst>\n  <monthname>September</monthname>\n  <monthname_short>Sep</monthname_short>\n
+        \ <weekday_short>Sun</weekday_short>\n  <weekday>Sunday</weekday>\n  <ampm>PM</ampm>\n
+        \ <tz_short>MDT</tz_short>\n  <tz_long>America/Denver</tz_long>\n</date>\n\t\t\t\t\t<period>4</period>\n\t\t\t\t\t<high>\n\t\t\t\t\t\t<fahrenheit>77</fahrenheit>\n\t\t\t\t\t\t<celsius>25</celsius>\n\t\t\t\t\t</high>\n\t\t\t\t\t<low>\n\t\t\t\t\t\t<fahrenheit>52</fahrenheit>\n\t\t\t\t\t\t<celsius>11</celsius>\n\t\t\t\t\t</low>\n\t\t\t\t\t<conditions>Clear</conditions>\n\t\t\t\t\t\n\t\t\t\t\t<icon>clear</icon>\n\t\t\t\t\t<icon_url>http://icons.wxug.com/i/c/k/clear.gif</icon_url>\n\t\t\t\t\t<skyicon></skyicon>\n\t\t\t\t\t<pop>0</pop>\n\t\t\t\t\t<qpf_allday>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_allday>\n\t\t\t\t\t<qpf_day>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_day>\n\t\t\t\t\t<qpf_night>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_night>\n\t\t\t\t\t<snow_allday>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_allday>\n\t\t\t\t\t<snow_day>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_day>\n\t\t\t\t\t<snow_night>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_night>\n\t\t\t\t\t<maxwind>\n\t\t\t\t\t\t<mph>10</mph>\n\t\t\t\t\t\t<kph>16</kph>\n\t\t\t\t\t\t<dir>NNE</dir>\n\t\t\t\t\t\t<degrees>27</degrees>\n\t\t\t\t\t</maxwind>\n\t\t\t\t\t<avewind>\n\t\t\t\t\t\t<mph>8</mph>\n\t\t\t\t\t\t<kph>13</kph>\n\t\t\t\t\t\t<dir>NNE</dir>\n\t\t\t\t\t\t<degrees>27</degrees>\n\t\t\t\t\t</avewind>\n\t\t\t\t\t<avehumidity>26</avehumidity>\n\t\t\t\t\t<maxhumidity>0</maxhumidity>\n\t\t\t\t\t<minhumidity>0</minhumidity>\n\t\t\t\t</forecastday>\n\t\t\t\t\n\t\t\t</forecastdays>\n\t\t</simpleforecast>\n\t</forecast>\n\n\t\n\t\n\t\t\n\t\n\n
+        \   \n    \n    \n\t\n  \n\t\n\t\n\t\n\t\n\t\n    \n    \n\n\n    \n    \n
+        \   \n    \n</response>\n\t\n"
+    http_version: 
+  recorded_at: Thu, 24 Sep 2015 21:40:21 GMT
+recorded_with: VCR 2.9.0
