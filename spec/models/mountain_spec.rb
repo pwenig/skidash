@@ -9,6 +9,7 @@ describe "Mountain" do
                                     video_url: "http://63.147.112.178:9595/axis-cgi/jpg/image.cgi") do
   end
 
+
   it "returns a mountain name" do
     expect(mountain.name).to eq("Eldora")
 

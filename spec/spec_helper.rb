@@ -20,10 +20,25 @@
 require 'vcr'
 require 'webmock/rspec'
 
+Dir[Rails.root.join("spec/support/**/*.rb")].each { |f| require f }
+
 RSpec.configure do |config|
-  # rspec-expectations config goes here. You can use an alternate
-  # assertion/expectation library such as wrong or the stdlib/minitest
-  # assertions if you prefer.
+
+  config.before(:suite) do
+    DatabaseCleaner.clean_with(:truncation)
+  end
+
+  config.before(:each) do
+    DatabaseCleaner.strategy = :transaction
+  end
+
+  config.before(:each) do
+    DatabaseCleaner.start
+  end
+
+  config.after(:each) do
+    DatabaseCleaner.clean
+  end
   config.expect_with :rspec do |expectations|
     # This option will default to `true` in RSpec 4. It makes the `description`
     # and `failure_message` of custom matchers include text for helper methods
@@ -44,11 +59,15 @@ RSpec.configure do |config|
     mocks.verify_partial_doubles = true
   end
 
+  config.include Features, type: :feature
 
 
   VCR.configure do |c|
     c.cassette_library_dir = 'spec/vcr'
     c.hook_into :webmock
+    c.ignore_request do |request|
+      URI(request.uri).port == 3000
+      end
   end
 
 # The settings below are suggested to provide a good initial experience
