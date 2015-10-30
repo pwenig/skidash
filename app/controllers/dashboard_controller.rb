@@ -3,6 +3,7 @@ class DashboardController < ApplicationController
   def index
     weather_hourly_lookup
     weather_forecast_lookup
+    travel_time
 
   end
 
@@ -30,6 +31,11 @@ class DashboardController < ApplicationController
     @weather_forecast_lookup_ste = WeatherForecast.new(ste)
     @weather_forecast_lookup_bre = WeatherForecast.new(bre)
     @weather_forecast_lookup_vail = WeatherForecast.new(vail)
+  end
+
+  def travel_time
+    @travel_time_breck = TravelTime.new('Breckenridge', 'CO')
+    @travel_time_vail = TravelTime.new('Vail', 'CO')
   end
 
 end

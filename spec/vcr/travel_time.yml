@@ -1,0 +1,241 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.wunderground.com/api/e9635e643130871d/forecast/q/80466.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache/2.2.15 (CentOS)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      X-Creationtime:
+      - '0.367'
+      Last-Modified:
+      - Thu, 29 Oct 2015 21:38:09 GMT
+      Content-Type:
+      - text/xml; charset=UTF-8
+      Vary:
+      - Accept-Encoding
+      Expires:
+      - Thu, 29 Oct 2015 21:38:09 GMT
+      Cache-Control:
+      - max-age=0, no-cache
+      Pragma:
+      - no-cache
+      Date:
+      - Thu, 29 Oct 2015 21:38:09 GMT
+      Content-Length:
+      - '10506'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - DT=1446154689:16566:365-z3; path=/; expires=Fri, 01-Jan-2020 00:00:00 GMT;
+        domain=.wunderground.com
+    body:
+      encoding: UTF-8
+      string: "\n<response>\n\t<version>0.1</version>\n\t<termsofService>http://www.wunderground.com/weather/api/d/terms.html</termsofService>\n\t<features>\n\t\t<feature>forecast</feature>\n\t</features>\n\t<forecast>\n\t\t<txt_forecast>\n\t\t<date>2:29
+        PM MDT</date>\n\t\t<forecastdays>\n\t\t<forecastday>\n\t\t<period>0</period>\n\t\t<icon>cloudy</icon>\n\t\t<icon_url>http://icons.wxug.com/i/c/k/cloudy.gif</icon_url>\n\t\t<title>Thursday</title>\n\t\t<fcttext><![CDATA[Generally
+        cloudy. High near 45F. Winds light and variable.]]></fcttext>\n\t\t<fcttext_metric><![CDATA[Rain
+        and snow showers. Low 1C.]]></fcttext_metric>\n\t\t<pop>10</pop>\n\t\t</forecastday>\n\t\t<forecastday>\n\t\t<period>1</period>\n\t\t<icon>nt_mostlycloudy</icon>\n\t\t<icon_url>http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif</icon_url>\n\t\t<title>Thursday
+        Night</title>\n\t\t<fcttext><![CDATA[Mainly cloudy. Low 34F. Winds light and
+        variable.]]></fcttext>\n\t\t<fcttext_metric><![CDATA[A few showers this evening
+        changing to snow showers overnight. Low 1C. Winds light and variable. Chance
+        of precip 40%.]]></fcttext_metric>\n\t\t<pop>20</pop>\n\t\t</forecastday>\n\t\t<forecastday>\n\t\t<period>2</period>\n\t\t<icon>snow</icon>\n\t\t<icon_url>http://icons.wxug.com/i/c/k/snow.gif</icon_url>\n\t\t<title>Friday</title>\n\t\t<fcttext><![CDATA[Cloudy
+        with rain and snow showers. High near 40F. Winds NNE at 5 to 10 mph. Chance
+        of rain 70%. Snow accumulations less than one inch.]]></fcttext>\n\t\t<fcttext_metric><![CDATA[Cloudy
+        with rain and snow showers. High 4C. Winds NE at 10 to 15 km/h. Chance of
+        precip 70%. Snow accumulations less than 2cm.]]></fcttext_metric>\n\t\t<pop>70</pop>\n\t\t</forecastday>\n\t\t<forecastday>\n\t\t<period>3</period>\n\t\t<icon>nt_clear</icon>\n\t\t<icon_url>http://icons.wxug.com/i/c/k/nt_clear.gif</icon_url>\n\t\t<title>Friday
+        Night</title>\n\t\t<fcttext><![CDATA[Mostly clear skies. Low 29F. Winds W
+        at 10 to 20 mph.]]></fcttext>\n\t\t<fcttext_metric><![CDATA[Mostly clear skies.
+        Low -2C. Winds W at 15 to 30 km/h.]]></fcttext_metric>\n\t\t<pop>0</pop>\n\t\t</forecastday>\n\t\t<forecastday>\n\t\t<period>4</period>\n\t\t<icon>clear</icon>\n\t\t<icon_url>http://icons.wxug.com/i/c/k/clear.gif</icon_url>\n\t\t<title>Saturday</title>\n\t\t<fcttext><![CDATA[A
+        few passing clouds, otherwise generally sunny. High 49F. Winds W at 15 to
+        25 mph.]]></fcttext>\n\t\t<fcttext_metric><![CDATA[A few passing clouds, otherwise
+        generally sunny. High near 10C. Winds W at 25 to 40 km/h.]]></fcttext_metric>\n\t\t<pop>0</pop>\n\t\t</forecastday>\n\t\t<forecastday>\n\t\t<period>5</period>\n\t\t<icon>nt_clear</icon>\n\t\t<icon_url>http://icons.wxug.com/i/c/k/nt_clear.gif</icon_url>\n\t\t<title>Saturday
+        Night</title>\n\t\t<fcttext><![CDATA[Mostly clear skies. Low 36F. Winds W
+        at 15 to 25 mph.]]></fcttext>\n\t\t<fcttext_metric><![CDATA[Generally fair.
+        Low 2C. Winds W at 25 to 40 km/h.]]></fcttext_metric>\n\t\t<pop>0</pop>\n\t\t</forecastday>\n\t\t<forecastday>\n\t\t<period>6</period>\n\t\t<icon>partlycloudy</icon>\n\t\t<icon_url>http://icons.wxug.com/i/c/k/partlycloudy.gif</icon_url>\n\t\t<title>Sunday</title>\n\t\t<fcttext><![CDATA[Partly
+        cloudy skies. High 51F. Winds W at 15 to 25 mph.]]></fcttext>\n\t\t<fcttext_metric><![CDATA[Partly
+        cloudy skies. High 11C. Winds W at 25 to 40 km/h.]]></fcttext_metric>\n\t\t<pop>0</pop>\n\t\t</forecastday>\n\t\t<forecastday>\n\t\t<period>7</period>\n\t\t<icon>nt_clear</icon>\n\t\t<icon_url>http://icons.wxug.com/i/c/k/nt_clear.gif</icon_url>\n\t\t<title>Sunday
+        Night</title>\n\t\t<fcttext><![CDATA[A mostly clear sky. Low 36F. Winds WSW
+        at 10 to 15 mph.]]></fcttext>\n\t\t<fcttext_metric><![CDATA[Clear. Low 2C.
+        Winds WSW at 15 to 25 km/h.]]></fcttext_metric>\n\t\t<pop>0</pop>\n\t\t</forecastday>\n\t\t</forecastdays>\n\t\t</txt_forecast>\n\t\t<simpleforecast>\n\t\t<forecastdays>\n\t\t<forecastday>\n\t\t<date>\n
+        \ <epoch>1446166800</epoch>\n  <pretty_short>7:00 PM MDT</pretty_short>\n
+        \ <pretty>7:00 PM MDT on October 29, 2015</pretty>\n  <day>29</day>\n  <month>10</month>\n
+        \ <year>2015</year>\n  <yday>301</yday>\n  <hour>19</hour>\n  <min>00</min>\n
+        \ <sec>0</sec>\n  <isdst>1</isdst>\n  <monthname>October</monthname>\n  <monthname_short>Oct</monthname_short>\n
+        \ <weekday_short>Thu</weekday_short>\n  <weekday>Thursday</weekday>\n  <ampm>PM</ampm>\n
+        \ <tz_short>MDT</tz_short>\n  <tz_long>America/Denver</tz_long>\n</date>\n\t\t\t\t\t<period>1</period>\n\t\t\t\t\t<high>\n\t\t\t\t\t\t<fahrenheit>45</fahrenheit>\n\t\t\t\t\t\t<celsius>7</celsius>\n\t\t\t\t\t</high>\n\t\t\t\t\t<low>\n\t\t\t\t\t\t<fahrenheit>34</fahrenheit>\n\t\t\t\t\t\t<celsius>1</celsius>\n\t\t\t\t\t</low>\n\t\t\t\t\t<conditions>Overcast</conditions>\n\t\t\t\t\t\n\t\t\t\t\t<icon>cloudy</icon>\n\t\t\t\t\t<icon_url>http://icons.wxug.com/i/c/k/cloudy.gif</icon_url>\n\t\t\t\t\t<skyicon></skyicon>\n\t\t\t\t\t<pop>10</pop>\n\t\t\t\t\t<qpf_allday>\n\t\t\t\t\t\t<in>0.02</in>\n\t\t\t\t\t\t<mm>1</mm>\n\t\t\t\t\t</qpf_allday>\n\t\t\t\t\t<qpf_day>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_day>\n\t\t\t\t\t<qpf_night>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_night>\n\t\t\t\t\t<snow_allday>\n\t\t\t\t\t\t<in>0.2</in>\n\t\t\t\t\t\t<cm>0.5</cm>\n\t\t\t\t\t</snow_allday>\n\t\t\t\t\t<snow_day>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_day>\n\t\t\t\t\t<snow_night>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_night>\n\t\t\t\t\t<maxwind>\n\t\t\t\t\t\t<mph>10</mph>\n\t\t\t\t\t\t<kph>16</kph>\n\t\t\t\t\t\t<dir>NNE</dir>\n\t\t\t\t\t\t<degrees>23</degrees>\n\t\t\t\t\t</maxwind>\n\t\t\t\t\t<avewind>\n\t\t\t\t\t\t<mph>5</mph>\n\t\t\t\t\t\t<kph>8</kph>\n\t\t\t\t\t\t<dir>NNE</dir>\n\t\t\t\t\t\t<degrees>23</degrees>\n\t\t\t\t\t</avewind>\n\t\t\t\t\t<avehumidity>58</avehumidity>\n\t\t\t\t\t<maxhumidity>0</maxhumidity>\n\t\t\t\t\t<minhumidity>0</minhumidity>\n\t\t\t\t</forecastday>\n\t\t\t\t\n\t\t\t\t<forecastday>\n\t\t\t\t\t<date>\n
+        \ <epoch>1446253200</epoch>\n  <pretty_short>7:00 PM MDT</pretty_short>\n
+        \ <pretty>7:00 PM MDT on October 30, 2015</pretty>\n  <day>30</day>\n  <month>10</month>\n
+        \ <year>2015</year>\n  <yday>302</yday>\n  <hour>19</hour>\n  <min>00</min>\n
+        \ <sec>0</sec>\n  <isdst>1</isdst>\n  <monthname>October</monthname>\n  <monthname_short>Oct</monthname_short>\n
+        \ <weekday_short>Fri</weekday_short>\n  <weekday>Friday</weekday>\n  <ampm>PM</ampm>\n
+        \ <tz_short>MDT</tz_short>\n  <tz_long>America/Denver</tz_long>\n</date>\n\t\t\t\t\t<period>2</period>\n\t\t\t\t\t<high>\n\t\t\t\t\t\t<fahrenheit>40</fahrenheit>\n\t\t\t\t\t\t<celsius>4</celsius>\n\t\t\t\t\t</high>\n\t\t\t\t\t<low>\n\t\t\t\t\t\t<fahrenheit>29</fahrenheit>\n\t\t\t\t\t\t<celsius>-2</celsius>\n\t\t\t\t\t</low>\n\t\t\t\t\t<conditions>Snow</conditions>\n\t\t\t\t\t\n\t\t\t\t\t<icon>snow</icon>\n\t\t\t\t\t<icon_url>http://icons.wxug.com/i/c/k/snow.gif</icon_url>\n\t\t\t\t\t<skyicon></skyicon>\n\t\t\t\t\t<pop>70</pop>\n\t\t\t\t\t<qpf_allday>\n\t\t\t\t\t\t<in>0.13</in>\n\t\t\t\t\t\t<mm>3</mm>\n\t\t\t\t\t</qpf_allday>\n\t\t\t\t\t<qpf_day>\n\t\t\t\t\t\t<in>0.13</in>\n\t\t\t\t\t\t<mm>3</mm>\n\t\t\t\t\t</qpf_day>\n\t\t\t\t\t<qpf_night>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_night>\n\t\t\t\t\t<snow_allday>\n\t\t\t\t\t\t<in>0.4</in>\n\t\t\t\t\t\t<cm>1.0</cm>\n\t\t\t\t\t</snow_allday>\n\t\t\t\t\t<snow_day>\n\t\t\t\t\t\t<in>0.4</in>\n\t\t\t\t\t\t<cm>1.0</cm>\n\t\t\t\t\t</snow_day>\n\t\t\t\t\t<snow_night>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_night>\n\t\t\t\t\t<maxwind>\n\t\t\t\t\t\t<mph>10</mph>\n\t\t\t\t\t\t<kph>16</kph>\n\t\t\t\t\t\t<dir>NNE</dir>\n\t\t\t\t\t\t<degrees>33</degrees>\n\t\t\t\t\t</maxwind>\n\t\t\t\t\t<avewind>\n\t\t\t\t\t\t<mph>7</mph>\n\t\t\t\t\t\t<kph>11</kph>\n\t\t\t\t\t\t<dir>NNE</dir>\n\t\t\t\t\t\t<degrees>33</degrees>\n\t\t\t\t\t</avewind>\n\t\t\t\t\t<avehumidity>75</avehumidity>\n\t\t\t\t\t<maxhumidity>0</maxhumidity>\n\t\t\t\t\t<minhumidity>0</minhumidity>\n\t\t\t\t</forecastday>\n\t\t\t\t\n\t\t\t\t<forecastday>\n\t\t\t\t\t<date>\n
+        \ <epoch>1446339600</epoch>\n  <pretty_short>7:00 PM MDT</pretty_short>\n
+        \ <pretty>7:00 PM MDT on October 31, 2015</pretty>\n  <day>31</day>\n  <month>10</month>\n
+        \ <year>2015</year>\n  <yday>303</yday>\n  <hour>19</hour>\n  <min>00</min>\n
+        \ <sec>0</sec>\n  <isdst>1</isdst>\n  <monthname>October</monthname>\n  <monthname_short>Oct</monthname_short>\n
+        \ <weekday_short>Sat</weekday_short>\n  <weekday>Saturday</weekday>\n  <ampm>PM</ampm>\n
+        \ <tz_short>MDT</tz_short>\n  <tz_long>America/Denver</tz_long>\n</date>\n\t\t\t\t\t<period>3</period>\n\t\t\t\t\t<high>\n\t\t\t\t\t\t<fahrenheit>49</fahrenheit>\n\t\t\t\t\t\t<celsius>9</celsius>\n\t\t\t\t\t</high>\n\t\t\t\t\t<low>\n\t\t\t\t\t\t<fahrenheit>36</fahrenheit>\n\t\t\t\t\t\t<celsius>2</celsius>\n\t\t\t\t\t</low>\n\t\t\t\t\t<conditions>Clear</conditions>\n\t\t\t\t\t\n\t\t\t\t\t<icon>clear</icon>\n\t\t\t\t\t<icon_url>http://icons.wxug.com/i/c/k/clear.gif</icon_url>\n\t\t\t\t\t<skyicon></skyicon>\n\t\t\t\t\t<pop>0</pop>\n\t\t\t\t\t<qpf_allday>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_allday>\n\t\t\t\t\t<qpf_day>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_day>\n\t\t\t\t\t<qpf_night>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_night>\n\t\t\t\t\t<snow_allday>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_allday>\n\t\t\t\t\t<snow_day>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_day>\n\t\t\t\t\t<snow_night>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_night>\n\t\t\t\t\t<maxwind>\n\t\t\t\t\t\t<mph>25</mph>\n\t\t\t\t\t\t<kph>40</kph>\n\t\t\t\t\t\t<dir>W</dir>\n\t\t\t\t\t\t<degrees>278</degrees>\n\t\t\t\t\t</maxwind>\n\t\t\t\t\t<avewind>\n\t\t\t\t\t\t<mph>19</mph>\n\t\t\t\t\t\t<kph>31</kph>\n\t\t\t\t\t\t<dir>W</dir>\n\t\t\t\t\t\t<degrees>278</degrees>\n\t\t\t\t\t</avewind>\n\t\t\t\t\t<avehumidity>55</avehumidity>\n\t\t\t\t\t<maxhumidity>0</maxhumidity>\n\t\t\t\t\t<minhumidity>0</minhumidity>\n\t\t\t\t</forecastday>\n\t\t\t\t\n\t\t\t\t<forecastday>\n\t\t\t\t\t<date>\n
+        \ <epoch>1446429600</epoch>\n  <pretty_short>7:00 PM MST</pretty_short>\n
+        \ <pretty>7:00 PM MST on November 01, 2015</pretty>\n  <day>1</day>\n  <month>11</month>\n
+        \ <year>2015</year>\n  <yday>304</yday>\n  <hour>19</hour>\n  <min>00</min>\n
+        \ <sec>0</sec>\n  <isdst>0</isdst>\n  <monthname>November</monthname>\n  <monthname_short>Nov</monthname_short>\n
+        \ <weekday_short>Sun</weekday_short>\n  <weekday>Sunday</weekday>\n  <ampm>PM</ampm>\n
+        \ <tz_short>MST</tz_short>\n  <tz_long>America/Denver</tz_long>\n</date>\n\t\t\t\t\t<period>4</period>\n\t\t\t\t\t<high>\n\t\t\t\t\t\t<fahrenheit>51</fahrenheit>\n\t\t\t\t\t\t<celsius>11</celsius>\n\t\t\t\t\t</high>\n\t\t\t\t\t<low>\n\t\t\t\t\t\t<fahrenheit>36</fahrenheit>\n\t\t\t\t\t\t<celsius>2</celsius>\n\t\t\t\t\t</low>\n\t\t\t\t\t<conditions>Partly
+        Cloudy</conditions>\n\t\t\t\t\t\n\t\t\t\t\t<icon>partlycloudy</icon>\n\t\t\t\t\t<icon_url>http://icons.wxug.com/i/c/k/partlycloudy.gif</icon_url>\n\t\t\t\t\t<skyicon></skyicon>\n\t\t\t\t\t<pop>0</pop>\n\t\t\t\t\t<qpf_allday>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_allday>\n\t\t\t\t\t<qpf_day>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_day>\n\t\t\t\t\t<qpf_night>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_night>\n\t\t\t\t\t<snow_allday>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_allday>\n\t\t\t\t\t<snow_day>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_day>\n\t\t\t\t\t<snow_night>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_night>\n\t\t\t\t\t<maxwind>\n\t\t\t\t\t\t<mph>25</mph>\n\t\t\t\t\t\t<kph>40</kph>\n\t\t\t\t\t\t<dir>W</dir>\n\t\t\t\t\t\t<degrees>273</degrees>\n\t\t\t\t\t</maxwind>\n\t\t\t\t\t<avewind>\n\t\t\t\t\t\t<mph>18</mph>\n\t\t\t\t\t\t<kph>29</kph>\n\t\t\t\t\t\t<dir>W</dir>\n\t\t\t\t\t\t<degrees>273</degrees>\n\t\t\t\t\t</avewind>\n\t\t\t\t\t<avehumidity>44</avehumidity>\n\t\t\t\t\t<maxhumidity>0</maxhumidity>\n\t\t\t\t\t<minhumidity>0</minhumidity>\n\t\t\t\t</forecastday>\n\t\t\t\t\n\t\t\t</forecastdays>\n\t\t</simpleforecast>\n\t</forecast>\n\n\t\n\t\n\t\t\n\t\n\n
+        \   \n    \n    \n\t\n  \n\t\n\t\n\t\n\t\n\t\n    \n    \n\n\n    \n    \n
+        \   \n    \n</response>\n\t\n"
+    http_version: 
+  recorded_at: Thu, 29 Oct 2015 21:38:09 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/distancematrix/json?destinations=Vail,CO&key=AIzaSyBWMUFnd6Bpid54ZW5XccfTtkITQBNXBtY&language=en-EN&mode=driving&origins=Boulder,CO
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 29 Oct 2015 22:46:44 GMT
+      Expires:
+      - Fri, 30 Oct 2015 22:46:44 GMT
+      Cache-Control:
+      - public, max-age=86400
+      Vary:
+      - Accept-Language
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 443:quic,p=1
+      Alt-Svc:
+      - quic=":443"; p="1"; ma=604800
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "destination_addresses" : [ "Vail, CO, USA" ],
+           "origin_addresses" : [ "Boulder, CO, USA" ],
+           "rows" : [
+              {
+                 "elements" : [
+                    {
+                       "distance" : {
+                          "text" : "174 km",
+                          "value" : 174421
+                       },
+                       "duration" : {
+                          "text" : "2 hours 1 min",
+                          "value" : 7244
+                       },
+                       "status" : "OK"
+                    }
+                 ]
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Thu, 29 Oct 2015 22:46:44 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/distancematrix/json?destinations=Breckendrige,CO&key=AIzaSyBWMUFnd6Bpid54ZW5XccfTtkITQBNXBtY&language=en-EN&mode=driving&origins=Boulder,CO
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Fri, 30 Oct 2015 02:33:09 GMT
+      Expires:
+      - Sat, 31 Oct 2015 02:33:09 GMT
+      Cache-Control:
+      - public, max-age=86400
+      Vary:
+      - Accept-Language
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 443:quic,p=1
+      Alt-Svc:
+      - quic=":443"; p="1"; ma=604800
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "destination_addresses" : [ "Breckenridge, CO 80424, USA" ],
+           "origin_addresses" : [ "Boulder, CO, USA" ],
+           "rows" : [
+              {
+                 "elements" : [
+                    {
+                       "distance" : {
+                          "text" : "149 km",
+                          "value" : 148598
+                       },
+                       "duration" : {
+                          "text" : "1 hour 54 mins",
+                          "value" : 6827
+                       },
+                       "status" : "OK"
+                    }
+                 ]
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Fri, 30 Oct 2015 02:33:10 GMT
+recorded_with: VCR 2.9.0
