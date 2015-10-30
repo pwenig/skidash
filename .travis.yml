@@ -3,3 +3,8 @@ rvm:
   - 2.1.1
 script:
   - RAILS_ENV=test bundle exec rake --trace db:create db:migrate
+
+deploy:
+  provider: heroku
+  api_key: #{ENV['HEROKU']}
+  app: dry-taiga-9954
