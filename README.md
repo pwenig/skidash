@@ -13,3 +13,6 @@ To get this running:
 * Tests
 rpsec spec
 
+Staging:
+https://dry-taiga-9954.herokuapp.com/
+
