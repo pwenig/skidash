@@ -11,13 +11,13 @@
 
   <div class="col-md-6 camera" id="tweets">
     <section id="tweets">
-      <h3>Current Travel Times</h3>
+      <!--<h3>Current Travel Times</h3>-->
       <marquee>Westbound to Breck: <%= @travel_time_breck.duration %> || Westbound to Vail: <%= @travel_time_vail.duration %></marquee>
 
-      <%= image_tag "http://i.cotrip.org/dimages/camera?imageURL=remote/TOCCCTV070E21080-STRAIGHT-CREEK-E.jpg&v=00428" %>
-      <%= image_tag "http://i.cotrip.org/dimages/camera?imageURL=remote/TOCCCTV070M21500-EJT-TOUR-W.jpg&v=00428" %>
-      <%= image_tag "http://i.cotrip.org/dimages/camera?imageURL=remote/TOCCCTV070E19010-VAIL-PASS-REST-AREA-E.jpg&v=00428" %>
-      <%= image_tag "http://i.cotrip.org/dimages/camera?imageURL=liveview/US40WestSummitRabbitEarPassEast.jpg&v=00428" %>
+      <%= link_to image_tag("http://i.cotrip.org/dimages/camera?imageURL=remote/TOCCCTV070E21080-STRAIGHT-CREEK-E.jpg&v=00428"), "http://i.cotrip.org/dimages/camera?imageURL=remote/TOCCCTV070E21080-STRAIGHT-CREEK-E.jpg&v=00428", :target => "_blank" %>
+      <%= link_to image_tag("http://i.cotrip.org/dimages/camera?imageURL=remote/TOCCCTV070M21500-EJT-TOUR-W.jpg&v=00428"), "http://i.cotrip.org/dimages/camera?imageURL=remote/TOCCCTV070M21500-EJT-TOUR-W.jpg&v=00428", :target => "_blank" %>
+      <%= link_to image_tag("http://i.cotrip.org/dimages/camera?imageURL=remote/TOCCCTV070M21500-EJT-TOUR-W.jpg&v=00428"), "http://i.cotrip.org/dimages/camera?imageURL=remote/TOCCCTV070E19010-VAIL-PASS-REST-AREA-E.jpg&v=00428", :target => "_blank" %>
+      <%= link_to image_tag("http://i.cotrip.org/dimages/camera?imageURL=liveview/US40WestSummitRabbitEarPassEast.jpg&v=00428"), "http://i.cotrip.org/dimages/camera?imageURL=liveview/US40WestSummitRabbitEarPassEast.jpg&v=00428", :target => "_blank" %>
 
     </section>
 
