@@ -199,4 +199,106 @@ http_interactions:
         \   \n    \n</response>\n\t\n"
     http_version: 
   recorded_at: Thu, 24 Sep 2015 21:40:21 GMT
+- request:
+    method: get
+    uri: http://api.wunderground.com/api/74d34edfa66387c4/forecast/q/80466.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache/2.2.15 (CentOS)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      X-Creationtime:
+      - '0.038'
+      Last-Modified:
+      - Sat, 07 Nov 2015 03:26:52 GMT
+      Content-Type:
+      - text/xml; charset=UTF-8
+      Vary:
+      - Accept-Encoding
+      Expires:
+      - Sat, 07 Nov 2015 03:26:52 GMT
+      Cache-Control:
+      - max-age=0, no-cache
+      Pragma:
+      - no-cache
+      Date:
+      - Sat, 07 Nov 2015 03:26:52 GMT
+      Content-Length:
+      - '10298'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - DT=1446866812:21892:365-e8; path=/; expires=Fri, 01-Jan-2020 00:00:00 GMT;
+        domain=.wunderground.com
+    body:
+      encoding: UTF-8
+      string: "\n<response>\n\t<version>0.1</version>\n\t<termsofService>http://www.wunderground.com/weather/api/d/terms.html</termsofService>\n\t<features>\n\t\t<feature>forecast</feature>\n\t</features>\n\t<forecast>\n\t\t<txt_forecast>\n\t\t<date>7:47
+        PM MST</date>\n\t\t<forecastdays>\n\t\t<forecastday>\n\t\t<period>0</period>\n\t\t<icon>partlycloudy</icon>\n\t\t<icon_url>http://icons.wxug.com/i/c/k/partlycloudy.gif</icon_url>\n\t\t<title>Friday</title>\n\t\t<fcttext><![CDATA[Partly
+        cloudy. Lows overnight in the mid teens.]]></fcttext>\n\t\t<fcttext_metric><![CDATA[Partly
+        cloudy. Low -9C.]]></fcttext_metric>\n\t\t<pop>0</pop>\n\t\t</forecastday>\n\t\t<forecastday>\n\t\t<period>1</period>\n\t\t<icon>nt_partlycloudy</icon>\n\t\t<icon_url>http://icons.wxug.com/i/c/k/nt_partlycloudy.gif</icon_url>\n\t\t<title>Friday
+        Night</title>\n\t\t<fcttext><![CDATA[Partly cloudy skies. Low near 15F. Winds
+        W at 5 to 10 mph.]]></fcttext>\n\t\t<fcttext_metric><![CDATA[Some clouds this
+        evening will give way to mainly clear skies overnight. Low -9C. Winds W at
+        10 to 15 km/h.]]></fcttext_metric>\n\t\t<pop>0</pop>\n\t\t</forecastday>\n\t\t<forecastday>\n\t\t<period>2</period>\n\t\t<icon>clear</icon>\n\t\t<icon_url>http://icons.wxug.com/i/c/k/clear.gif</icon_url>\n\t\t<title>Saturday</title>\n\t\t<fcttext><![CDATA[A
+        mainly sunny sky. High around 40F. Winds W at 5 to 10 mph.]]></fcttext>\n\t\t<fcttext_metric><![CDATA[Sunny.
+        High near 5C. Winds W at 10 to 15 km/h.]]></fcttext_metric>\n\t\t<pop>0</pop>\n\t\t</forecastday>\n\t\t<forecastday>\n\t\t<period>3</period>\n\t\t<icon>nt_clear</icon>\n\t\t<icon_url>http://icons.wxug.com/i/c/k/nt_clear.gif</icon_url>\n\t\t<title>Saturday
+        Night</title>\n\t\t<fcttext><![CDATA[A mostly clear sky. Low around 25F. Winds
+        WSW at 5 to 10 mph.]]></fcttext>\n\t\t<fcttext_metric><![CDATA[Clear skies.
+        Low -3C. Winds WSW at 10 to 15 km/h.]]></fcttext_metric>\n\t\t<pop>0</pop>\n\t\t</forecastday>\n\t\t<forecastday>\n\t\t<period>4</period>\n\t\t<icon>clear</icon>\n\t\t<icon_url>http://icons.wxug.com/i/c/k/clear.gif</icon_url>\n\t\t<title>Sunday</title>\n\t\t<fcttext><![CDATA[A
+        mainly sunny sky. High 43F. Winds WNW at 5 to 10 mph.]]></fcttext>\n\t\t<fcttext_metric><![CDATA[Sunny.
+        High 7C. Winds WNW at 10 to 15 km/h.]]></fcttext_metric>\n\t\t<pop>0</pop>\n\t\t</forecastday>\n\t\t<forecastday>\n\t\t<period>5</period>\n\t\t<icon>nt_clear</icon>\n\t\t<icon_url>http://icons.wxug.com/i/c/k/nt_clear.gif</icon_url>\n\t\t<title>Sunday
+        Night</title>\n\t\t<fcttext><![CDATA[A mostly clear sky. Low near 25F. Winds
+        W at 5 to 10 mph.]]></fcttext>\n\t\t<fcttext_metric><![CDATA[Clear skies.
+        Low -3C. Winds W at 10 to 15 km/h.]]></fcttext_metric>\n\t\t<pop>0</pop>\n\t\t</forecastday>\n\t\t<forecastday>\n\t\t<period>6</period>\n\t\t<icon>partlycloudy</icon>\n\t\t<icon_url>http://icons.wxug.com/i/c/k/partlycloudy.gif</icon_url>\n\t\t<title>Monday</title>\n\t\t<fcttext><![CDATA[Partly
+        cloudy skies. High 43F. Winds WNW at 5 to 10 mph.]]></fcttext>\n\t\t<fcttext_metric><![CDATA[Partly
+        cloudy skies. High 6C. Winds WNW at 10 to 15 km/h.]]></fcttext_metric>\n\t\t<pop>0</pop>\n\t\t</forecastday>\n\t\t<forecastday>\n\t\t<period>7</period>\n\t\t<icon>nt_clear</icon>\n\t\t<icon_url>http://icons.wxug.com/i/c/k/nt_clear.gif</icon_url>\n\t\t<title>Monday
+        Night</title>\n\t\t<fcttext><![CDATA[A mostly clear sky. Low 27F. Winds WSW
+        at 10 to 15 mph.]]></fcttext>\n\t\t<fcttext_metric><![CDATA[A mostly clear
+        sky. Low -2C. Winds WSW at 15 to 25 km/h.]]></fcttext_metric>\n\t\t<pop>0</pop>\n\t\t</forecastday>\n\t\t</forecastdays>\n\t\t</txt_forecast>\n\t\t<simpleforecast>\n\t\t<forecastdays>\n\t\t<forecastday>\n\t\t<date>\n
+        \ <epoch>1446861600</epoch>\n  <pretty_short>7:00 PM MST</pretty_short>\n
+        \ <pretty>7:00 PM MST on November 06, 2015</pretty>\n  <day>6</day>\n  <month>11</month>\n
+        \ <year>2015</year>\n  <yday>309</yday>\n  <hour>19</hour>\n  <min>00</min>\n
+        \ <sec>0</sec>\n  <isdst>0</isdst>\n  <monthname>November</monthname>\n  <monthname_short>Nov</monthname_short>\n
+        \ <weekday_short>Fri</weekday_short>\n  <weekday>Friday</weekday>\n  <ampm>PM</ampm>\n
+        \ <tz_short>MST</tz_short>\n  <tz_long>America/Denver</tz_long>\n</date>\n\t\t\t\t\t<period>1</period>\n\t\t\t\t\t<high>\n\t\t\t\t\t\t<fahrenheit>32</fahrenheit>\n\t\t\t\t\t\t<celsius>0</celsius>\n\t\t\t\t\t</high>\n\t\t\t\t\t<low>\n\t\t\t\t\t\t<fahrenheit>15</fahrenheit>\n\t\t\t\t\t\t<celsius>-9</celsius>\n\t\t\t\t\t</low>\n\t\t\t\t\t<conditions>Partly
+        Cloudy</conditions>\n\t\t\t\t\t\n\t\t\t\t\t<icon>partlycloudy</icon>\n\t\t\t\t\t<icon_url>http://icons.wxug.com/i/c/k/partlycloudy.gif</icon_url>\n\t\t\t\t\t<skyicon></skyicon>\n\t\t\t\t\t<pop>0</pop>\n\t\t\t\t\t<qpf_allday>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_allday>\n\t\t\t\t\t<qpf_day>\n\t\t\t\t\t\t<in></in>\n\t\t\t\t\t\t<mm></mm>\n\t\t\t\t\t</qpf_day>\n\t\t\t\t\t<qpf_night>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_night>\n\t\t\t\t\t<snow_allday>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_allday>\n\t\t\t\t\t<snow_day>\n\t\t\t\t\t\t<in></in>\n\t\t\t\t\t\t<cm></cm>\n\t\t\t\t\t</snow_day>\n\t\t\t\t\t<snow_night>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_night>\n\t\t\t\t\t<maxwind>\n\t\t\t\t\t\t<mph>30</mph>\n\t\t\t\t\t\t<kph>48</kph>\n\t\t\t\t\t\t<dir></dir>\n\t\t\t\t\t\t<degrees>0</degrees>\n\t\t\t\t\t</maxwind>\n\t\t\t\t\t<avewind>\n\t\t\t\t\t\t<mph>4</mph>\n\t\t\t\t\t\t<kph>6</kph>\n\t\t\t\t\t\t<dir>North</dir>\n\t\t\t\t\t\t<degrees>358</degrees>\n\t\t\t\t\t</avewind>\n\t\t\t\t\t<avehumidity>84</avehumidity>\n\t\t\t\t\t<maxhumidity>0</maxhumidity>\n\t\t\t\t\t<minhumidity>0</minhumidity>\n\t\t\t\t</forecastday>\n\t\t\t\t\n\t\t\t\t<forecastday>\n\t\t\t\t\t<date>\n
+        \ <epoch>1446948000</epoch>\n  <pretty_short>7:00 PM MST</pretty_short>\n
+        \ <pretty>7:00 PM MST on November 07, 2015</pretty>\n  <day>7</day>\n  <month>11</month>\n
+        \ <year>2015</year>\n  <yday>310</yday>\n  <hour>19</hour>\n  <min>00</min>\n
+        \ <sec>0</sec>\n  <isdst>0</isdst>\n  <monthname>November</monthname>\n  <monthname_short>Nov</monthname_short>\n
+        \ <weekday_short>Sat</weekday_short>\n  <weekday>Saturday</weekday>\n  <ampm>PM</ampm>\n
+        \ <tz_short>MST</tz_short>\n  <tz_long>America/Denver</tz_long>\n</date>\n\t\t\t\t\t<period>2</period>\n\t\t\t\t\t<high>\n\t\t\t\t\t\t<fahrenheit>40</fahrenheit>\n\t\t\t\t\t\t<celsius>4</celsius>\n\t\t\t\t\t</high>\n\t\t\t\t\t<low>\n\t\t\t\t\t\t<fahrenheit>25</fahrenheit>\n\t\t\t\t\t\t<celsius>-4</celsius>\n\t\t\t\t\t</low>\n\t\t\t\t\t<conditions>Clear</conditions>\n\t\t\t\t\t\n\t\t\t\t\t<icon>clear</icon>\n\t\t\t\t\t<icon_url>http://icons.wxug.com/i/c/k/clear.gif</icon_url>\n\t\t\t\t\t<skyicon></skyicon>\n\t\t\t\t\t<pop>0</pop>\n\t\t\t\t\t<qpf_allday>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_allday>\n\t\t\t\t\t<qpf_day>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_day>\n\t\t\t\t\t<qpf_night>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_night>\n\t\t\t\t\t<snow_allday>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_allday>\n\t\t\t\t\t<snow_day>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_day>\n\t\t\t\t\t<snow_night>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_night>\n\t\t\t\t\t<maxwind>\n\t\t\t\t\t\t<mph>10</mph>\n\t\t\t\t\t\t<kph>16</kph>\n\t\t\t\t\t\t<dir>W</dir>\n\t\t\t\t\t\t<degrees>279</degrees>\n\t\t\t\t\t</maxwind>\n\t\t\t\t\t<avewind>\n\t\t\t\t\t\t<mph>7</mph>\n\t\t\t\t\t\t<kph>11</kph>\n\t\t\t\t\t\t<dir>W</dir>\n\t\t\t\t\t\t<degrees>279</degrees>\n\t\t\t\t\t</avewind>\n\t\t\t\t\t<avehumidity>70</avehumidity>\n\t\t\t\t\t<maxhumidity>0</maxhumidity>\n\t\t\t\t\t<minhumidity>0</minhumidity>\n\t\t\t\t</forecastday>\n\t\t\t\t\n\t\t\t\t<forecastday>\n\t\t\t\t\t<date>\n
+        \ <epoch>1447034400</epoch>\n  <pretty_short>7:00 PM MST</pretty_short>\n
+        \ <pretty>7:00 PM MST on November 08, 2015</pretty>\n  <day>8</day>\n  <month>11</month>\n
+        \ <year>2015</year>\n  <yday>311</yday>\n  <hour>19</hour>\n  <min>00</min>\n
+        \ <sec>0</sec>\n  <isdst>0</isdst>\n  <monthname>November</monthname>\n  <monthname_short>Nov</monthname_short>\n
+        \ <weekday_short>Sun</weekday_short>\n  <weekday>Sunday</weekday>\n  <ampm>PM</ampm>\n
+        \ <tz_short>MST</tz_short>\n  <tz_long>America/Denver</tz_long>\n</date>\n\t\t\t\t\t<period>3</period>\n\t\t\t\t\t<high>\n\t\t\t\t\t\t<fahrenheit>43</fahrenheit>\n\t\t\t\t\t\t<celsius>6</celsius>\n\t\t\t\t\t</high>\n\t\t\t\t\t<low>\n\t\t\t\t\t\t<fahrenheit>25</fahrenheit>\n\t\t\t\t\t\t<celsius>-4</celsius>\n\t\t\t\t\t</low>\n\t\t\t\t\t<conditions>Clear</conditions>\n\t\t\t\t\t\n\t\t\t\t\t<icon>clear</icon>\n\t\t\t\t\t<icon_url>http://icons.wxug.com/i/c/k/clear.gif</icon_url>\n\t\t\t\t\t<skyicon></skyicon>\n\t\t\t\t\t<pop>0</pop>\n\t\t\t\t\t<qpf_allday>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_allday>\n\t\t\t\t\t<qpf_day>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_day>\n\t\t\t\t\t<qpf_night>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_night>\n\t\t\t\t\t<snow_allday>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_allday>\n\t\t\t\t\t<snow_day>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_day>\n\t\t\t\t\t<snow_night>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_night>\n\t\t\t\t\t<maxwind>\n\t\t\t\t\t\t<mph>10</mph>\n\t\t\t\t\t\t<kph>16</kph>\n\t\t\t\t\t\t<dir>WNW</dir>\n\t\t\t\t\t\t<degrees>291</degrees>\n\t\t\t\t\t</maxwind>\n\t\t\t\t\t<avewind>\n\t\t\t\t\t\t<mph>9</mph>\n\t\t\t\t\t\t<kph>14</kph>\n\t\t\t\t\t\t<dir>WNW</dir>\n\t\t\t\t\t\t<degrees>291</degrees>\n\t\t\t\t\t</avewind>\n\t\t\t\t\t<avehumidity>66</avehumidity>\n\t\t\t\t\t<maxhumidity>0</maxhumidity>\n\t\t\t\t\t<minhumidity>0</minhumidity>\n\t\t\t\t</forecastday>\n\t\t\t\t\n\t\t\t\t<forecastday>\n\t\t\t\t\t<date>\n
+        \ <epoch>1447120800</epoch>\n  <pretty_short>7:00 PM MST</pretty_short>\n
+        \ <pretty>7:00 PM MST on November 09, 2015</pretty>\n  <day>9</day>\n  <month>11</month>\n
+        \ <year>2015</year>\n  <yday>312</yday>\n  <hour>19</hour>\n  <min>00</min>\n
+        \ <sec>0</sec>\n  <isdst>0</isdst>\n  <monthname>November</monthname>\n  <monthname_short>Nov</monthname_short>\n
+        \ <weekday_short>Mon</weekday_short>\n  <weekday>Monday</weekday>\n  <ampm>PM</ampm>\n
+        \ <tz_short>MST</tz_short>\n  <tz_long>America/Denver</tz_long>\n</date>\n\t\t\t\t\t<period>4</period>\n\t\t\t\t\t<high>\n\t\t\t\t\t\t<fahrenheit>43</fahrenheit>\n\t\t\t\t\t\t<celsius>6</celsius>\n\t\t\t\t\t</high>\n\t\t\t\t\t<low>\n\t\t\t\t\t\t<fahrenheit>27</fahrenheit>\n\t\t\t\t\t\t<celsius>-3</celsius>\n\t\t\t\t\t</low>\n\t\t\t\t\t<conditions>Partly
+        Cloudy</conditions>\n\t\t\t\t\t\n\t\t\t\t\t<icon>partlycloudy</icon>\n\t\t\t\t\t<icon_url>http://icons.wxug.com/i/c/k/partlycloudy.gif</icon_url>\n\t\t\t\t\t<skyicon></skyicon>\n\t\t\t\t\t<pop>0</pop>\n\t\t\t\t\t<qpf_allday>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_allday>\n\t\t\t\t\t<qpf_day>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_day>\n\t\t\t\t\t<qpf_night>\n\t\t\t\t\t\t<in>0.00</in>\n\t\t\t\t\t\t<mm>0</mm>\n\t\t\t\t\t</qpf_night>\n\t\t\t\t\t<snow_allday>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_allday>\n\t\t\t\t\t<snow_day>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_day>\n\t\t\t\t\t<snow_night>\n\t\t\t\t\t\t<in>0.0</in>\n\t\t\t\t\t\t<cm>0.0</cm>\n\t\t\t\t\t</snow_night>\n\t\t\t\t\t<maxwind>\n\t\t\t\t\t\t<mph>10</mph>\n\t\t\t\t\t\t<kph>16</kph>\n\t\t\t\t\t\t<dir>WNW</dir>\n\t\t\t\t\t\t<degrees>287</degrees>\n\t\t\t\t\t</maxwind>\n\t\t\t\t\t<avewind>\n\t\t\t\t\t\t<mph>8</mph>\n\t\t\t\t\t\t<kph>13</kph>\n\t\t\t\t\t\t<dir>WNW</dir>\n\t\t\t\t\t\t<degrees>287</degrees>\n\t\t\t\t\t</avewind>\n\t\t\t\t\t<avehumidity>61</avehumidity>\n\t\t\t\t\t<maxhumidity>0</maxhumidity>\n\t\t\t\t\t<minhumidity>0</minhumidity>\n\t\t\t\t</forecastday>\n\t\t\t\t\n\t\t\t</forecastdays>\n\t\t</simpleforecast>\n\t</forecast>\n\n\t\n\t\n\t\t\n\t\n\n
+        \   \n    \n    \n\t\n  \n\t\n\t\n\t\n\t\n\t\n    \n    \n\n\n    \n    \n
+        \   \n    \n</response>\n\t\n"
+    http_version: 
+  recorded_at: Sat, 07 Nov 2015 03:26:53 GMT
 recorded_with: VCR 2.9.0

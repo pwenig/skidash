@@ -1,8 +1,7 @@
 <ul style="list-style: none;">
 <li><%= image_tag @weather_lookup_bre.icon %></li>
-<li><%= @weather_lookup_bre.temperature %>&#176; <%= @weather_lookup_bre.condition %></li>
-<li>Wind: <%= @weather_lookup_bre.wspd %> mph</li>
-<li>Humidity: <%= @weather_lookup_bre.humidity %>%</li>
+<li>Current Temp: <%= @weather_lookup_bre.temperature %>&#176;</li>
+  <li><%= @weather_lookup_bre.condition %></li>
   <li>Snow: <%= @weather_forecast_lookup_bre.snow_today %>"</li>
 
   <li><%= @weather_forecast_lookup_bre.today_high %>&#176; / <%= @weather_forecast_lookup_bre.today_low %>&#176; </li>

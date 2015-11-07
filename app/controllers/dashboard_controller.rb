@@ -1,24 +1,23 @@
 class DashboardController < ApplicationController
 
   def index
-    weather_hourly_lookup
+    weather_condition_lookup
     weather_forecast_lookup
     travel_time
 
   end
 
 
-  def weather_hourly_lookup
-
+  def weather_condition_lookup
     eld = Mountain.find_by_name("Eldora").zip_code
     ste = Mountain.find_by_name("Steamboat").zip_code
     bre = Mountain.find_by_name("Breckenridge").zip_code
     vail = Mountain.find_by_name("Vail").zip_code
 
-    @weather_lookup_eld = WeatherHourly.new(eld)
-    @weather_lookup_ste = WeatherHourly.new(ste)
-    @weather_lookup_bre = WeatherHourly.new(bre)
-    @weather_lookup_vail = WeatherHourly.new(vail)
+    @weather_lookup_eld = WeatherCondition.new(eld)
+    @weather_lookup_bre = WeatherCondition.new(bre)
+    @weather_lookup_ste = WeatherCondition.new(ste)
+    @weather_lookup_vail = WeatherCondition.new(vail)
   end
 
   def weather_forecast_lookup

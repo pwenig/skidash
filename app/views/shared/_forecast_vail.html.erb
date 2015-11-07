@@ -1,8 +1,7 @@
 <ul style="list-style: none;">
   <li><%= image_tag @weather_lookup_vail.icon %></li>
-<li><%= @weather_lookup_vail.temperature %>&#176; <%= @weather_lookup_vail.condition %></li>
-<li>Wind: <%= @weather_lookup_vail.wspd %> mph</li>
-<li>Humidity: <%= @weather_lookup_vail.humidity %>%</li>
+<li>Current Temp: <%= @weather_lookup_vail.temperature %>&#176;</li>
+  <li> <%= @weather_lookup_vail.condition %></li>
   <li>Snow: <%= @weather_forecast_lookup_vail.snow_today %>"</li>
   <li><%= @weather_forecast_lookup_vail.today_high %>&#176; / <%= @weather_forecast_lookup_vail.today_low %>&#176; </li>
 

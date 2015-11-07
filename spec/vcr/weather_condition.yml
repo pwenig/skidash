@@ -1,0 +1,76 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.wunderground.com/api/74d34edfa66387c4/conditions/q/80466.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache/2.2.15 (CentOS)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      X-Creationtime:
+      - '0.075'
+      Last-Modified:
+      - Sat, 07 Nov 2015 03:57:32 GMT
+      Content-Type:
+      - text/xml; charset=UTF-8
+      Vary:
+      - Accept-Encoding
+      Expires:
+      - Sat, 07 Nov 2015 03:57:32 GMT
+      Cache-Control:
+      - max-age=0, no-cache
+      Pragma:
+      - no-cache
+      Date:
+      - Sat, 07 Nov 2015 03:57:32 GMT
+      Content-Length:
+      - '3660'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - DT=1446868652:15852:365-v1; path=/; expires=Fri, 01-Jan-2020 00:00:00 GMT;
+        domain=.wunderground.com
+    body:
+      encoding: UTF-8
+      string: "\n<response>\n\t<version>0.1</version>\n\t<termsofService>http://www.wunderground.com/weather/api/d/terms.html</termsofService>\n\t<features>\n\t\t<feature>conditions</feature>\n\t</features>\n
+        \ <current_observation>\n\t\t<image>\n\t\t<url>http://icons.wxug.com/graphics/wu2/logo_130x80.png</url>\n\t\t<title>Weather
+        Underground</title>\n\t\t<link>http://www.wunderground.com</link>\n\t\t</image>\n\t\t<display_location>\n\t\t<full>Nederland,
+        CO</full>\n\t\t<city>Nederland</city>\n\t\t<state>CO</state>\n\t\t<state_name>Colorado</state_name>\n\t\t<country>US</country>\n\t\t<country_iso3166>US</country_iso3166>\n\t\t<zip>80466</zip>\n\t\t<magic>1</magic>\n\t\t<wmo>99999</wmo>\n\t\t<latitude>39.96570587</latitude>\n\t\t<longitude>-105.49248505</longitude>\n\t\t<elevation>2487.00000000</elevation>\n\t\t</display_location>\n\t\t<observation_location>\n\t\t<full>Big
+        Springs Subdivision, Nederland, Colorado</full>\n\t\t<city>Big Springs Subdivision,
+        Nederland</city>\n\t\t<state>Colorado</state>\n\t\t<country>US</country>\n\t\t<country_iso3166>US</country_iso3166>\n\t\t<latitude>39.960621</latitude>\n\t\t<longitude>-105.493874</longitude>\n\t\t<elevation>8400
+        ft</elevation>\n\t\t</observation_location>\n\t\t<estimated>\n\t\t</estimated>\n\t\t<station_id>KCONEDER3</station_id>\n\t\t<observation_time>Last
+        Updated on November 6, 8:56 PM MST</observation_time>\n\t\t<observation_time_rfc822>Fri,
+        06 Nov 2015 20:56:47 -0700</observation_time_rfc822>\n\t\t<observation_epoch>1446868607</observation_epoch>\n\t\t<local_time_rfc822>Fri,
+        06 Nov 2015 20:57:32 -0700</local_time_rfc822>\n\t\t<local_epoch>1446868652</local_epoch>\n\t\t<local_tz_short>MST</local_tz_short>\n\t\t<local_tz_long>America/Denver</local_tz_long>\n\t\t<local_tz_offset>-0700</local_tz_offset>\n\t\t<weather>Mostly
+        Cloudy</weather>\n\t\t<temperature_string>24.0 F (-4.4 C)</temperature_string>\n\t\t<temp_f>24.0</temp_f>\n\t\t<temp_c>-4.4</temp_c>\n\t\t<relative_humidity>56%</relative_humidity>\n\t\t<wind_string>From
+        the WNW at 3.0 MPH Gusting to 12.0 MPH</wind_string>\n\t\t<wind_dir>WNW</wind_dir>\n\t\t<wind_degrees>292</wind_degrees>\n\t\t<wind_mph>3.0</wind_mph>\n\t\t<wind_gust_mph>12.0</wind_gust_mph>\n\t\t<wind_kph>4.8</wind_kph>\n\t\t<wind_gust_kph>19.3</wind_gust_kph>\n\t\t<pressure_mb>1027</pressure_mb>\n\t\t<pressure_in>30.32</pressure_in>\n\t\t<pressure_trend>+</pressure_trend>\n\t\t\n\t\t<dewpoint_string>11
+        F (-12 C)</dewpoint_string>\n\t\t<dewpoint_f>11</dewpoint_f>\n\t\t<dewpoint_c>-12</dewpoint_c>\n\t\t\n\t\t\n\t\t<heat_index_string>NA</heat_index_string>\n\t\t<heat_index_f>NA</heat_index_f>\n\t\t<heat_index_c>NA</heat_index_c>\n\t\t\n\t\t\n\t\t<windchill_string>24
+        F (-4 C)</windchill_string>\n\t\t<windchill_f>24</windchill_f>\n\t\t<windchill_c>-4</windchill_c>\n\t\t\n
+        \       <feelslike_string>24 F (-4 C)</feelslike_string>\n        <feelslike_f>24</feelslike_f>\n
+        \       <feelslike_c>-4</feelslike_c>\n\t\t<visibility_mi>10.0</visibility_mi>\n\t\t<visibility_km>16.1</visibility_km>\n\t\t<solarradiation></solarradiation>\n\t\t<UV></UV>\n\t\t<precip_1hr_string>0.00
+        in ( 0 mm)</precip_1hr_string>\n\t\t<precip_1hr_in>0.00</precip_1hr_in>\n\t\t<precip_1hr_metric>
+        0</precip_1hr_metric>\n\t\t<precip_today_string>-999.00 in (-25375 mm)</precip_today_string>\n\t\t<precip_today_in>-999.00</precip_today_in>\n\t\t<precip_today_metric>-25375</precip_today_metric>\n\t\t\n\t\t\n\t\t\n\t\t<icon>mostlycloudy</icon>\n\t\t<icon_url>http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif</icon_url>\n\t\t<forecast_url>http://www.wunderground.com/US/CO/Nederland.html</forecast_url>\n
+        \       \n        <history_url>http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCONEDER3</history_url>\n
+        \       \n\t\t<ob_url>http://www.wunderground.com/cgi-bin/findweather/getForecast?query=39.960621,-105.493874</ob_url>\n\t</current_observation>\n\n\t\t\n\t\n\t\n\t\n\t\n
+        \   \n\t\n\t\n\t\t\n\t\n\n    \n    \n    \n\t\n  \n\t\n\t\n\t\n\t\n\t\n    \n
+        \   \n\n\n    \n    \n    \n    \n</response>\n\t\n"
+    http_version: 
+  recorded_at: Sat, 07 Nov 2015 03:57:32 GMT
+recorded_with: VCR 2.9.0
