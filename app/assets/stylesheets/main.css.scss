@@ -33,25 +33,20 @@
     }
 }
 
-body {
-    background: url(http://www.traveladventures.org/countries/georgia/images/gudauri-skiing08.jpg) top center;
-    color: blue;
-    font-family: 'Raleway', sans-serif;
-    background-size: cover;
-}
 
 h1 {
     font-family: 'Nunito', sans-serif;
 }
 
 section {
-    background: skyblue;
-    color: black;
-    margin-bottom: 1em;
     padding: 2em;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     font-size: medium;
+    margin: 2em auto;
+    background-color: rgba(0,0,0,.6);
+    color: #fff;
+    text-align: center;
 
 }
 
@@ -71,14 +66,13 @@ ul#eldora {
 img#radar {
     height: 200px;
     width: 225px;
-    position: absolute;
-    right: 0px;
     border-radius: 50%;
     border-style: solid;
     border-width: medium;
     border-color: black;
     margin-top: 10px;
-    margin-right: 15px;
+    float: right;
+    display: none;
 }
 
 .camera {
@@ -95,4 +89,15 @@ h2 {
 
 h3 {
   text-align: center;
+}
+
+video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
 }

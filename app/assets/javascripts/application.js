@@ -14,3 +14,17 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+/* Note Codepen is importing the jQuery Background Video plugin - https://github.com/BGStock/jquery-background-video */
+
+$('.jquery-background-video').bgVideo({fadeIn: 2000});
+
+function showWeather() {
+  var show_weather = document.getElementById('content');
+  var button = document.getElementById('button');
+  var radar = document.getElementById('radar');
+  show_weather.style.display = 'block';
+  button.style.display = 'none';
+  radar.style.display = 'block';
+
+}
