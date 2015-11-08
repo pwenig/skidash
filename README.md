@@ -14,5 +14,5 @@ To get this running:
 rpsec spec
 
 Staging:
-https://dry-taiga-9954.herokuapp.com/
+http://skidash.herokuapp.com/
 
