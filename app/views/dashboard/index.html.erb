@@ -4,18 +4,20 @@
   <section>
     <h1>SkiDash</h1>
 
+    <div class="form-group">
     <div class="col-md-3 td-top" id="mountain-button1" style="display: block">
-      <%= collection_select(:mountain, :id, Mountain.order('name'), :id, :name, {:include_blank => "Select Mountain"}) %>
+      <%= collection_select(:mountain, :id, Mountain.order('name'), :id, :name, {:include_blank => "Select Mountain"}, {class: "form-control", id: "mountain-form"}) %>
     </div>
     <div class="col-md-3 td-top" id="mountain-button2" style="display: block">
-      <%= collection_select(:mountain, :id, Mountain.order('name'), :id, :name, {:include_blank => "Select Mountain"}) %>
+      <%= collection_select(:mountain, :id, Mountain.order('name'), :id, :name, {:include_blank => "Select Mountain"}, {class: "form-control", id: "mountain-form"}) %>
       </div>
     <div class="col-md-3 td-top" id="mountain-button3" style="display: block">
-      <%= collection_select(:mountain, :id, Mountain.order('name'), :id, :name, {:include_blank => "Select Mountain"}) %>
+      <%= collection_select(:mountain, :id, Mountain.order('name'), :id, :name, {:include_blank => "Select Mountain"}, {class: "form-control", id: "mountain-form"}) %>
       </div>
     <div class="col-md-3 td-top" id="mountain-button4" style="display: block">
-      <%= collection_select(:mountain, :id, Mountain.order('name'), :id, :name, {:include_blank => "Select Mountain"}) %>
+      <%= collection_select(:mountain, :id, Mountain.order('name'), :id, :name, {:include_blank => "Select Mountain"}, {class: "form-control", id: "mountain-form"}) %>
       </div>
+    </div>
 
 
     <div id="button" style="display: block"><button class="btn btn-primary btn-default btn-lg" type="button" onclick="showWeather()">See Forecast</button></div>
