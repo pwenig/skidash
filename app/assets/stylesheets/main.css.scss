@@ -50,14 +50,14 @@ section {
 
 }
 
-h4#steamboat, h4#breckenridge, h4#eldora, h4#vail  {
-    background-color:black;
-    color:#1CD06E;
-    display:inline;
-    font-size:large;
-    padding:5px;
-    margin-left: 50px;
-}
+//h4#steamboat, h4#breckenridge, h4#eldora, h4#vail  {
+//    background-color:black;
+//    color:#1CD06E;
+//    display:inline;
+//    font-size:large;
+//    padding:5px;
+//    margin-left: 50px;
+//}
 
 ul#eldora {
     list-style-type: none;
@@ -105,12 +105,12 @@ video {
 }
 
 #forecasts {
-  min-height: 700px;
+  min-height: 400px;
 }
 
-#forecast-box {
-  padding-bottom: 30px;
-}
+//#forecast-box {
+//  padding-bottom: 30px;
+//}
 
 #button {
   padding-top: 65px;

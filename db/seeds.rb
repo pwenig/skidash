@@ -4,3 +4,9 @@ Mountain.create(name: "Breckenridge", zip_code:"80424", opening_date: "11/13/201
 Mountain.create(name: "Vail", zip_code:"81657", opening_date: "11/20/2015 8:30 AM", video_url:"http://common.snow.com/Mtncams/TOVLionshead.jpg")
 Mountain.create(:name => "Copper", :zip_code => "80433", :opening_date => "11/11/2015 8:30 AM", :video_url => "http://www.coppercolorado.com/winter/the_mountain/snow_stake_cam/campic.jpg")
 Mountain.create(:name => "Winter Park", :zip_code => "80482", :opening_date => "11/18/2015 8:30 AM", :video_url => "http://cams.winterparkresort.com/winter-park-basecam.jpg")
+Mountain.create(:name => "Crested Butte", :zip_code => "81224", :opening_date => "", :video_url => "http://skicb.server310.com/ftp/powcam/pow.jpg")
+Mountain.create(:name => "A-Basin", :zip_code => "80435", :opening_date => "", :video_url => "http://arapahoebasin.com/ABasin/assets/images/webcams/webcam1/abasincam1.jpg")
+Mountain.create(:name => "Keystone", :zip_code => "80435", :opening_date => "", :video_url => "http://common.snow.com/Mtncams/summithouse.jpg")
+Mountain.create(:name => "Loveland", :zip_code => "80444", :opening_date => "", :video_url => "https://www.photosskiloveland.com/Single/chairone00001.jpg")
+Mountain.create(:name => "Telluride", :zip_code => "81435", :opening_date => "", :video_url => "http://www.tellurideskiresort.com/webcams/topaten.jpg")
+
