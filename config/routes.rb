@@ -1,3 +1,6 @@
 Rails.application.routes.draw do
-  root to: "dashboard#index"
+  root to: "mountains#new"
+
+  resources :mountains
+
 end

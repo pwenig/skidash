@@ -21,7 +21,15 @@ module Features
                     :opening_date => "11/20/2015 8:30 AM",
                     :video_url => "http://common.snow.com/Mtncams/TOVLionshead.jpg")
 
+    Mountain.create(:name => "Copper",
+                    :zip_code => "80433",
+                    :opening_date => "11/11/2015 8:30 AM",
+                    :video_url => "http://www.coppercolorado.com/winter/the_mountain/snow_stake_cam/campic.jpg")
 
+    Mountain.create(:name => "Winter Park",
+                    :zip_code => "80482",
+                    :opening_date => "11/18/2015 8:30 AM",
+                    :video_url => "http://cams.winterparkresort.com/winter-park-basecam.jpg")
 
   end
 end
