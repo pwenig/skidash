@@ -10,11 +10,12 @@ feature 'the mountain selection process' do
     VCR.use_cassette('dashboard_load', :record => :new_episodes) do
     create_mountains
     visit '/'
-    select("Eldora", :from => 'mountain-form1')
+    select("Eldora", :from => 'mountain-form', match: :first)
 
     click_button('Get Forecast')
 
     expect(page).to have_css('h2', text: 'Eldora')
+    expect(page).to_not have_css('h2', text: 'Steamboat')
 
     end
   end

@@ -9,4 +9,6 @@ Mountain.create(:name => "A-Basin", :zip_code => "80435", :opening_date => "", :
 Mountain.create(:name => "Keystone", :zip_code => "80435", :opening_date => "", :video_url => "http://common.snow.com/Mtncams/summithouse.jpg")
 Mountain.create(:name => "Loveland", :zip_code => "80444", :opening_date => "", :video_url => "https://www.photosskiloveland.com/Single/chairone00001.jpg")
 Mountain.create(:name => "Telluride", :zip_code => "81435", :opening_date => "", :video_url => "http://www.tellurideskiresort.com/webcams/topaten.jpg")
+Mountain.create(:name => "Wolf Creek", :zip_code => "81147", :opening_date => "", :video_url => "http://www.pagosa.com/1images/_custom/wolfcreekcam.jpg")
+Mountain.create(:name => "Taos", :zip_code => "87525", :opening_date => "", :video_url => "http://skitaos.org/webcamimages/kachina.jpg")
 

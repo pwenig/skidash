@@ -14,14 +14,6 @@ describe "weather API condition" do
     expect(@response.present?).to eq(true)
   end
 
-  it "successfully retrieves hourly forecast" do
-    expect(@response.temperature.present?).to eq(true)
-  end
-
-  it "successfully retrieves forecast icon" do
-    expect(@response.icon.present?).to eq(true)
-  end
-
 end
 
 
