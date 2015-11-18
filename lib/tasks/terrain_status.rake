@@ -11,7 +11,7 @@ task :fetch_terrain => :environment do
   lifts_breck = lift_string_breck.gsub(/\s+/, "")[12]
   run_string_breck = doc_breck.at_css(".firstItem+li").text
   runs_breck = run_string_breck.gsub(/\s+/, "")[8]
-  breck.update_attributes(:runs_open => runs_breck, :lifts_open => lifts_breck)
+  breck.update_attributes(:runs_open => runs_breck, :lifts_open => lifts_breck, :updated_at => Time.now)
 
   puts "Breck"
   puts "Lifts Open: #{lifts_breck}"
@@ -25,7 +25,7 @@ task :fetch_terrain => :environment do
   lifts_cop = lift_string_cop
   run_string_cop = doc_copper.at_css("#report-page-conditions-status td:nth-child(2)").text
   runs_cop = run_string_cop
-  copper.update_attributes(:runs_open => runs_cop, :lifts_open => lifts_cop)
+  copper.update_attributes(:runs_open => runs_cop, :lifts_open => lifts_cop, :updated_at => Time.now)
 
 
   puts ""
@@ -41,7 +41,7 @@ task :fetch_terrain => :environment do
   lifts_key = lift_string_key.gsub(/\s+/, "")[12]
   run_string_key = doc_key.at_css(".firstItem+li").text
   runs_key = run_string_key.gsub(/\s+/, "")[8]
-  keystone.update_attributes(:runs_open => runs_key, :lifts_open => lifts_key)
+  keystone.update_attributes(:runs_open => runs_key, :lifts_open => lifts_key, :updated_at => Time.now)
 
 
   puts ""
@@ -58,7 +58,7 @@ task :fetch_terrain => :environment do
   run_string_tell = doc_tell.at_css(".trailsOpen .value").text
   lifts_tell = lift_string_tell
   runs_tell = run_string_tell
-  telluride.update_attributes(:runs_open => runs_tell, :lifts_open => lifts_tell)
+  telluride.update_attributes(:runs_open => runs_tell, :lifts_open => lifts_tell, :updated_at => Time.now)
 
 
   puts ""
@@ -74,7 +74,7 @@ task :fetch_terrain => :environment do
   lifts_cb = lift_string_cb[0]
   run_string_cb = doc_cb.at_css(".value").text
   runs_cb = run_string_cb[0]
-  crested_butte.update_attributes(:runs_open => runs_cb, :lifts_open => lifts_cb)
+  crested_butte.update_attributes(:runs_open => runs_cb, :lifts_open => lifts_cb, :updated_at => Time.now)
 
 
   puts ""
