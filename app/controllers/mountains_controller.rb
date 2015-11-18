@@ -30,6 +30,9 @@ class MountainsController < ApplicationController
       mountain = Mountain.find_by_zip_code(zip)
       mountain_info[:name] = mountain[:name]
       mountain_info[:video_url] = mountain[:video_url]
+      mountain_info[:terrain_url] = mountain[:terrain_url]
+      mountain_info[:runs_open] = mountain[:runs_open]
+      mountain_info[:lifts_open] = mountain[:lifts_open]
       weather_condition = WeatherCondition.new(zip)
      @mountain_conditions << [mountain_info, weather_condition.condition_hash, weather_condition.forecast_hash].inject(:merge)
     end

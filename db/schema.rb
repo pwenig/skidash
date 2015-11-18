@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150924025738) do
+ActiveRecord::Schema.define(version: 20151118035146) do
 
   create_table "mountains", force: true do |t|
     t.string   "name"
@@ -20,6 +20,9 @@ ActiveRecord::Schema.define(version: 20150924025738) do
     t.string   "video_url"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "lifts_open",   default: "n/a"
+    t.string   "runs_open",    default: "n/a"
+    t.string   "terrain_url",  default: "n/a"
   end
 
 end

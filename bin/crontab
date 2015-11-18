@@ -1,0 +1,2 @@
+30	7	*	*	*	cd Users/paulwenig/Personal/skidash && /usr/local/bin/rake/ RAILS_ENV=production skidash:fetch_terrain
+
