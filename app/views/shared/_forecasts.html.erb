@@ -11,14 +11,14 @@
           <li><%= mountain[:today_high] %>&#176; / <%= mountain[:today_low] %>&#176; </li>
         </ul>
         <p><b>Today:</b> <%= mountain[:forecast_today] %></p>
+
         <p><b><%= mountain[:forecast_title_day2] %>:</b> <%= mountain[:forecast_day2] %></p>
+
         <p><b><%= mountain[:forecast_title_day3] %>:</b> <%= mountain[:forecast_day3] %></p>
       </div>
     <% end %>
   </section>
 </div>
-
-
 
 <div class="row">
   <% @mountain_conditions.each do |mountain| %>
@@ -26,6 +26,25 @@
       <section>
         <h4 style="text-align: center"><%= mountain[:name] %></h4>
         <%= link_to image_tag(mountain[:video_url]), mountain[:video_url], :target => "_blank" %>
+      </section>
+    </div>
+  <% end %>
+</div>
+
+<div class="row">
+
+  <% @mountain_conditions.each do |mountain| %>
+    <div class="col-md-3 camera" id="camera1">
+      <section>
+        <div id="lift-status" style="display: block;">
+
+          <h4>Trails Open: <%= mountain[:runs_open] %></h4>
+          <h4>Lifts Open: <%= mountain[:lifts_open] %></h4>
+          <%= link_to "Full Terrain Report", mountain[:terrain_url], :target => "_blank" %>
+          <br>
+
+        </div>
+
       </section>
     </div>
   <% end %>
