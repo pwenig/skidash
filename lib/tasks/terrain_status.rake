@@ -10,7 +10,7 @@ task :fetch_terrain => :environment do
   lift_string_breck = doc_breck.at_css(".firstItem").text
   lifts_breck = lift_string_breck.gsub(/\s+/, "")[12]
   run_string_breck = doc_breck.at_css(".firstItem+li").text
-  runs_breck = run_string_breck.gsub(/\s+/, "")[8]
+  runs_breck = run_string_breck.gsub(/\s+/, "")[8..9]
   breck.update_attributes(:runs_open => runs_breck, :lifts_open => lifts_breck, :updated_at => Time.now)
 
   puts "Breck"
@@ -40,7 +40,7 @@ task :fetch_terrain => :environment do
   lift_string_key = doc_key.at_css(".firstItem").text
   lifts_key = lift_string_key.gsub(/\s+/, "")[12]
   run_string_key = doc_key.at_css(".firstItem+li").text
-  runs_key = run_string_key.gsub(/\s+/, "")[8]
+  runs_key = run_string_key.gsub(/\s+/, "")[8..9]
   keystone.update_attributes(:runs_open => runs_key, :lifts_open => lifts_key, :updated_at => Time.now)
 
 
