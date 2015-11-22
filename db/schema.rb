@@ -11,18 +11,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151118035146) do
+ActiveRecord::Schema.define(version: 20151122225952) do
 
   create_table "mountains", force: true do |t|
     t.string   "name"
     t.string   "zip_code"
     t.string   "opening_date"
-    t.string   "video_url"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "lifts_open",   default: "n/a"
     t.string   "runs_open",    default: "n/a"
     t.string   "terrain_url",  default: "n/a"
+    t.string   "mtn_image1"
+    t.string   "mtn_image2"
+    t.string   "mtn_image3"
   end
 
 end

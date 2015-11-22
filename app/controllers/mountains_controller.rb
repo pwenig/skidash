@@ -29,7 +29,9 @@ class MountainsController < ApplicationController
     mountains_zip_codes.each do |zip|
       mountain = Mountain.find_by_zip_code(zip)
       mountain_info[:name] = mountain[:name]
-      mountain_info[:video_url] = mountain[:video_url]
+      mountain_info[:mtn_image1] = mountain[:mtn_image1]
+      mountain_info[:mtn_image2] = mountain[:mtn_image2]
+      mountain_info[:mtn_image3] = mountain[:mtn_image3]
       mountain_info[:terrain_url] = mountain[:terrain_url]
       mountain_info[:runs_open] = mountain[:runs_open]
       mountain_info[:lifts_open] = mountain[:lifts_open]

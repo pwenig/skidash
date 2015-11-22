@@ -25,7 +25,18 @@
     <div class="col-md-3 camera" id="camera1">
       <section>
         <h4 style="text-align: center"><%= mountain[:name] %></h4>
-        <%= link_to image_tag(mountain[:video_url]), mountain[:video_url], :target => "_blank" %>
+
+        <!--carousel-->
+
+        <div id="slider">
+          <figure>
+            <%= link_to image_tag(mountain[:mtn_image1]), mountain[:mtn_image1], :target => "_blank" %>
+            <%= link_to image_tag(mountain[:mtn_image2]), mountain[:mtn_image2], :target => "_blank" %>
+            <%= link_to image_tag(mountain[:mtn_image3]), mountain[:mtn_image3], :target => "_blank" %>
+          </figure>
+        </div>
+
+
       </section>
     </div>
   <% end %>
