@@ -91,8 +91,8 @@ task :fetch_terrain => :environment do
   url = "http://www.onthesnow.com/colorado/arapahoe-basin-ski-area/skireport.html"
   doc_aba = Nokogiri::HTML(open(url))
   terrain_string_aba = doc_aba.at_css("#resort_terrain").text.gsub(/\s+/, "")
-  lifts_aba = terrain_string_aba[23]
-  runs_aba = terrain_string_aba[8]
+  lifts_aba = terrain_string_aba[24]
+  runs_aba = terrain_string_aba[8..9]
   aba.update_attributes(:runs_open => runs_aba, :lifts_open => lifts_aba, :updated_at => Time.now)
 
   puts ""
