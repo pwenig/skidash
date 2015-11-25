@@ -11,7 +11,9 @@ describe "Mountain" do
                                     lifts_open: "n/a",
                                     runs_open: "n'a",
                                     terrain_url: "http://www.breckenridge.com/mountain/terrain-status.aspx#/Lifts",
-                                    video_url: "http://63.147.112.178:9595/axis-cgi/jpg/image.cgi") do
+                                    mtn_image1: "foo",
+                                    mtn_image2: "foo",
+                                    mtn_image3: "foo") do
 
     VCR.use_cassette('terrain_status', :record => :new_episodes) do
       url = "http://www.breckenridge.com/mountain/terrain-status.aspx#/Lifts"
@@ -35,7 +37,7 @@ describe "Mountain" do
   end
 
   it "returns a mountain video_url" do
-    expect(mountain.video_url).to eq("http://63.147.112.178:9595/axis-cgi/jpg/image.cgi")
+    expect(mountain.mtn_image1).to eq("foo")
   end
 
   it "returns a mountain terrain status url" do
