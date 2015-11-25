@@ -43,7 +43,7 @@ task :fetch_terrain => :environment do
   url = "http://www.onthesnow.com/colorado/steamboat/skireport.html"
   doc_steam = Nokogiri::HTML(open(url))
   runs_string_steam = doc_steam.at_css("li:nth-child(1) .open").text.gsub(/\s+/, "")
-  runs_steam = runs_string_steam[0]
+  runs_steam = runs_string_steam[0..1]
   lifts_string_steam = doc_steam.at_css("li:nth-child(2) .open").text.gsub(/\s+/, "")
   lifts_steam = lifts_string_steam[0]
   steam.update_attributes(:runs_open => runs_steam, :lifts_open => lifts_steam, :updated_at => Time.now)
