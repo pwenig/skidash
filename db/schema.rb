@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151122225952) do
+ActiveRecord::Schema.define(version: 20151127192747) do
 
   create_table "mountains", force: true do |t|
     t.string   "name"
@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(version: 20151122225952) do
     t.string   "mtn_image1"
     t.string   "mtn_image2"
     t.string   "mtn_image3"
+    t.string   "base"
   end
 
 end

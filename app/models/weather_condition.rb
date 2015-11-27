@@ -26,6 +26,8 @@ class WeatherCondition
     condition_hash[:temperature] = forecast_response['temp_f']
     condition_hash[:condition] = forecast_response['weather']
     condition_hash[:icon] = forecast_response['icon_url']
+    condition_hash[:wind_string] = forecast_response['wind_string']
+
     self.condition_hash =  condition_hash
   end
 

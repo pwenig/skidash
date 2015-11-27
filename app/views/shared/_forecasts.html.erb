@@ -7,7 +7,8 @@
           <li><%= image_tag mountain[:icon] %></li>
           <li>Current Temp: <%= mountain[:temperature] %>&#176;</li>
           <li> <%= mountain[:condition] %></li>
-          <li>Snow: <%= mountain[:snow_today] %>"</li>
+          <li> Wind: <%= mountain[:wind_string] %></li>
+          <li>Snow Today: <%= mountain[:snow_today] %>"</li>
           <li><%= mountain[:today_high] %>&#176; / <%= mountain[:today_low] %>&#176; </li>
         </ul>
         <p><b>Today:</b> <%= mountain[:forecast_today] %></p>
@@ -51,6 +52,8 @@
 
           <h4>Trails Open: <%= mountain[:runs_open] %></h4>
           <h4>Lifts Open: <%= mountain[:lifts_open] %></h4>
+          <h4>Base: <%= mountain[:base] %>"</h4>
+
           <%= link_to "Full Terrain Report", mountain[:terrain_url], :target => "_blank" %>
           <br>
 
