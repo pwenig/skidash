@@ -77,7 +77,7 @@ task :fetch_terrain => :environment do
   runs_string_wp = doc_wp.at_css("li:nth-child(1) .open").text
   runs_wp = runs_string_wp[0..1]
   lifts_string_wp = doc_wp.at_css("li:nth-child(2) .open").text
-  lifts_wp = lifts_string_wp[0]
+  lifts_wp = lifts_string_wp[0..1]
   wp.update_attributes(:runs_open => runs_wp, :lifts_open => lifts_wp, :updated_at => Time.now)
 
   puts""
@@ -137,7 +137,7 @@ task :fetch_terrain => :environment do
   url = "http://www.keystoneresort.com/ski-and-snowboard/terrain-status.aspx#/Lifts"
   doc_key = Nokogiri::HTML(open(url))
   lift_string_key = doc_key.at_css(".firstItem").text
-  lifts_key = lift_string_key.gsub(/\s+/, "")[12]
+  lifts_key = lift_string_key.gsub(/\s+/, "")[12..13]
   run_string_key = doc_key.at_css(".firstItem+li").text
   runs_key = run_string_key.gsub(/\s+/, "")[8..9]
   keystone.update_attributes(:runs_open => runs_key, :lifts_open => lifts_key, :updated_at => Time.now)
