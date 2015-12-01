@@ -213,22 +213,4 @@ task :fetch_terrain => :environment do
   puts "Runs Open: #{runs_cb}"
   puts "Base: #{base_cb}"
 
-# Taos
-  taos = Mountain.find(12)
-  url = "http://www.onthesnow.com/new-mexico/taos-ski-valley/skireport.html"
-  doc_taos = Nokogiri::HTML(open(url))
-  lift_string_taos = doc_taos.at_css("li:nth-child(2) .open").text
-  lifts_taos = lift_string_taos.gsub(/\s+/, "")[0]
-  run_string_taos = doc_taos.at_css("li:nth-child(1) .open").text
-  runs_taos = run_string_taos.gsub(/\s+/, "")[0..1]
-  base_taos_string = doc_taos.at_css(".sd").text
-  base_taos = base_taos_string[0..1]
-  taos.update_attributes(:runs_open => runs_taos, :lifts_open => lifts_taos, :base => base_taos, :updated_at => Time.now)
-
-
-  puts ""
-  puts "Taos"
-  puts "Lifts Open: #{lifts_taos}"
-  puts "Runs Open: #{runs_taos}"
-  puts "Base: #{base_taos}"
 end
