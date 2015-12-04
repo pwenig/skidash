@@ -3,13 +3,14 @@
     <% @mountain_conditions.each do |mountain| %>
       <div class="col-md-3 td-top" id="forecast-box">
         <h2><%= mountain[:name] %></h2>
+        <p style="font-size: small">Updated: <%= mountain[:updated_at] %></p>
         <ul style="list-style: none;">
           <li><%= image_tag mountain[:icon] %></li>
+          <li><%= mountain[:high_temp] %>&#176; / <%= mountain[:low_temp] %>&#176; </li>
           <li>Current Temp: <%= mountain[:temperature] %>&#176;</li>
-          <li> <%= mountain[:condition] %></li>
-          <li> Wind: <%= mountain[:wind_string] %></li>
+          <li> Condition: <%= mountain[:condition] %></li>
+          <li> Wind: <%= mountain[:wind] %></li>
           <li>Snow Today: <%= mountain[:snow_today] %>"</li>
-          <li><%= mountain[:today_high] %>&#176; / <%= mountain[:today_low] %>&#176; </li>
         </ul>
         <p><b>Today:</b> <%= mountain[:forecast_today] %></p>
 

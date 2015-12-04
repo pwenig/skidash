@@ -3,7 +3,8 @@ class WeatherCondition
 
   attr_accessor :condition_hash, :forecast_hash
 
-  def initialize(zip)
+
+ def initialize(zip)
     weather_condition_hash = fetch_weather_conditions(zip)
     assign_condition_values(weather_condition_hash)
     weather_forecast_hash = fetch_weather_forecast(zip)
@@ -27,7 +28,6 @@ class WeatherCondition
     condition_hash[:condition] = forecast_response['weather']
     condition_hash[:icon] = forecast_response['icon_url']
     condition_hash[:wind_string] = forecast_response['wind_string']
-
     self.condition_hash =  condition_hash
   end
 

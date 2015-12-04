@@ -11,7 +11,25 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151127192747) do
+ActiveRecord::Schema.define(version: 20151204191210) do
+
+  create_table "conditions", force: true do |t|
+    t.integer  "mountain_id"
+    t.integer  "temperature"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.text     "condition"
+    t.text     "wind"
+    t.text     "forecast_today"
+    t.integer  "high_temp"
+    t.integer  "low_temp"
+    t.integer  "snow_today"
+    t.string   "forecast_title_day2"
+    t.text     "forecast_day2"
+    t.string   "forecast_title_day3"
+    t.text     "forecast_day3"
+    t.string   "icon"
+  end
 
   create_table "mountains", force: true do |t|
     t.string   "name"
