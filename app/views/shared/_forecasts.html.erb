@@ -3,6 +3,7 @@
     <% @mountain_conditions.each do |mountain| %>
       <div class="col-md-3 td-top" id="forecast-box">
         <h2><%= mountain[:name] %></h2>
+        <p style="font-size: small">Updated: <%= mountain[:updated_at] %></p>
         <ul style="list-style: none;">
           <li><%= image_tag mountain[:icon] %></li>
           <li><%= mountain[:high_temp] %>&#176; / <%= mountain[:low_temp] %>&#176; </li>

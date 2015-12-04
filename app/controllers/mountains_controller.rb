@@ -48,10 +48,18 @@ class MountainsController < ApplicationController
       condition_info[:forecast_day2] = condition[:forecast_day2]
       condition_info[:forecast_title_day3] = condition[:forecast_title_day3]
       condition_info[:forecast_day3] = condition[:forecast_day3]
-
+      condition_info[:updated_at] = updated_time(condition[:updated_at])
      @mountain_conditions << [mountain_info, condition_info].inject(:merge)
     end
 
   end
 
+  def updated_time(time)
+    mountain_time = time.in_time_zone("Mountain Time (US & Canada)")
+    mountain_time.strftime("%A %I:%M %P")
+  end
+
 end
+
+
+
