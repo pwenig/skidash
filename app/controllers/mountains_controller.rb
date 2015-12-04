@@ -17,12 +17,12 @@ class MountainsController < ApplicationController
     mountain_ids
 
     weather_condition_lookup(mountain_ids)
-    travel_time
   end
 
 
   def weather_condition_lookup(mountain_ids)
     mountain_info = {}
+    condition_info = {}
     @mountain_conditions = []
     mountain_ids.each do |id|
       mountain = Mountain.find(id)
@@ -34,18 +34,24 @@ class MountainsController < ApplicationController
       mountain_info[:runs_open] = mountain[:runs_open]
       mountain_info[:lifts_open] = mountain[:lifts_open]
       mountain_info[:base] = mountain[:base]
-      weather_condition = WeatherCondition.new(mountain[:zip_code])
-     @mountain_conditions << [mountain_info, weather_condition.condition_hash, weather_condition.forecast_hash].inject(:merge)
+
+      condition = Condition.where(:mountain_id => id).last
+      condition_info[:temperature] = condition[:temperature]
+      condition_info[:condition] = condition[:condition]
+      condition_info[:icon] = condition[:icon]
+      condition_info[:wind] = condition[:wind]
+      condition_info[:forecast_today] = condition[:forecast_today]
+      condition_info[:high_temp] = condition[:high_temp]
+      condition_info[:low_temp] = condition[:low_temp]
+      condition_info[:snow_today] = condition[:snow_today]
+      condition_info[:forecast_title_day2] = condition[:forecast_title_day2]
+      condition_info[:forecast_day2] = condition[:forecast_day2]
+      condition_info[:forecast_title_day3] = condition[:forecast_title_day3]
+      condition_info[:forecast_day3] = condition[:forecast_day3]
+
+     @mountain_conditions << [mountain_info, condition_info].inject(:merge)
     end
 
-
   end
-
-  def travel_time
-    @travel_time_breck = TravelTime.new('Breckenridge', 'CO')
-    @travel_time_vail = TravelTime.new('Vail', 'CO')
-  end
-
-
 
 end

@@ -9,6 +9,7 @@ feature 'the mountain selection process' do
   scenario 'selects a mountain to look up' do
     VCR.use_cassette('dashboard_load', :record => :new_episodes) do
     create_mountains
+    create_conditions
     visit '/'
     select("Eldora", :from => 'mountain-form', match: :first)
 
