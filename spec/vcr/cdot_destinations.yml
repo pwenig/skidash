@@ -1,0 +1,3026 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://pwenig:HLjhM2VP@data.cotrip.org/xml/speed_routes.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 10 Dec 2015 00:07:08 GMT
+      Server:
+      - Apache
+      Last-Modified:
+      - Thu, 10 Dec 2015 00:06:41 GMT
+      Etag:
+      - '"1fda4-5267ffb43cf95"'
+      Accept-Ranges:
+      - bytes
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '5670'
+      Content-Type:
+      - application/xml
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+        <speed:SpeedDetails xmlns:speed="http://www.cotrip.org/schema/speed" xmlns:global="http://www.cotrip.org/schema/global">
+            <speed:Header>
+                <global:EntityId>1</global:EntityId>
+                <global:Domain>cotrip.org,www.cotrip.org,beta.cotrip.org,www.beta.cotrip.org,m.cotrip.org,cell.cotrip.org,go.cotrip.org,data.cotrip.org,i.cotrip.org,legacy.cotrip.org,www.legacy.cotrip.org</global:Domain>
+                <global:GeneratedDate>2015-12-09T17:06:58.196-07:00</global:GeneratedDate>
+            </speed:Header>
+            <speed:SpeedUnitOfMeasure>mile</speed:SpeedUnitOfMeasure>
+            <speed:Route>
+                <speed:RouteId>207</speed:RouteId>
+                <speed:RouteName>025N208 Alameda/NB I-25 to Sheridan</speed:RouteName>
+                <speed:Description>Alameda/NB I-25 to Sheridan</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>-1</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>North</speed:DirectionTxt>
+                    <speed:DirectionCd>1.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:RoadInfo>
+                    <speed:RoadName>US 6</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>3.98</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>421</speed:RouteId>
+                <speed:RouteName>025N211 Colfax Ave. to Downtown (Speer Blvd)</speed:RouteName>
+                <speed:Description>Colfax Ave. to Downtown (Speer Blvd)</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>1</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>2</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>30</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>North</speed:DirectionTxt>
+                    <speed:DirectionCd>1.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>1.15</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>417</speed:RouteId>
+                <speed:RouteName>025N156 Colorado Springs (AFA) to US-85 Castle Rock</speed:RouteName>
+                <speed:Description>Colorado Springs (AFA) to US-85 Castle Rock</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>23</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>24</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>71</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>North</speed:DirectionTxt>
+                    <speed:DirectionCd>1.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>28.28</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>416</speed:RouteId>
+                <speed:RouteName>025N195 C-470 to I-225</speed:RouteName>
+                <speed:Description>C-470 to I-225</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>11</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>32</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>North</speed:DirectionTxt>
+                    <speed:DirectionCd>1.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>5.78</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>415</speed:RouteId>
+                <speed:RouteName>025N201 I-225 to Colorado Blvd</speed:RouteName>
+                <speed:Description>I-225 to Colorado Blvd</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>6</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>42</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>North</speed:DirectionTxt>
+                    <speed:DirectionCd>1.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>3.95</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>414</speed:RouteId>
+                <speed:RouteName>025N214 I-70 to US-36</speed:RouteName>
+                <speed:Description>I-70 to US-36</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>37</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>North</speed:DirectionTxt>
+                    <speed:DirectionCd>1.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>3.32</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>398</speed:RouteId>
+                <speed:RouteName>025N218 US-36/I-25 to 120th</speed:RouteName>
+                <speed:Description>US-36/I-25 to 120th</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>7</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>11</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>33</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>North</speed:DirectionTxt>
+                    <speed:DirectionCd>1.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>6.04</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>384</speed:RouteId>
+                <speed:RouteName>025N209 6th Ave to 120th</speed:RouteName>
+                <speed:Description>Northbound on I25 from 6th Ave to 120th</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>15</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>-1</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>North</speed:DirectionTxt>
+                    <speed:DirectionCd>1.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>14.0</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>312</speed:RouteId>
+                <speed:RouteName>025N219 84th Ave to 120th Ave</speed:RouteName>
+                <speed:Description>84th Ave to 120th Ave</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>6</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>50</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>North</speed:DirectionTxt>
+                    <speed:DirectionCd>1.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>4.59</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>311</speed:RouteId>
+                <speed:RouteName>025N214 I-70 to 84th Ave</speed:RouteName>
+                <speed:Description>I-70 to 84th Ave</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>11</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>27</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>North</speed:DirectionTxt>
+                    <speed:DirectionCd>1.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>4.77</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>310</speed:RouteId>
+                <speed:RouteName>025N212 Speer Blvd to I-70</speed:RouteName>
+                <speed:Description>Speer Blvd to I-70</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>2</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>2</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>55</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>North</speed:DirectionTxt>
+                    <speed:DirectionCd>1.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>2.23</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>309</speed:RouteId>
+                <speed:RouteName>025N210 6th Ave to Speer Blvd</speed:RouteName>
+                <speed:Description>6th Ave to Speer Blvd</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>2</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>6</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>24</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>North</speed:DirectionTxt>
+                    <speed:DirectionCd>1.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>2.25</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>308</speed:RouteId>
+                <speed:RouteName>025N205 Colorado Blvd to 6th Ave</speed:RouteName>
+                <speed:Description>Colorado Blvd to 6th Ave</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>-1</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>North</speed:DirectionTxt>
+                    <speed:DirectionCd>1.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>5.17</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>307</speed:RouteId>
+                <speed:RouteName>025N202 Hampden Ave to Colorado Blvd</speed:RouteName>
+                <speed:Description>Hampden Ave to Colorado Blvd</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>2</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>3</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>47</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>North</speed:DirectionTxt>
+                    <speed:DirectionCd>1.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>2.46</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>306</speed:RouteId>
+                <speed:RouteName>025N198 Arapahoe Rd to Hampden Ave</speed:RouteName>
+                <speed:Description>Arapahoe Rd to Hampden Ave</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>8</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>32</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>North</speed:DirectionTxt>
+                    <speed:DirectionCd>1.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>4.39</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>305</speed:RouteId>
+                <speed:RouteName>025N195 C-470 to Arapahoe Rd</speed:RouteName>
+                <speed:Description>C-470 to Arapahoe Rd</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>3</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>33</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>North</speed:DirectionTxt>
+                    <speed:DirectionCd>1.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>2.88</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>303</speed:RouteId>
+                <speed:RouteName>025N172 Larkspur to US-85 Castle Rock</speed:RouteName>
+                <speed:Description>Larkspur to US-85 Castle Rock</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>10</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>11</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>70</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>North</speed:DirectionTxt>
+                    <speed:DirectionCd>1.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>12.39</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>302</speed:RouteId>
+                <speed:RouteName>025N164 Palmer Divide to Larkspur</speed:RouteName>
+                <speed:Description>Palmer Divide to Larkspur</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>7</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>7</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>73</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>North</speed:DirectionTxt>
+                    <speed:DirectionCd>1.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>8.5</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>301</speed:RouteId>
+                <speed:RouteName>025N161 CO 105 Monument to Palmer Divide</speed:RouteName>
+                <speed:Description>CO 105 Monument to Palmer Divide</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>2</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>2</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>68</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>North</speed:DirectionTxt>
+                    <speed:DirectionCd>1.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>2.56</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>300</speed:RouteId>
+                <speed:RouteName>025N156 North Gate Blvd (Air Force Academy) to CO 105 Monument</speed:RouteName>
+                <speed:Description>North Gate Blvd (Air Force Academy) to CO 105 Monument</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>75</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>North</speed:DirectionTxt>
+                    <speed:DirectionCd>1.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>4.83</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>263</speed:RouteId>
+                <speed:RouteName>025N209 I-25 NB Pepsi Center VMS to US-6/Wadsworth</speed:RouteName>
+                <speed:Description>I-25 NB Pepsi Center VMS to US-6/Wadsworth</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>-1</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>North</speed:DirectionTxt>
+                    <speed:DirectionCd>1.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:RoadInfo>
+                    <speed:RoadName>US 6</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>3.85</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>206</speed:RouteId>
+                <speed:RouteName>025S210 Colfax/SB I-25 to Sheridan</speed:RouteName>
+                <speed:Description>Colfax/SB I-25 to Sheridan</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>-1</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>South</speed:DirectionTxt>
+                    <speed:DirectionCd>2.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:RoadInfo>
+                    <speed:RoadName>US 6</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>3.25</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>424</speed:RouteId>
+                <speed:RouteName>025S223 120th to US-36</speed:RouteName>
+                <speed:Description>120th to US-36</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>7</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>9</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>42</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>South</speed:DirectionTxt>
+                    <speed:DirectionCd>2.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>6.04</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>413</speed:RouteId>
+                <speed:RouteName>025S184 US-85 to Colorado Springs (AFA)</speed:RouteName>
+                <speed:Description>US-85 to Colorado Springs (AFA)</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>23</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>25</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>68</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>South</speed:DirectionTxt>
+                    <speed:DirectionCd>2.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>28.28</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>406</speed:RouteId>
+                <speed:RouteName>025S200 I-225 to C-470</speed:RouteName>
+                <speed:Description>I-225 to C-470</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>10</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>36</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>South</speed:DirectionTxt>
+                    <speed:DirectionCd>2.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>5.78</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>405</speed:RouteId>
+                <speed:RouteName>025S204 Colorado Blvd to I-225</speed:RouteName>
+                <speed:Description>Colorado Blvd to I-225</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>7</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>34</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>South</speed:DirectionTxt>
+                    <speed:DirectionCd>2.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>3.95</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>403</speed:RouteId>
+                <speed:RouteName>025S217 US-36 to I-70</speed:RouteName>
+                <speed:Description>US-36 to I-70</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>55</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>South</speed:DirectionTxt>
+                    <speed:DirectionCd>2.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>3.32</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>382</speed:RouteId>
+                <speed:RouteName>025S223 120th to 6th Ave</speed:RouteName>
+                <speed:Description>Southbound on I25 from 120th to 6th Ave</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>15</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>-1</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>South</speed:DirectionTxt>
+                    <speed:DirectionCd>2.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>13.37</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>373</speed:RouteId>
+                <speed:RouteName>070W279 Yosemite to I-25 / Speer Blvd</speed:RouteName>
+                <speed:Description>Yosemite to I-25 / Speer Blvd</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>8</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>23</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>20</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>South</speed:DirectionTxt>
+                    <speed:DirectionCd>2.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>7.62</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>365</speed:RouteId>
+                <speed:RouteName>025S215 60th VMS to US-6</speed:RouteName>
+                <speed:Description>60th VMS to US-6</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>7</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>9</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>44</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>South</speed:DirectionTxt>
+                    <speed:DirectionCd>2.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>6.39</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>356</speed:RouteId>
+                <speed:RouteName>025S196 I-25 SB Dry Creek (VMS) to C470\Quebec</speed:RouteName>
+                <speed:Description>I-25 SB Dry Creek (VMS) to C470\Quebec</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>3</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>8</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>25</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>South</speed:DirectionTxt>
+                    <speed:DirectionCd>2.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:RoadInfo>
+                    <speed:RoadName>C-470</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>3.29</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>355</speed:RouteId>
+                <speed:RouteName>025S218 84th VMS to US-6</speed:RouteName>
+                <speed:Description>84th VMS to US-6</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>10</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>12</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>46</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>South</speed:DirectionTxt>
+                    <speed:DirectionCd>2.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>8.99</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>299</speed:RouteId>
+                <speed:RouteName>025S160 CO 105 Monument to N.Gate Blvd (Air Force Academy)</speed:RouteName>
+                <speed:Description>CO 105 Monument to N.Gate Blvd (Air Force Academy)</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>75</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>South</speed:DirectionTxt>
+                    <speed:DirectionCd>2.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>4.83</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>298</speed:RouteId>
+                <speed:RouteName>025S163 Palmer Divide to CO 105 Monument</speed:RouteName>
+                <speed:Description>Palmer Divide to CO 105 Monument</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>2</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>2</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>62</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>South</speed:DirectionTxt>
+                    <speed:DirectionCd>2.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>2.56</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>297</speed:RouteId>
+                <speed:RouteName>025S171 Larkspur to Palmer Divide</speed:RouteName>
+                <speed:Description>Larkspur to Palmer Divide</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>7</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>8</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>65</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>South</speed:DirectionTxt>
+                    <speed:DirectionCd>2.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>8.5</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>296</speed:RouteId>
+                <speed:RouteName>025S184 US-85 Castle Rock to Larkspur</speed:RouteName>
+                <speed:Description>US-85 Castle Rock to Larkspur</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>10</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>11</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>68</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>South</speed:DirectionTxt>
+                    <speed:DirectionCd>2.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>12.39</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>294</speed:RouteId>
+                <speed:RouteName>025S197 Arapahoe Rd to DEN/C-470</speed:RouteName>
+                <speed:Description>Arapahoe Rd to DEN/C-470</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>3</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>7</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>25</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>South</speed:DirectionTxt>
+                    <speed:DirectionCd>2.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>2.88</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>293</speed:RouteId>
+                <speed:RouteName>025S201 Hampden Ave to Arapahoe Rd</speed:RouteName>
+                <speed:Description>Hampden Ave to Arapahoe Rd</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>50</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>South</speed:DirectionTxt>
+                    <speed:DirectionCd>2.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>4.39</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>292</speed:RouteId>
+                <speed:RouteName>025S204 Colorado Blvd to Hampden Ave</speed:RouteName>
+                <speed:Description>Colorado Blvd to Hampden Ave</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>2</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>31</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>South</speed:DirectionTxt>
+                    <speed:DirectionCd>2.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>2.46</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>291</speed:RouteId>
+                <speed:RouteName>025S209 US-6 to Colorado Blvd</speed:RouteName>
+                <speed:Description>US-6 to Colorado Blvd</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>-1</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>South</speed:DirectionTxt>
+                    <speed:DirectionCd>2.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>5.17</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>290</speed:RouteId>
+                <speed:RouteName>025S211 Downtown (Speer Blvd) to US-6</speed:RouteName>
+                <speed:Description>Downtown (Speer Blvd) to US-6</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>2</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>29</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>South</speed:DirectionTxt>
+                    <speed:DirectionCd>2.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>2.25</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>289</speed:RouteId>
+                <speed:RouteName>025S213 I-70 to Downtown (Speer Blvd)</speed:RouteName>
+                <speed:Description>I-70 to Downtown (Speer Blvd)</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>1</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>1</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>51</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>South</speed:DirectionTxt>
+                    <speed:DirectionCd>2.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>0.91</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>288</speed:RouteId>
+                <speed:RouteName>025S218 84th to I-70</speed:RouteName>
+                <speed:Description>84th to I-70</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>53</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>South</speed:DirectionTxt>
+                    <speed:DirectionCd>2.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>4.51</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>287</speed:RouteId>
+                <speed:RouteName>025S223 120th to 84th</speed:RouteName>
+                <speed:Description>120th to 84th</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>7</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>9</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>42</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>South</speed:DirectionTxt>
+                    <speed:DirectionCd>2.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>6.04</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>253</speed:RouteId>
+                <speed:RouteName>025S218 84th to Speer Blvd.</speed:RouteName>
+                <speed:Description>84th to Speer Blvd.</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>7</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>7</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>55</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>South</speed:DirectionTxt>
+                    <speed:DirectionCd>2.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>6.74</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>219</speed:RouteId>
+                <speed:RouteName>025S218 84th to US-6 Intersection</speed:RouteName>
+                <speed:Description>84th to US-6 Intersection </speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>10</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>12</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>47</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-25</speed:RoadName>
+                    <speed:DirectionTxt>South</speed:DirectionTxt>
+                    <speed:DirectionCd>2.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>9.25</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>45</speed:RouteId>
+                <speed:RouteName>070E177 Vail to Copper</speed:RouteName>
+                <speed:Description>Vail to Copper</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>17</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>17</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>64</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>18.2</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>20</speed:RouteId>
+                <speed:RouteName>070E195 Copper to Frisco</speed:RouteName>
+                <speed:Description>Copper to Frisco</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>65</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>5.7</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>80</speed:RouteId>
+                <speed:RouteName>070E200 Frisco to Silverthorne</speed:RouteName>
+                <speed:Description>Frisco to Silverthorne</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>65</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>4.0</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>81</speed:RouteId>
+                <speed:RouteName>070E205 Silverthorne to Tunnel</speed:RouteName>
+                <speed:Description>Silverthorne to Tunnel</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>8</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>10</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>52</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>8.3</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>83</speed:RouteId>
+                <speed:RouteName>070E227 Georgetown to US 40/Empire</speed:RouteName>
+                <speed:Description>Georgetown to US 40/Empire</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>65</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>4.6</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>31</speed:RouteId>
+                <speed:RouteName>070E232 US 40/Empire to Idaho Springs</speed:RouteName>
+                <speed:Description>US 40/Empire to Idaho Springs</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>7</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>7</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>60</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>7.2</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>84</speed:RouteId>
+                <speed:RouteName>070E239 Idaho Springs to Evergreen Parkway</speed:RouteName>
+                <speed:Description>Idaho Springs to Evergreen Parkway</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>11</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>11</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>63</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>12.03</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>90</speed:RouteId>
+                <speed:RouteName>070E251 Evergreen Parkway to DEN/C-470</speed:RouteName>
+                <speed:Description>Evergreen Parkway to DEN/C-470</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>8</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>8</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>61</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>8.27</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>85</speed:RouteId>
+                <speed:RouteName>070E259 DEN/C-470 to Ward Road</speed:RouteName>
+                <speed:Description>DEN/C-470 to Ward Road</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>6</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>7</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>51</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>6.1</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>86</speed:RouteId>
+                <speed:RouteName>070E266 Ward Road to I-76/Wadsworth</speed:RouteName>
+                <speed:Description>Ward Road to I-76/Wadsworth</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>3</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>40</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>3.02</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>87</speed:RouteId>
+                <speed:RouteName>070E269 I-76/Wadsworth to I-25</speed:RouteName>
+                <speed:Description>I-76/Wadsworth to I-25</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>6</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>6</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>54</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>5.17</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>88</speed:RouteId>
+                <speed:RouteName>070E275 I-25 to I-270</speed:RouteName>
+                <speed:Description>I-25 to I-270</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>6</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>6</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>50</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>5.13</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>89</speed:RouteId>
+                <speed:RouteName>070E280 I-270 to I-225</speed:RouteName>
+                <speed:Description>I-270 to I-225</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>-1</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>3.58</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>18</speed:RouteId>
+                <speed:RouteName>070E177 Vail (VMS) to DEN/C-470</speed:RouteName>
+                <speed:Description>Vail (VMS) to DEN/C-470</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Hours>1</speed:Hours>
+                    <speed:Minutes>17</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Hours>1</speed:Hours>
+                    <speed:Minutes>20</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>62</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>82.6</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>418</speed:RouteId>
+                <speed:RouteName>070E180 E Vail to Silverthorne</speed:RouteName>
+                <speed:Description>E Vail to Silverthorne</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>23</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>23</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>64</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>24.9</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>404</speed:RouteId>
+                <speed:RouteName>070E283 I-225 To DIA (Pena Blvd)</speed:RouteName>
+                <speed:Description>I-225 To DIA (Pena Blvd)</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>11</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>11</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>58</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:RoadInfo>
+                    <speed:RoadName>PENA</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>10.79</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>392</speed:RouteId>
+                <speed:RouteName>070E205 Silverthorne to DIA</speed:RouteName>
+                <speed:Description>Silverthorne to DIA</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Hours>1</speed:Hours>
+                    <speed:Minutes>27</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>-1</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:RoadInfo>
+                    <speed:RoadName>PENA</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>89.19</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>391</speed:RouteId>
+                <speed:RouteName>070E177 Vail to DIA</speed:RouteName>
+                <speed:Description>Vail to DIA</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Hours>1</speed:Hours>
+                    <speed:Minutes>52</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>-1</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:RoadInfo>
+                    <speed:RoadName>PENA</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>116.29</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>375</speed:RouteId>
+                <speed:RouteName>070E276 I-70 EB Steele (VMS) to Peoria St</speed:RouteName>
+                <speed:Description>I-70 EB Steele (VMS) to Peoria St</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>6</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>9</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>36</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>5.5</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>374</speed:RouteId>
+                <speed:RouteName>070E276 I-70 EB Steele (VMS) to Quebec St</speed:RouteName>
+                <speed:Description>I-70 EB Steele (VMS) to Quebec St</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>3</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>3</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>49</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>2.4</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>364</speed:RouteId>
+                <speed:RouteName>070E276 I-70 EB Steele (VMS) to DIA</speed:RouteName>
+                <speed:Description>I-70 EB Steele (VMS) to DIA</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>18</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>-1</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:RoadInfo>
+                    <speed:RoadName>PENA</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>17.6</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>363</speed:RouteId>
+                <speed:RouteName>070E276 I-70 EB Steele (VMS) to I-225</speed:RouteName>
+                <speed:Description>I-70 EB Steele (VMS) to I-225</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>8</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>-1</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>6.91</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>273</speed:RouteId>
+                <speed:RouteName>070E283 I-225 to Pena Blvd</speed:RouteName>
+                <speed:Description>I-225 to Pena Blvd</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>2</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>2</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>50</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>1.4</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>272</speed:RouteId>
+                <speed:RouteName>070E264 32nd to Wadsworth Blvd/ I-76</speed:RouteName>
+                <speed:Description>32nd to Wadsworth Blvd/ I-76</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>8</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>40</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>5.52</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>271</speed:RouteId>
+                <speed:RouteName>070E260 DEN/C-470 to 32nd</speed:RouteName>
+                <speed:Description>DEN/C-470 to 32nd </speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>6</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>54</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>5.57</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>270</speed:RouteId>
+                <speed:RouteName>070E196 Copper to Silverthorne</speed:RouteName>
+                <speed:Description>Copper to Silverthorne</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>9</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>9</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>65</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>9.7</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>214</speed:RouteId>
+                <speed:RouteName>070E177 Vail (VMS) to Frisco</speed:RouteName>
+                <speed:Description>Vail (VMS) to Frisco</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>22</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>22</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>64</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>23.9</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>173</speed:RouteId>
+                <speed:RouteName>070E240 Idaho Springs to DEN/C-470</speed:RouteName>
+                <speed:Description>Idaho Springs to DEN/C-470</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>20</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>20</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>62</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>20.3</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>171</speed:RouteId>
+                <speed:RouteName>070E214 Tunnel to Georgetown</speed:RouteName>
+                <speed:Description>Tunnel to Georgetown</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>14</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>14</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>62</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>14.3</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>30</speed:RouteId>
+                <speed:RouteName>070E206 Silverthorne to DEN/C-470</speed:RouteName>
+                <speed:Description>Silverthorne to DEN/C-470</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>52</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>54</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>61</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>54.84</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>51</speed:RouteId>
+                <speed:RouteName>070E177 Vail (VMS) to Tunnel</speed:RouteName>
+                <speed:Description>Vail (VMS) to Tunnel</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>34</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>36</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>61</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>36.2</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>66</speed:RouteId>
+                <speed:RouteName>070W282 I-225 to I-270</speed:RouteName>
+                <speed:Description>I-225 to I-270</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>-1</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>3.34</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>67</speed:RouteId>
+                <speed:RouteName>070W278 I-270 to I-25</speed:RouteName>
+                <speed:Description>I-270 to I-25</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>19</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>15</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>4.7</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>68</speed:RouteId>
+                <speed:RouteName>070W273 I-25 to I-76/Wadsworth</speed:RouteName>
+                <speed:Description>I-25 to I-76/Wadsworth</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>7</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>42</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>4.78</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>69</speed:RouteId>
+                <speed:RouteName>070W269 I-76/Wadsworth to Ward Road</speed:RouteName>
+                <speed:Description>I-76/Wadsworth to Ward Road</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>3</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>3</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>62</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>2.72</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>70</speed:RouteId>
+                <speed:RouteName>070W266 Ward Road to DEN/C-470</speed:RouteName>
+                <speed:Description>Ward Road to DEN/C-470</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>65</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>5.74</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>71</speed:RouteId>
+                <speed:RouteName>070W259 DEN/C-470 to Evergreen Parkway</speed:RouteName>
+                <speed:Description>DEN/C-470 to Evergreen Parkway</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>8</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>9</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>59</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>8.6</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>72</speed:RouteId>
+                <speed:RouteName>070W251 Evergreen Parkway to Idaho Springs</speed:RouteName>
+                <speed:Description>Evergreen Parkway to Idaho Springs</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>12</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>12</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>58</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>11.7</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>74</speed:RouteId>
+                <speed:RouteName>070W232 US 40/Empire to Georgetown</speed:RouteName>
+                <speed:Description>US 40/Empire to Georgetown</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>64</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>4.7</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>75</speed:RouteId>
+                <speed:RouteName>070W227 Georgetown to Tunnel (east entrance)</speed:RouteName>
+                <speed:Description>Georgetown to Tunnel (east entrance)</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>12</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>12</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>62</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>12.58</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>76</speed:RouteId>
+                <speed:RouteName>070W215 Tunnel (east entrance) to Silverthorne</speed:RouteName>
+                <speed:Description>Tunnel (east entrance) to Silverthorne</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>10</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>11</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>56</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>9.92</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>77</speed:RouteId>
+                <speed:RouteName>070W205 Silverthorne to Frisco</speed:RouteName>
+                <speed:Description>Silverthorne to Frisco</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>63</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>4.7</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>61</speed:RouteId>
+                <speed:RouteName>070W200 Frisco to Copper</speed:RouteName>
+                <speed:Description>Frisco to Copper</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>62</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>5.1</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>116</speed:RouteId>
+                <speed:RouteName>070W260 DEN/C-470 to Vail (DMS)</speed:RouteName>
+                <speed:Description>DEN/C-470 to Vail</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Hours>1</speed:Hours>
+                    <speed:Minutes>19</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Hours>1</speed:Hours>
+                    <speed:Minutes>21</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>61</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>82.84</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>422</speed:RouteId>
+                <speed:RouteName>PENW010 DIA to I-225</speed:RouteName>
+                <speed:Description>DIA to I-225</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>11</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>11</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>58</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:RoadInfo>
+                    <speed:RoadName>PENA</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>10.72</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>419</speed:RouteId>
+                <speed:RouteName>070W205 Silverthorne To E. Vail</speed:RouteName>
+                <speed:Description>Silverthorne To E. Vail</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>23</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>24</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>63</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>24.95</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>394</speed:RouteId>
+                <speed:RouteName>PENW010 DIA to Silverthorne</speed:RouteName>
+                <speed:Description>DIA to Silverthorne</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Hours>1</speed:Hours>
+                    <speed:Minutes>26</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>-1</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:RoadInfo>
+                    <speed:RoadName>PENA</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>87.48</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>393</speed:RouteId>
+                <speed:RouteName>PENW010 DIA to Vail</speed:RouteName>
+                <speed:Description>DIA to Vail</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Hours>1</speed:Hours>
+                    <speed:Minutes>51</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>-1</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:RoadInfo>
+                    <speed:RoadName>PENA</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>114.6</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>386</speed:RouteId>
+                <speed:RouteName>070W259 DEN/C-470 to Silverthorne</speed:RouteName>
+                <speed:Description>DEN/C-470 to Silverthorne</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>53</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>55</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>60</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>54.7</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>372</speed:RouteId>
+                <speed:RouteName>070W279 Yosemite to Colorado Blvd</speed:RouteName>
+                <speed:Description>Yosemite to Colorado Blvd</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>3</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>14</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>13</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>3.1</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>362</speed:RouteId>
+                <speed:RouteName>070W279 Yosemite to Colfax Ave.</speed:RouteName>
+                <speed:Description>Yosemite to Colfax Ave.</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>18</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>34</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>30</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>17.21</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>361</speed:RouteId>
+                <speed:RouteName>070W279 Yosemite to Wadsworth</speed:RouteName>
+                <speed:Description>Yosemite to Wadsworth</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>11</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>28</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>22</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>10.09</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>278</speed:RouteId>
+                <speed:RouteName>070W205 Silverthorne to Copper</speed:RouteName>
+                <speed:Description>Silverthorne to Copper</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>9</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>9</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>62</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>9.85</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>277</speed:RouteId>
+                <speed:RouteName>070W259 DEN/C-470 To Idaho Springs</speed:RouteName>
+                <speed:Description>DEN/C-470 to Idaho Springs</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>20</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>21</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>58</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>20.26</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>276</speed:RouteId>
+                <speed:RouteName>070W265 32nd to DEN/C-470</speed:RouteName>
+                <speed:Description>32nd to DEN/C-470</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>64</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>5.29</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>275</speed:RouteId>
+                <speed:RouteName>070W269 I-76 to 32nd</speed:RouteName>
+                <speed:Description> I-76 to 32nd </speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>63</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>4.1</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>274</speed:RouteId>
+                <speed:RouteName>070W284 Pena Blvd to I - 225</speed:RouteName>
+                <speed:Description>Pena Blvd to I - 225</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>1</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>1</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>55</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>1.01</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>175</speed:RouteId>
+                <speed:RouteName>070W239 Idaho Springs to US 40/Empire</speed:RouteName>
+                <speed:Description>Idaho Springs to US 40/Empire</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>7</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>7</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>61</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>7.2</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>178</speed:RouteId>
+                <speed:RouteName>070W195 Copper to Vail</speed:RouteName>
+                <speed:Description>Copper to Vail</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>17</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>17</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>63</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-70</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>18.2</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>402</speed:RouteId>
+                <speed:RouteName>225S012 I-70 to I-25</speed:RouteName>
+                <speed:Description>I-70 to I-25</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>13</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>22</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>34</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-225</speed:RoadName>
+                    <speed:DirectionTxt>South</speed:DirectionTxt>
+                    <speed:DirectionCd>2.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>12.43</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>399</speed:RouteId>
+                <speed:RouteName>270E000 I-25/US-36 to I-70</speed:RouteName>
+                <speed:Description>I-25/US-36 to I-70</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>7</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>-1</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-270</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>6.01</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>423</speed:RouteId>
+                <speed:RouteName>270W006 I-70 to I-25/US-36</speed:RouteName>
+                <speed:Description>I-70 to I-25/US-36</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>7</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>-1</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>I-270</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>6.01</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>204</speed:RouteId>
+                <speed:RouteName>006E283 Sheridan to SB I-25/Alameda</speed:RouteName>
+                <speed:Description>Sheridan to SB I-25/Alameda</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>-1</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>US 6</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>3.28</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>420</speed:RouteId>
+                <speed:RouteName>006E276 I-70 to I-25/Colfax Ave</speed:RouteName>
+                <speed:Description>I-70 to I-25/Colfax Ave</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>10</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>-1</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>US 6</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>9.97</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>282</speed:RouteId>
+                <speed:RouteName>006E281 Wadsworth to I-25/Colfax Ave</speed:RouteName>
+                <speed:Description>Wadsworth to I-25/Colfax Ave</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>-1</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>US 6</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>4.62</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>281</speed:RouteId>
+                <speed:RouteName>006E281 Wadsworth to I-25/Alameda</speed:RouteName>
+                <speed:Description>Wadsworth to I-25/Alameda</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>-1</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>US 6</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>5.16</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>205</speed:RouteId>
+                <speed:RouteName>006E283 Sheridan to NB I-25/Colfax</speed:RouteName>
+                <speed:Description>Sheridan to NB I-25/Colfax</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>-1</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>US 6</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>3.29</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>408</speed:RouteId>
+                <speed:RouteName>006W284 I-25 to I-70</speed:RouteName>
+                <speed:Description>I-25 to I-70</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>9</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>-1</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>US 6</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>8.83</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>208</speed:RouteId>
+                <speed:RouteName>006W282 Sheridan to Kipling</speed:RouteName>
+                <speed:Description>Sheridan to Kipling</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>3</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>3</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>56</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>US 6</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>3.02</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>209</speed:RouteId>
+                <speed:RouteName>006W279 Kipling to I-70</speed:RouteName>
+                <speed:Description>Kipling to I-70</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>3</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>60</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>US 6</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>3.66</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>283</speed:RouteId>
+                <speed:RouteName>006W284 Colfax/I-25 to Wadsworth</speed:RouteName>
+                <speed:Description>Colfax/I-25 to Wadsworth</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>-1</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>US 6</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>3.48</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>284</speed:RouteId>
+                <speed:RouteName>006W284 Alameda/I-25 to Wadsworth</speed:RouteName>
+                <speed:Description>Alameda/I-25 to Wadsworth</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>-1</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>US 6</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>3.64</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>285</speed:RouteId>
+                <speed:RouteName>006W280 Wadsworth to Union</speed:RouteName>
+                <speed:Description>Wadsworth to Union</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>3</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>58</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>US 6</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>3.64</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>286</speed:RouteId>
+                <speed:RouteName>006W277 Union to I-70</speed:RouteName>
+                <speed:Description> Union to I-70</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>1</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>2</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>60</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>US 6</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>1.55</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>333</speed:RouteId>
+                <speed:RouteName>036E047 US 36 Wadsworth (VMS) to I - 25</speed:RouteName>
+                <speed:Description>US 36 Wadsworth (VMS) to I - 25</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>11</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>-1</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>US 36</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>10.35</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>397</speed:RouteId>
+                <speed:RouteName>036E053 Sheridan Blvd to I-25</speed:RouteName>
+                <speed:Description>Sheridan Blvd to I-25</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>-1</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>US 36</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>4.77</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>396</speed:RouteId>
+                <speed:RouteName>036E049 Wadsworth Blvd to Sheridan Blvd</speed:RouteName>
+                <speed:Description>Wadsworth Blvd to Sheridan Blvd</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>6</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>47</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>US 36</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>4.44</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>395</speed:RouteId>
+                <speed:RouteName>036E038 Boulder (US-36) to Wadsworth Blvd</speed:RouteName>
+                <speed:Description>Boulder (US-36) to Wadsworth Blvd</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>10</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>15</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>42</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>US 36</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>10.44</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>340</speed:RouteId>
+                <speed:RouteName>036E039 US 36 Boulder Rd(VMS) to Sheridan</speed:RouteName>
+                <speed:Description>US 36 Boulder Rd(VMS) to Sheridan</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>14</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>20</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>44</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>US 36</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>14.38</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>339</speed:RouteId>
+                <speed:RouteName>036E039 US 36 Boulder Rd(VMS) to Wadsworth</speed:RouteName>
+                <speed:Description>US 36 Boulder Rd(VMS) to Wadsworth </speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>9</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>14</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>42</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>US 36</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>9.94</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>338</speed:RouteId>
+                <speed:RouteName>036E039 US 36 Boulder Rd (VMS) to McCaslin</speed:RouteName>
+                <speed:Description>US 36 Boulder Rd (VMS) to McCaslin</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>9</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>32</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>US 36</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>4.9</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>337</speed:RouteId>
+                <speed:RouteName>036E038 US 36 Baseline (VMS) to Sheridan</speed:RouteName>
+                <speed:Description>US 36 Baseline (VMS) to Sheridan</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>15</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>-1</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>US 36</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>15.17</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>336</speed:RouteId>
+                <speed:RouteName>036E038 US 36 BaseLine (VMS) to Wadsworth</speed:RouteName>
+                <speed:Description>US 36 BaseLine (VMS) to Wadsworth</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>10</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>-1</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>US 36</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>10.73</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>335</speed:RouteId>
+                <speed:RouteName>036E038 US 36 Baseline (VMS) to McCaslin</speed:RouteName>
+                <speed:Description>US 36 Baseline (VMS) to McCaslin</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>6</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>-1</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>US 36</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>5.69</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>334</speed:RouteId>
+                <speed:RouteName>036E047 US 36 Wadsworth (VMS) to Sheridan</speed:RouteName>
+                <speed:Description>US 36 Wadsworth (VMS) to Sheridan</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>7</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>50</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>US 36</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>5.58</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>344</speed:RouteId>
+                <speed:RouteName>036W044 US 36 88th (VMS) to McCaslin</speed:RouteName>
+                <speed:Description>US 36 88th (VMS) to McCaslin</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>1</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>1</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>62</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>US 36</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>1.3</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>412</speed:RouteId>
+                <speed:RouteName>036W048 Wadsworth Blvd. to Boulder (US-36)</speed:RouteName>
+                <speed:Description>Wadsworth Blvd. to Boulder (US-36)</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>10</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>10</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>63</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>US 36</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>10.44</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>411</speed:RouteId>
+                <speed:RouteName>036W052 Sheridan Blvd to Wadsworth Blvd</speed:RouteName>
+                <speed:Description>Sheridan Blvd to Wadsworth Blvd</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>61</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>US 36</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>4.44</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>410</speed:RouteId>
+                <speed:RouteName>036W057 I-25 to Sheridan Blvd</speed:RouteName>
+                <speed:Description>I-25 to Sheridan Blvd</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>-1</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>US 36</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>4.77</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>347</speed:RouteId>
+                <speed:RouteName>036W049 W. of 104th (VMS) to Foothills</speed:RouteName>
+                <speed:Description>W. of 104th (VMS) to Foothills</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>9</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>9</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>64</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>US 36</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>10.0</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>346</speed:RouteId>
+                <speed:RouteName>036W049 W. of 104th (VMS) to McCaslin</speed:RouteName>
+                <speed:Description>W. of 104th (VMS) to McCaslin</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>6</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>6</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>64</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>US 36</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>6.0</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>345</speed:RouteId>
+                <speed:RouteName>036W044 US 36 88th (VMS) to Foothills</speed:RouteName>
+                <speed:Description>US 36 88th (VMS) to Foothills</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>64</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>US 36</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>5.3</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>313</speed:RouteId>
+                <speed:RouteName>470E000 I-70 to US-285</speed:RouteName>
+                <speed:Description>I-70 to US-285</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>9</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>38</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>C-470</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>5.7</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>314</speed:RouteId>
+                <speed:RouteName>470E006 US-285 to Kipling</speed:RouteName>
+                <speed:Description>US-285 to Kipling</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>6</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>6</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>65</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>C-470</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>6.75</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>315</speed:RouteId>
+                <speed:RouteName>470E013 Kipling to US-85</speed:RouteName>
+                <speed:Description>Kipling to US-85</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>-1</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>C-470</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>4.6</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>316</speed:RouteId>
+                <speed:RouteName>470E018 US-85 to University Blvd</speed:RouteName>
+                <speed:Description>US-85 to University Blvd</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>-1</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>C-470</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>4.02</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>317</speed:RouteId>
+                <speed:RouteName>470E022 University Blvd to I-25</speed:RouteName>
+                <speed:Description>University Blvd to I-25</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>65</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>C-470</speed:RoadName>
+                    <speed:DirectionTxt>East</speed:DirectionTxt>
+                    <speed:DirectionCd>3.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>5.13</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>318</speed:RouteId>
+                <speed:RouteName>470W026 I-25 to University Blvd</speed:RouteName>
+                <speed:Description>I-25 to University Blvd</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>11</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>27</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>C-470</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>5.13</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>319</speed:RouteId>
+                <speed:RouteName>470W021 University to US-85</speed:RouteName>
+                <speed:Description>University to US-85</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>8</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>28</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>C-470</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>4.02</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>320</speed:RouteId>
+                <speed:RouteName>470W017 US-85 to Kipling</speed:RouteName>
+                <speed:Description>US-85 to Kipling</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>4</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>-1</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>C-470</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>4.6</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>321</speed:RouteId>
+                <speed:RouteName>470W012 Kipling to US-285</speed:RouteName>
+                <speed:Description>Kipling to US-285</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>6</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>6</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>64</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>C-470</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>6.75</speed:Length>
+            </speed:Route>
+            <speed:Route>
+                <speed:RouteId>322</speed:RouteId>
+                <speed:RouteName>470W005 US-285 to I-70</speed:RouteName>
+                <speed:Description>US-285 to I-70</speed:Description>
+                <speed:Status>enabled</speed:Status>
+                <speed:ExpectedTravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:ExpectedTravelTime>
+                <speed:TravelTime>
+                    <speed:Minutes>5</speed:Minutes>
+                </speed:TravelTime>
+                <speed:CalculatedDate>2015-12-09T17:06:30.000-07:00</speed:CalculatedDate>
+                <speed:AverageSpeed>65</speed:AverageSpeed>
+                <speed:RoadInfo>
+                    <speed:RoadName>C-470</speed:RoadName>
+                    <speed:DirectionTxt>West</speed:DirectionTxt>
+                    <speed:DirectionCd>4.0</speed:DirectionCd>
+                </speed:RoadInfo>
+                <speed:Length>5.7</speed:Length>
+            </speed:Route>
+        </speed:SpeedDetails>
+    http_version: 
+  recorded_at: Thu, 10 Dec 2015 00:07:07 GMT
+- request:
+    method: get
+    uri: https://pwenig:HHLjhM2VP@data.cotrip.org/xml/speed_routes.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 401
+      message: Authorization Required
+    headers:
+      Date:
+      - Thu, 10 Dec 2015 03:14:44 GMT
+      Server:
+      - Apache
+      Www-Authenticate:
+      - Basic realm="Private"
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '329'
+      Content-Type:
+      - text/html; charset=iso-8859-1
+    body:
+      encoding: UTF-8
+      string: |
+        <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+        <html><head>
+        <title>401 Authorization Required</title>
+        </head><body>
+        <h1>Authorization Required</h1>
+        <p>This server could not verify that you
+        are authorized to access the document
+        requested.  Either you supplied the wrong
+        credentials (e.g., bad password), or your
+        browser doesn't understand how to supply
+        the credentials required.</p>
+        <hr>
+        <address>Apache Server at data.cotrip.org Port 443</address>
+        </body></html>
+    http_version: 
+  recorded_at: Thu, 10 Dec 2015 03:14:43 GMT
+recorded_with: VCR 2.9.0

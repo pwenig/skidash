@@ -1,8 +1,8 @@
 <div class="row">
 <div class="col-md-6 camera" id="tweets">
   <section id="road_cams">
-    <!--<marquee>Westbound to Breck: < %= @travel_time_breck.duration %> || Westbound to Vail: < %= @travel_time_vail.duration %></marquee>-->
-  <h2>I-70 Traffic Cameras</h2>
+    <h4>Road & Traffic Conditions</h4>
+    <marquee>Westbound Den to Vail: <%= @travel_time.west_travel_time %> || Eastbound Vail to Den: <%= @travel_time.east_travel_time %> || Road Conditions: <%= @road_condition.conditions %></marquee>
 
     <%= link_to image_tag("http://i.cotrip.org/dimages/camera?imageURL=remote/TOCCCTV070E22200-BAKERVILLE-INT-E.jpg&v=00428"), "http://i.cotrip.org/dimages/camera?imageURL=remote/TOCCCTV070E22200-BAKERVILLE-INT-E.jpg&v=00428", :target => "_blank" %>
     <%= link_to image_tag("http://i.cotrip.org/dimages/camera?imageURL=remote/TOCCCTV040E235-MARY-JANE-E.jpg&v=00428"), "http://i.cotrip.org/dimages/camera?imageURL=remote/TOCCCTV040E235-MARY-JANE-E.jpg&v=00428", :target => "_blank" %>
@@ -10,8 +10,6 @@
     <%= link_to image_tag("http://i.cotrip.org/dimages/camera?imageURL=remote/TOCCCTV070E215-E-PORTAL-EJT-E.jpg&v=00428"), "http://i.cotrip.org/dimages/camera?imageURL=remote/TOCCCTV070E215-E-PORTAL-EJT-E.jpg&v=00428", :target => "_blank" %>
     <%= link_to image_tag("http://i.cotrip.org/dimages/camera?imageURL=remote/TOCCCTV070E19010-VAIL-PASS-REST-AREA-W.jpg&v=00443"), "http://i.cotrip.org/dimages/camera?imageURL=remote/TOCCCTV070E19010-VAIL-PASS-REST-AREA-W.jpg&v=00443", :target => "_blank" %>
     <%= link_to image_tag("http://i.cotrip.org/dimages/camera?imageURL=remote/TOCCCTV006W209.30-US6-SILVERTHORNE-E.jpg&v=00428"), "http://i.cotrip.org/dimages/camera?imageURL=remote/TOCCCTV006W209.30-US6-SILVERTHORNE-E.jpg&v=00428", :target => "_blank" %>
-    <!--< %= link_to image_tag("http://i.cotrip.org/dimages/camera?imageURL=remote/TOCCCTV091N22310-I70-N.jpg&v=00428"), "http://i.cotrip.org/dimages/camera?imageURL=remote/TOCCCTV091N22310-I70-N.jpg&v=00428", :target => "_blank" %>-->
-    <!--< %= link_to image_tag("http://i.cotrip.org/dimages/camera?imageURL=liveview/US40WestSummitRabbitEarPassEast.jpg&v=00428"), "http://i.cotrip.org/dimages/camera?imageURL=liveview/US40WestSummitRabbitEarPassEast.jpg&v=00428", :target => "_blank" %>-->
 
 
   </section>

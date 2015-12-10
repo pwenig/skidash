@@ -15,8 +15,17 @@ class MountainsController < ApplicationController
       end
     end
     mountain_ids
-
     weather_condition_lookup(mountain_ids)
+    travel_destination
+    road_condition
+  end
+
+  def travel_destination
+    @travel_time = TravelTime.new
+  end
+
+  def road_condition
+    @road_condition = RoadCondition.new
   end
 
 
