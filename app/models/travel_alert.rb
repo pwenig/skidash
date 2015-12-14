@@ -1,6 +1,6 @@
 class TravelAlert
 
-  require 'Httparty'
+  require 'httparty'
 
 attr_accessor :road_alerts
 

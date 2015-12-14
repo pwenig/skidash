@@ -1,6 +1,6 @@
 class SpeedSegment
 
-  require 'Httparty'
+  require 'httparty'
 
   attr_accessor :west_bound_speeds
   attr_accessor :east_bound_speeds

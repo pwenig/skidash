@@ -1,6 +1,6 @@
 require 'rails_helper'
 require 'spec_helper'
-require 'Httparty'
+require 'httparty'
 
 describe 'SpeedSegments' do
 

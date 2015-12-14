@@ -1,5 +1,5 @@
 class RoadCondition
-  require 'Httparty'
+  require 'httparty'
 
   attr_accessor :conditions
 
