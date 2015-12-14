@@ -97,7 +97,7 @@ video {
 }
 
 #forecasts {
-  min-height: 640px;
+  min-height: 765px;
 }
 
 
@@ -124,6 +124,16 @@ div#slider figure {
   animation: 20s slidy infinite;
 }
 
-#tweets {
+#alerts {
   min-height: 420px;
+}
+
+#speeds {
+  min-height: 375px;
+  ul {
+    list-style-type: none;
+    text-align: left;
+    font-size: 17px;
+  }
+
 }

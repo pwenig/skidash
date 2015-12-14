@@ -17,17 +17,24 @@ attr_accessor :road_alerts
 
   def assign_values(alert_hash)
     restrictions = []
-    alerts = []
-
+    no_alerts = {}
     alert_hash["Alerts"]["Alert"].each do |response|
-      if response["Type"] == "Restriction" && response["RoadName"] == "I-70"
+
+      if response["Type"] == "Restriction" && response["Impact"]== "Severe" && response["RoadName"] == "I-70"
+
         restrictions << response
       end
     end
-    restrictions.each do |restriction|
-      alerts << restriction["Title"] << restriction["Headline"] << restriction["Description"]
-    end
-    self.road_alerts = alerts.join(',').gsub(/,/,". ").gsub('<b>','').gsub('</b>','')
-  end
 
+    if restrictions.count == 0
+      no_alerts["Title"] = "NONE"
+      no_alerts["Headline"] = ''
+      no_alerts["Description"] = ''
+
+      restrictions << no_alerts
+    end
+
+    self.road_alerts = restrictions
+
+  end
 end

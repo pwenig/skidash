@@ -23,10 +23,13 @@ class RoadCondition
         weather_routes << route
       end
     end
-    weather_routes.each do |route|
-      road_conditions << route["RoadCondition"]
-    end
-  self.conditions = road_conditions.flatten.uniq.join(',')
+
+  weather_routes.each do |route|
+    # removing Loveland Pass
+    weather_routes.delete_if { |h| h["WeatherRouteId"] == "7" }
+      road_conditions << route["RoadConditionCategoryTxt"]
+  end
+  self.conditions = road_conditions.flatten.uniq.join(',').gsub(/,/, '  ')
   end
 
 end

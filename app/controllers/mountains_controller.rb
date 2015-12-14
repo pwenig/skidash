@@ -16,14 +16,11 @@ class MountainsController < ApplicationController
     end
     mountain_ids
     weather_condition_lookup(mountain_ids)
-    travel_destination
     road_condition
     travel_alert
+    speed_segments
   end
 
-  def travel_destination
-    @travel_time = TravelTime.new
-  end
 
   def road_condition
     @road_condition = RoadCondition.new
@@ -33,6 +30,9 @@ class MountainsController < ApplicationController
     @travel_alert = TravelAlert.new
   end
 
+  def speed_segments
+    @speed_segment = SpeedSegment.new
+  end
 
   def weather_condition_lookup(mountain_ids)
     mountain_info = {}

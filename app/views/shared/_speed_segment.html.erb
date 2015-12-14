@@ -1,0 +1,24 @@
+<div class="row">
+  <section id="speeds">
+    <div class="col-md-6 camera" id="speeds">
+      <h4>Eastbound Speeds:</h4>
+      <ul>
+        <% @speed_segment.east_bound_speeds.each do |east_speed| %>
+          <li style="color: white;"><%= east_speed["SegmentName"].gsub(/^\d..E\d..\s-/, '') %>: <%= east_speed["AverageSpeed"] %> mph</li>
+        <% end %>
+      </ul>
+      </div>
+
+      <div class="col-md-6 camera" id="speeds">
+
+        <h4>Westbound Speeds:</h4>
+        <ul>
+          <% @speed_segment.west_bound_speeds.each do |west_speed| %>
+            <li><%= west_speed["SegmentName"].gsub(/^\d..W\d..\s-/, '') %>: <%= west_speed["AverageSpeed"] %> mph</li>
+          <% end %>
+        </ul>
+      </div>
+
+  </section>
+
+</div>

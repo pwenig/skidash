@@ -1,11 +1,18 @@
 <div class="row">
-  <div class="col-md-6 camera" id="tweets">
-<section id="tweets">
+  <div class="col-md-6 camera" id="alerts">
+<section id="alerts">
 
-  <h4>Traffic Alerts</h4>
+  <h3>Traffic Alerts</h3>
 
-    <h4><%= @travel_alert.road_alerts %></h4>
+  <% @travel_alert.road_alerts.each do |alert| %>
+    <h4><%= alert["Title"] %></h4>
+    <h4><%= alert["Headline"].gsub('<b>','').gsub('</b>','') %></h4>
+    <h4><%= alert["Description"] %></h4>
+    <br>
+    <h4>****</h4>
+    <% end %>
 
+<br>
   </section>
 
   </div>
