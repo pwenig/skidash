@@ -58,7 +58,10 @@ class SpeedSegment
 
   def set_colors(speed_segments)
     speed_segments.each do |segment|
-      if segment["AverageSpeed"].to_i < 30
+      if segment["AverageSpeed"] == "-1"
+        segment["AverageSpeed"] = "N/A"
+        segment["Color"] = "white"
+      elsif segment["AverageSpeed"].to_i < 30 && segment["AverageSpeed"].to_i > 0
         segment["Color"] = "#FF0000"
       elsif segment["AverageSpeed"].to_i > 31 && segment["AverageSpeed"].to_i < 55
         segment["Color"] = "#FFFF00"
