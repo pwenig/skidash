@@ -22,16 +22,15 @@ describe 'SpeedSegments' do
   end
 
 
-
   it "successfully retrieves specific westbound speed segments" do
     segments = []
     responses = @response["SpeedDetails"]["Segment"]
     responses.each do |response|
       if response["RoadName"] == "I-70" &&
           response["Direction"] == "West" &&
-          response["SegmentId"].to_i.between?(20,25) ||
-          response["SegmentId"].to_i.between?(27,30) ||
-          response["SegmentId"].to_i.between?(270,271)
+          response["SegmentId"].to_i.between?(20, 25) ||
+          response["SegmentId"].to_i.between?(27, 30) ||
+          response["SegmentId"].to_i.between?(270, 271)
         segments << response
       end
     end
@@ -45,10 +44,10 @@ describe 'SpeedSegments' do
     segments = []
     responses = @response["SpeedDetails"]["Segment"]
     responses.each do |response|
-      if  response["RoadName"] == "I-70" &&
+      if response["RoadName"] == "I-70" &&
           response["Direction"] == "East" &&
-          response["SegmentId"].to_i.between?(31,34) ||
-          response["SegmentId"].to_i.between?(272,273) ||
+          response["SegmentId"].to_i.between?(31, 34) ||
+          response["SegmentId"].to_i.between?(272, 273) ||
           response["SegmentId"].to_i.between?(36, 41)
         segments << response
       end
@@ -57,6 +56,35 @@ describe 'SpeedSegments' do
     expect(segments[0]["Direction"]).to eq "East"
     expect(segments[0]["Direction"]).to_not eq "West"
     expect(segments[0]["RoadName"]).to_not eq "I-25"
+  end
+
+  it "checks speeds and adds a color to the hash" do
+    segments_with_colors = []
+    segments = []
+    responses = @response["SpeedDetails"]["Segment"]
+    responses.each do |response|
+      if response["RoadName"] == "I-70" &&
+          response["Direction"] == "West" &&
+          response["SegmentId"].to_i.between?(20, 25) ||
+          response["SegmentId"].to_i.between?(27, 30) ||
+          response["SegmentId"].to_i.between?(270, 271)
+        segments << response
+      end
+      segments.each do |segment|
+        if segment["AverageSpeed"].to_i < 30
+          segment["Color"] = "red"
+          segments_with_colors << segment
+        elsif segment["AverageSpeed"].to_i > 31 && segment["AverageSpeed"].to_i <60
+          segment["Color"] = "yellow"
+          segments_with_colors << segment
+        else
+          segment["Color"] = "green"
+          segments_with_colors << segment
+
+        end
+      end
+    end
+    expect(segments_with_colors.first["Color"].present?).to be(true)
   end
 
 

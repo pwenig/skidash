@@ -19,12 +19,19 @@ class SpeedSegment
 
   def assign_values(speed_segment_hash)
     @west_bound_speeds = []
+    @west_bound_with_colors = []
     @east_bound_speeds = []
+    @east_bound_with_colors = []
     responses = speed_segment_hash["SpeedDetails"]["Segment"]
     responses.each do |response|
       west_bound(response)
       east_bound(response)
     end
+    @west_bound_with_colors = set_colors(@west_bound_speeds)
+    self.west_bound_speeds = @west_bound_with_colors
+    @east_bound_with_colors = set_colors(@east_bound_speeds)
+    self.east_bound_speeds = @east_bound_with_colors
+
   end
 
 
@@ -36,8 +43,6 @@ class SpeedSegment
         response["SegmentId"].to_i.between?(270, 271)
       @west_bound_speeds << response
     end
-    self.west_bound_speeds = @west_bound_speeds
-
   end
 
   def east_bound(response)
@@ -48,7 +53,22 @@ class SpeedSegment
         response["SegmentId"].to_i.between?(36, 41)
       @east_bound_speeds << response
     end
-    self.east_bound_speeds = @east_bound_speeds
   end
+
+
+  def set_colors(speed_segments)
+    speed_segments.each do |segment|
+      if segment["AverageSpeed"].to_i < 30
+        segment["Color"] = "#FF0000"
+      elsif segment["AverageSpeed"].to_i > 31 && segment["AverageSpeed"].to_i < 55
+        segment["Color"] = "#FFFF00"
+      else
+        segment["Color"] = "#00FF00"
+      end
+    end
+
+  end
+
+
 
 end
