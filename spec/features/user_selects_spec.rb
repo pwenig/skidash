@@ -13,7 +13,7 @@ feature 'the mountain selection process' do
     visit '/'
     select("Eldora", :from => 'mountain-form', match: :first)
 
-    click_button('Get Forecast')
+    click_button('Get Forecasts & Road Conditions')
 
     expect(page).to have_css('h2', text: 'Eldora')
     expect(page).to_not have_css('h2', text: 'Steamboat')

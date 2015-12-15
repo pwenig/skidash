@@ -1,5 +1,5 @@
 <div class="row">
-  <section id="forecasts">
+  <section id="<%= @mountain_conditions.empty? ? 'traffic-only' : 'forecasts' %>">
     <% @mountain_conditions.each do |mountain| %>
       <div class="col-md-3 td-top" id="forecast-box">
         <h2><%= mountain[:name] %></h2>
