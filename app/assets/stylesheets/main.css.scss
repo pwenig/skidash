@@ -101,7 +101,7 @@ video {
 }
 
 
-#button {
+#submit-button {
   padding-top: 65px;
 }
 
@@ -141,3 +141,66 @@ div#slider figure {
 #traffic-only {
   display: none;
 }
+
+.mph-speed {
+  float: right;
+  color: black;
+  font-size: 16px;
+  margin-right: 80px;
+}
+
+.speed-segment {
+  color: white;
+}
+
+
+
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .speed-segment {
+    font-size: 11px;
+  }
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .speed-segment {
+    font-size: 10px;
+  }
+  .mph-speed {
+    font-size: 10px;
+    float: none;
+  }
+
+  #mountain-form {
+    background-color: #337ab7;
+    color: white;
+    font-size: 20px;
+    height: 150px;
+    margin-top: 24px;
+  }
+  h1 {
+    font-size: 60px;
+  }
+
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+}
+

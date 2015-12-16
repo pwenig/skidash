@@ -4,7 +4,7 @@
       <h4>Eastbound Speeds:</h4>
       <ul>
         <% @speed_segment.east_bound_speeds.each do |east_speed| %>
-          <li style="color: <%=east_speed["Color"] %>;"><%= east_speed["SegmentName"].gsub(/^\d..E\d..\s-/, '') %>: <%= east_speed["AverageSpeed"] %> mph</li>
+          <li><span class="speed-segment"><%= east_speed["SegmentName"].gsub(/^\d..E\d..\s-/, '') %>:</span> <span class="mph-speed" style="background-color: <%=east_speed["Color"] %>;"><%= east_speed["AverageSpeed"] %> mph</span></li>
         <% end %>
       </ul>
       </div>
@@ -14,7 +14,7 @@
         <h4>Westbound Speeds:</h4>
         <ul>
           <% @speed_segment.west_bound_speeds.each do |west_speed| %>
-            <li style="color: <%=west_speed["Color"] %>"><%= west_speed["SegmentName"].gsub(/^\d..W\d..\s-/, '') %>: <%= west_speed["AverageSpeed"] %> mph</li>
+            <li><span class="speed-segment"><%= west_speed["SegmentName"].gsub(/^\d..W\d..\s-/, '') %>:</span> <span class="mph-speed" style="background-color: <%=west_speed["Color"] %>;"><%= west_speed["AverageSpeed"] %> mph</span></li>
           <% end %>
         </ul>
       </div>

@@ -15,7 +15,7 @@
     <div class="col-md-3 td-top" id="mountain-button1" style="display: block">
       <%= collection_select :mountain4, :id, Mountain.order(:name), :id, :name, {:include_blank => "Select Mountain"}, {class: "form-control", id: "mountain-form"} %>
     </div>
-    <div id="button"><%= submit_tag("Get Forecasts & Road Conditions", {class: "btn btn-primary btn-default btn-lg"}) %></div>
+    <div id="submit-button"><%= submit_tag("Get Forecasts & Road Conditions", {class: "btn btn-primary btn-default btn-lg", id: "mountain-form"}) %></div>
 <% end %>
 
 
