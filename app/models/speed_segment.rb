@@ -63,7 +63,7 @@ class SpeedSegment
         segment["Color"] = "white"
       elsif segment["AverageSpeed"].to_i < 31 && segment["AverageSpeed"].to_i > 0
         segment["Color"] = "#FF0000"
-      elsif segment["AverageSpeed"].to_i > 31 && segment["AverageSpeed"].to_i < 55
+      elsif segment["AverageSpeed"].to_i > 31 && segment["AverageSpeed"].to_i < 50
         segment["Color"] = "#FFFF00"
       else
         segment["Color"] = "#00FF00"
