@@ -16,6 +16,7 @@ gem 'rake', '~> 10.1'
 gem 'spring',        group: :development
 
 gem 'httparty', '~> 0.13.6'
+gem 'twilio-ruby', '~> 4.8'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.3.3'
