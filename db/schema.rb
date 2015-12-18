@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151204191210) do
+ActiveRecord::Schema.define(version: 20151218221516) do
 
   create_table "conditions", force: true do |t|
     t.integer  "mountain_id"
@@ -44,6 +44,11 @@ ActiveRecord::Schema.define(version: 20151204191210) do
     t.string   "mtn_image2"
     t.string   "mtn_image3"
     t.string   "base"
+  end
+
+  create_table "users", force: true do |t|
+    t.string "name"
+    t.string "phone_number"
   end
 
 end
