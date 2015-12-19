@@ -1,6 +1,5 @@
 desc "Fetches speeds from CDOT"
 task :fetch_speeds => :environment do
-  require 'open-uri'
 
   west_bound = []
   east_bound = []
