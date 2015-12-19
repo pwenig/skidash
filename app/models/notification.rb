@@ -5,12 +5,14 @@ class Notification
   end
 
   def trigger_alert(message)
-    users = User.all
-    @alert_message = message
-
-    users.each do |user|
-      phone_number = user["phone_number"]
-      send_message(phone_number, @alert_message)
+    time = Time.now
+    if time.hour > 7 && time.hour < 20
+      @alert_message = message
+      users = User.all
+      users.each do |user|
+        phone_number = user["phone_number"]
+        send_message(phone_number, @alert_message)
+      end
     end
   end
 
