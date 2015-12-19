@@ -5,7 +5,6 @@ task :fetch_speeds => :environment do
   west_bound = []
   east_bound = []
 
-
   speeds = SpeedSegment.new
 
   puts ""
@@ -74,11 +73,13 @@ def send_alert(average_speed, direction)
   if average_speed < 50 && average_speed > 35
     puts "*" * 10
     puts "Moderate Traffic Alert: Traffic Slowing Down"
-    Notification.new(average_speed, direction)
+    message = "Moderate Traffic Alert: Traffic Slowing Down. #{direction}. Average speed is #{average_speed} MPH"
+    Notification.new(message)
   elsif average_speed < 35
     puts "*" * 10
     puts "Heavy Traffic Alert: Speeds are under 35 mph"
-    Notification.new(average_speed, direction)
+    message = "Heavy Traffic Alert: Speeds are under 35 mph. #{direction}. Average speed is #{average_speed} MPH"
+    Notification.new(message)
   else
     puts "*" * 10
     puts "No Traffic Alert Needed"
