@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/pwenig/skidash.svg?branch=master)](https://travis-ci.org/pwenig/skidash)
 
-This is a personal project that creates a dashboard for ski conditions.
+This is a personal project that creates a dashboard for ski conditions and sends traffic alert text messages.
 
 To get this running:
 
