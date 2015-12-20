@@ -23,7 +23,7 @@ class Notification
     client.account.messages.create(
         :from => twilio_number,
         :to => phone_number,
-        :body => alert_message,
+        :body => "SkiDash Alert: #{alert_message}",
     )
     puts "Alert Message Sent"
   end

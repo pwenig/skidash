@@ -2,11 +2,12 @@ desc "Fetches alert messages from CDOT"
 task :fetch_alerts => :environment do
 
   messages = []
+  alert = []
 
   alerts = TravelAlert.new
-  alerts.road_alerts.each do |alert|
-    if alert["Title"] != "NONE"
-      messages << alert
+  alerts.road_alerts.each do |road_alert|
+    if road_alert["Title"] != "NONE"
+      messages << road_alert
     else
 
     end
@@ -14,14 +15,21 @@ task :fetch_alerts => :environment do
   if messages.count == 0
     puts "No Traffic Alerts"
   else
-    send_traffic_alert(messages)
-    puts messages
+    messages.each do |message|
+      alert << message["LocationDescription"] + message["Title"]
+    end
+    alert.join("")
+    send_traffic_alert(alert)
+    puts alert
     puts "*" * 10
-    puts "TRAVEL ALERT SENT"
+
   end
 end
 
 
 def send_traffic_alert(messages)
-  Notification.new(messages)
+  messages.each do |message|
+  Notification.new(message)
+  end
+  puts "TRAVEL ALERT SENT"
 end
