@@ -5,8 +5,9 @@ class Notification
   end
 
   def trigger_alert(message)
-    time = Time.now
-    if time.hour > 7 && time.hour < 20
+    time = Time.now.utc
+    if time.hour > 14 && time.hour < 24
+      binding.pry
       @alert_message = message
       users = User.all
       users.each do |user|
