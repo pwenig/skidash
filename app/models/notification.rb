@@ -5,8 +5,9 @@ class Notification
   end
 
   def trigger_alert(message)
-    time = Time.now.utc
-    if time.hour > 14
+    time = Time.now.hour
+    if time >= 7 && time <= 17
+      binding.pry
       @alert_message = message
       users = User.all
       users.each do |user|
@@ -14,8 +15,6 @@ class Notification
         send_message(phone_number, @alert_message)
       end
     end
-  else
-    puts "Alert triggered but not sent. Outside of notification hours"
   end
 
 
