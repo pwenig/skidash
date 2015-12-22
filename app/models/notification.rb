@@ -15,7 +15,7 @@ class Notification
       end
     end
   else
-    puts "Alert triggered but not send. Outside of hours"
+    puts "Alert triggered but not sent. Outside of notification hours"
   end
 
 
