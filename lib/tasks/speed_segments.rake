@@ -37,15 +37,13 @@ def average_speed(speeds)
   sum = speeds.inject{|sum,x| sum + x }
   average_speed = sum/speeds.count
   puts "Average Overall Speed: #{average_speed} MPH"
-  speed_analysis(average_speed)
 end
 
 def average_speed_to_tunnel(speeds)
   sum = speeds.inject{|sum,x| sum + x }
   average_speed = sum/speeds.count
   puts "Average Speed Empire to Tunnel: #{average_speed} MPH"
-  direction = "Eastbound: Empire to Tunnel"
-  speed_analysis(average_speed)
+  direction = "Westbound: Empire to Tunnel"
   send_alert(average_speed, direction)
 end
 
@@ -53,20 +51,10 @@ def average_speed_from_tunnel(speeds)
   sum = speeds.inject{|sum,x| sum + x }
   average_speed = sum/speeds.count
   puts "Average Speed Tunnel to Idaho Springs: #{average_speed} MPH"
-  direction = "Westbound: Tunnel to Idaho Springs"
-  speed_analysis(average_speed)
+  direction = "Eastbound: Tunnel to Idaho Springs"
   send_alert(average_speed, direction)
 end
 
-def speed_analysis(average_speed)
-  if average_speed < 50 && average_speed > 31
-    puts "Slowing Speeds -- Moderate Traffic"
-  elsif average_speed < 30 && average_speed > 0
-    puts "Very Slow Speeds -- Heavy Traffic"
-  else
-  puts "Normal Speeds -- Light to No Traffic"
-  end
-end
 
 def send_alert(average_speed, direction)
   if average_speed < 50 && average_speed > 35
