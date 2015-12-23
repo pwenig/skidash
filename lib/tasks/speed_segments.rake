@@ -60,12 +60,12 @@ def send_alert(average_speed, direction)
   if average_speed < 50 && average_speed > 35
     puts "*" * 10
     puts "Moderate Traffic Alert: Traffic Slowing Down"
-    message = "Moderate Traffic Alert: Traffic Slowing Down. #{direction}. Average speed is #{average_speed} MPH"
+    message = "Moderate Traffic. Speeds under 50 mph. #{direction}. Average speed is #{average_speed} MPH"
     Notification.new(message)
   elsif average_speed < 35
     puts "*" * 10
     puts "Heavy Traffic Alert: Speeds are under 35 mph"
-    message = "Heavy Traffic Alert: Speeds are under 35 mph. #{direction}. Average speed is #{average_speed} MPH"
+    message = "Heavy Traffic! Speeds are under 35 mph. #{direction}. Average speed is #{average_speed} MPH"
     Notification.new(message)
   else
     puts "*" * 10
