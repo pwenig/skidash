@@ -1,8 +1,14 @@
 [![Build Status](https://travis-ci.org/pwenig/skidash.svg?branch=master)](https://travis-ci.org/pwenig/skidash)
 
-This is a personal project that creates a dashboard for ski conditions and sends traffic alert text messages.
+![SkiDash Home Page](https://github.com/pwenig/skidash/blob/master/public/screen_shot.png)
 
-To get this running:
+SkiDash is a dashboard for Colorado Ski Conditions. It displays weather conditions, forecasts, terrain status, ski cam images as well as I-70 road conditions, travel alerts and speeds. In addition to the dashboard, SkiDash sends SMS alerts to beta users when highway speeds slow down or CDOT travel alerts are issued.
+
+Staging:
+http://skidash.herokuapp.com/
+
+
+You will need API credentials to run this on your local machine. Once you have credentials:
 
 * clone
 * bundle install
@@ -10,10 +16,9 @@ To get this running:
 * rake db:migrate
 * rake db:seed
 
-* Tests
-rpsec spec
+Unit and Feature Tests:
+* rspec spec
 
-Staging:
-http://skidash.herokuapp.com/
+
 
 
