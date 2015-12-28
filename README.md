@@ -2,7 +2,7 @@
 
 ![SkiDash Home Page](https://github.com/pwenig/skidash/blob/master/public/screen_shot.png)
 
-SkiDash is a dashboard for Colorado Ski Conditions. It displays weather conditions, forecasts, terrain status, ski cam images as well as I-70 road conditions, travel alerts and speeds. In addition to the dashboard, SkiDash sends SMS alerts to beta users when highway speeds slow down or CDOT travel alerts are issued.
+SkiDash is a dashboard for Colorado ski conditions. It displays weather conditions, weather forecasts, terrain status, and live mountain images for popular ski areas as well as I-70 road conditions, travel alerts and speeds. In addition to the dashboard, SkiDash sends SMS alerts to beta users when highway speeds slow down or CDOT travel alerts are issued.
 
 Staging:
 http://skidash.herokuapp.com/
