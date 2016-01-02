@@ -20,7 +20,6 @@ task :fetch_alerts => :environment do
       if message["ReportedTime"][8..9].to_i == Time.now.day
         alert << message["LocationDescription"] + message["Title"]
         alert.join("")
-        binding.pry
         send_traffic_alert(alert)
         puts alert
         puts "*" * 10
