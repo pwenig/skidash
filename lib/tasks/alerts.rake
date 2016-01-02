@@ -17,9 +17,10 @@ task :fetch_alerts => :environment do
   else
     messages.each do |message|
       # added the below to reduce the number of repeat notifications
-      if message["ReportedTime"] < (Time.now + 6.hour)
+      if message["ReportedTime"][8..9].to_i == Time.now.day
         alert << message["LocationDescription"] + message["Title"]
         alert.join("")
+        binding.pry
         send_traffic_alert(alert)
         puts alert
         puts "*" * 10
