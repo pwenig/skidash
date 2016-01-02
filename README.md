@@ -1,9 +1,9 @@
 [![Build Status](https://travis-ci.org/pwenig/skidash.svg?branch=master)](https://travis-ci.org/pwenig/skidash)
 
 ![SkiDash Home Page](https://github.com/pwenig/skidash/blob/master/public/screen_shot_1.png)
-(https://github.com/pwenig/skidash/blob/master/public/screen_shot_2.png)
-(https://github.com/pwenig/skidash/blob/master/public/screen_shot_3.png)
-(https://github.com/pwenig/skidash/blob/master/public/screen_shot_4.png)
+![SkiDash Results Page](https://github.com/pwenig/skidash/blob/master/public/screen_shot_2.png)
+![SkiDash Results Page](https://github.com/pwenig/skidash/blob/master/public/screen_shot_3.png)
+![SkiDash Results Page](https://github.com/pwenig/skidash/blob/master/public/screen_shot_4.png)
 
 SkiDash is a dashboard for Colorado ski conditions. It displays weather conditions, weather forecasts, terrain status, and live mountain images for popular ski areas as well as I-70 road conditions, travel alerts and speeds. In addition to the dashboard, SkiDash sends SMS alerts to beta users when highway speeds slow down or CDOT travel alerts are issued.
 
