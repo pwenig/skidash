@@ -1,20 +1,19 @@
 <div class="row">
   <section id="speeds">
     <div class="col-md-6 camera" id="speeds">
-      <h4>Eastbound Speeds:</h4>
+      <h4>Westbound Speeds:</h4>
       <ul>
-        <% @speed_segment.east_bound_speeds.each do |east_speed| %>
-          <li><span class="speed-segment"><%= east_speed["SegmentName"].gsub(/^\d..E\d..\s-/, '') %>:</span> <span class="mph-speed" style="background-color: <%=east_speed["Color"] %>;"><%= east_speed["AverageSpeed"] %> mph</span></li>
+        <% @speed_segment.west_bound_speeds.each do |west_speed| %>
+          <li><span class="speed-segment"><%= west_speed["SegmentName"].gsub(/^\d..W\d..\s-/, '') %>:</span> <span class="mph-speed" style="background-color: <%=west_speed["Color"] %>;"><%= west_speed["AverageSpeed"] %> mph</span></li>
         <% end %>
       </ul>
       </div>
 
       <div class="col-md-6 camera" id="speeds">
-
-        <h4>Westbound Speeds:</h4>
+        <h4>Eastbound Speeds:</h4>
         <ul>
-          <% @speed_segment.west_bound_speeds.each do |west_speed| %>
-            <li><span class="speed-segment"><%= west_speed["SegmentName"].gsub(/^\d..W\d..\s-/, '') %>:</span> <span class="mph-speed" style="background-color: <%=west_speed["Color"] %>;"><%= west_speed["AverageSpeed"] %> mph</span></li>
+          <% @speed_segment.east_bound_speeds.each do |east_speed| %>
+            <li><span class="speed-segment"><%= east_speed["SegmentName"].gsub(/^\d..E\d..\s-/, '') %>:</span> <span class="mph-speed" style="background-color: <%=east_speed["Color"] %>;"><%= east_speed["AverageSpeed"] %> mph</span></li>
           <% end %>
         </ul>
       </div>
