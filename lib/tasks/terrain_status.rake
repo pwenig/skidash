@@ -39,7 +39,6 @@ task :fetch_terrain => :environment do
   puts "Base: #{base_eld}"
 
 
-
   # Steamboat
   steam = Mountain.find(2)
   url = "http://www.onthesnow.com/colorado/steamboat/skireport.html"
@@ -166,25 +165,6 @@ task :fetch_terrain => :environment do
   puts "Lifts Open: #{lifts_key}"
   puts "Runs Open: #{runs_key}"
   puts "Base: #{base_key}"
-
-
-#   Telluride
-  telluride = Mountain.find(11)
-  url = "http://www.onthesnow.com/colorado/telluride/skireport.html"
-  doc_tell = Nokogiri::HTML(open(url))
-  lifts_tell = lift_parser(doc_tell)
-  runs_tell = run_parser(doc_tell)
-  base_tell = base_parser(doc_tell)
-  telluride.update_attributes(:runs_open => runs_tell, :lifts_open => lifts_tell, :base => base_tell, :updated_at => Time.now)
-
-
-  puts ""
-  puts "Telluride"
-  weather_condition(telluride.id)
-  puts ""
-  puts "Lifts Open: #{lifts_tell}"
-  puts "Runs Open: #{runs_tell}"
-  puts "Base: #{base_tell}"
 
 # CB
   crested_butte = Mountain.find(7)
