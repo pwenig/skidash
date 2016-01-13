@@ -13,7 +13,7 @@ class WeatherCondition
   end
 
   def fetch_weather_conditions(zip_code)
-    HTTParty.get("http://api.wunderground.com/api/#{ENV['WEATHER_API']}/conditions/q/#{zip_code}.xml")
+    HTTParty.get("http://api.openweathermap.org/data/2.5/weather?zip=#{zip_code},us&mode=xml&units=imperial&appid=#{ENV['OPEN_WEATHER_API']}")
   end
 
  def fetch_weather_forecast(zip_code)
@@ -23,11 +23,11 @@ class WeatherCondition
 
   def assign_condition_values(weather_hash)
     condition_hash = {}
-    forecast_response = weather_hash.parsed_response['response']['current_observation']
-    condition_hash[:temperature] = forecast_response['temp_f']
-    condition_hash[:condition] = forecast_response['weather']
-    condition_hash[:icon] = forecast_response['icon_url']
-    condition_hash[:wind_string] = forecast_response['wind_string']
+    forecast_response = weather_hash['current']
+    condition_hash[:temperature] = forecast_response['temperature']['value'].to_i.round
+    condition_hash[:condition] = forecast_response['weather']['value'].capitalize
+    condition_hash[:icon] = "http://openweathermap.org/img/w/#{forecast_response['weather']['icon']}.png"
+    condition_hash[:wind_string] = forecast_response['wind']['speed']['name']
     self.condition_hash =  condition_hash
   end
 

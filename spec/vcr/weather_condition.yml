@@ -173,4 +173,46 @@ http_interactions:
         \   \n    \n</response>\n\t\n"
     http_version: 
   recorded_at: Fri, 13 Nov 2015 18:36:02 GMT
+- request:
+    method: get
+    uri: http://api.openweathermap.org/data/2.5/weather?appid=cd27a1426e63d6bda6efb08160347b47&mode=xml&units=imperial&zip=80466,us
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 13 Jan 2016 05:39:35 GMT
+      Content-Type:
+      - text/xml; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Source:
+      - redis
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: |
+        <current><city id="5432410" name="Nederland"><coord lon="-105.51" lat="39.96"></coord><country>US</country><sun rise="2016-01-13T14:22:40" set="2016-01-13T23:59:02"></sun></city><temperature value="29.7" min="28.22" max="32" unit="fahrenheit"></temperature><humidity value="51" unit="%"></humidity><pressure value="1026.2" unit="hPa"></pressure><wind><speed value="8.12" name="Fresh Breeze"></speed><gusts></gusts><direction value="294.001" code="WNW" name="West-northwest"></direction></wind><clouds value="8" name="clear sky"></clouds><visibility></visibility><precipitation mode="no"></precipitation><weather number="800" value="sky is clear" icon="02n"></weather><lastupdate value="2016-01-13T04:59:16"></lastupdate></current>
+    http_version: 
+  recorded_at: Wed, 13 Jan 2016 05:39:34 GMT
 recorded_with: VCR 2.9.0
