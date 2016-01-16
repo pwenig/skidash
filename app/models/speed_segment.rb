@@ -65,7 +65,7 @@ class SpeedSegment
     sum = speeds.inject { |sum, x| sum + x }
     average_speed = sum/speeds.count
     puts "Average Speed Idaho Springs to Georgetown: #{average_speed} MPH"
-    direction = "Westbound: Idaho Springs to Georgetown"
+    direction = "WESTBOUND: Idaho Springs to Georgetown"
     send_alert(average_speed, direction)
 
   end
@@ -74,7 +74,7 @@ class SpeedSegment
     sum = speeds.inject { |sum, x| sum + x }
     average_speed = sum/speeds.count
     puts "Average Speed Bakerville to Tunnel: #{average_speed} MPH"
-    direction = "Westbound: Bakerville to Tunnel"
+    direction = "WESTBOUND: Bakerville to Tunnel"
     send_alert(average_speed, direction)
   end
 
@@ -82,7 +82,7 @@ class SpeedSegment
     sum = speeds.inject { |sum, x| sum + x }
     average_speed = sum/speeds.count
     puts "Average Speed Tunnel to Bakerville: #{average_speed} MPH"
-    direction = "Eastbound: Tunnel to Bakerville"
+    direction = "EASTBOUND: Tunnel to Bakerville"
     send_alert(average_speed, direction)
   end
 
@@ -90,7 +90,7 @@ class SpeedSegment
     sum = speeds.inject { |sum, x| sum + x }
     average_speed = sum/speeds.count
     puts "Average Speed Georgetown to Idaho Springs: #{average_speed} MPH"
-    direction = "Eastbound: Georgetown to Idaho Springs"
+    direction = "EASTBOUND: Georgetown to Idaho Springs"
     send_alert(average_speed, direction)
   end
 
@@ -103,7 +103,7 @@ class SpeedSegment
     elsif average_speed < 35
       puts "*" * 10
       puts "Heavy Traffic Alert: Speeds are under 35 mph"
-      message = "Heavy Traffic! Speeds are under 35 mph. #{direction}. Average speed is #{average_speed} MPH"
+      message = "HEAVY TRAFFIC! Speeds are under 35 mph. #{direction}. Average speed is #{average_speed} MPH"
       Notification.new(message)
     else
       puts "*" * 10
