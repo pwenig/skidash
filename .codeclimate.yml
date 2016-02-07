@@ -5,3 +5,6 @@ languages:
   Python: true
 exclude_paths:
 - "app/assets/javascripts/bootstrap.js"
+- "app/assets/javascripts/jquery.js"
+- "app/assets/javascripts/bootstrap.min.js"
+- "app/assets/stylesheets/bootstrap.css"
