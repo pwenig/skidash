@@ -25,7 +25,6 @@ class RoadCondition
     end
 
   weather_routes.each do |route|
-    # removing Loveland Pass
     weather_routes.delete_if { |h| h["WeatherRouteId"] == "7" }
       road_conditions << route["RoadConditionCategoryTxt"]
   end

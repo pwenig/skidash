@@ -19,9 +19,7 @@ class SpeedSegment
 
   def assign_values(speed_segment_hash)
     @west_bound_speeds = []
-    @west_bound_with_colors = []
     @east_bound_speeds = []
-    @east_bound_with_colors = []
     responses = speed_segment_hash["SpeedDetails"]["Segment"]
     responses.each do |response|
       west_bound(response)
@@ -29,6 +27,7 @@ class SpeedSegment
     end
     @west_bound_with_colors = set_colors(@west_bound_speeds)
     self.west_bound_speeds = @west_bound_with_colors
+
     @east_bound_with_colors = set_colors(@east_bound_speeds)
     self.east_bound_speeds = @east_bound_with_colors
 
@@ -56,42 +55,36 @@ class SpeedSegment
   end
 
   def self.average_speed(speeds)
-    sum = speeds.inject { |sum, x| sum + x }
-    average_speed = sum/speeds.count
-    puts "Average Overall Speed: #{average_speed} MPH"
+    calculate_average(speeds)
+    puts "Average Overall Speed: #{@average_speed} MPH"
   end
 
   def self.average_speed_springs_west(speeds)
-    sum = speeds.inject { |sum, x| sum + x }
-    average_speed = sum/speeds.count
-    puts "Average Speed Idaho Springs to Georgetown: #{average_speed} MPH"
+    calculate_average(speeds)
+    puts "Average Speed Idaho Springs to Georgetown: #{@average_speed} MPH"
     direction = "WESTBOUND: Idaho Springs to Georgetown"
-    send_alert(average_speed, direction)
-
+    send_alert(@average_speed, direction)
   end
 
   def self.average_speed_to_tunnel(speeds)
-    sum = speeds.inject { |sum, x| sum + x }
-    average_speed = sum/speeds.count
-    puts "Average Speed Bakerville to Tunnel: #{average_speed} MPH"
+    calculate_average(speeds)
+    puts "Average Speed Bakerville to Tunnel: #{@average_speed} MPH"
     direction = "WESTBOUND: Bakerville to Tunnel"
-    send_alert(average_speed, direction)
+    send_alert(@average_speed, direction)
   end
 
   def self.average_speed_from_tunnel(speeds)
-    sum = speeds.inject { |sum, x| sum + x }
-    average_speed = sum/speeds.count
-    puts "Average Speed Tunnel to Bakerville: #{average_speed} MPH"
+    calculate_average(speeds)
+    puts "Average Speed Tunnel to Bakerville: #{@average_speed} MPH"
     direction = "EASTBOUND: Tunnel to Bakerville"
-    send_alert(average_speed, direction)
+    send_alert(@average_speed, direction)
   end
 
   def self.average_speed_springs_east(speeds)
-    sum = speeds.inject { |sum, x| sum + x }
-    average_speed = sum/speeds.count
-    puts "Average Speed Georgetown to Idaho Springs: #{average_speed} MPH"
+    calculate_average(speeds)
+    puts "Average Speed Georgetown to Idaho Springs: #{@average_speed} MPH"
     direction = "EASTBOUND: Georgetown to Idaho Springs"
-    send_alert(average_speed, direction)
+    send_alert(@average_speed, direction)
   end
 
   def self.send_alert(average_speed, direction)
@@ -124,6 +117,11 @@ class SpeedSegment
         segment["Color"] = "#00FF00"
       end
     end
+  end
+
+  def self.calculate_average(speeds)
+    sum = speeds.inject { |sum, x| sum + x  }
+    @average_speed = sum/speeds.count
   end
 
 end

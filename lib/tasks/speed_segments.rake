@@ -13,6 +13,7 @@ task :fetch_speeds => :environment do
     puts west_speed["SegmentName"].gsub(/^\d..W\d..\s-/, '') + ":" + " "+ west_speed["AverageSpeed"] + " " + "MPH"
     west_bound << west_speed["AverageSpeed"].to_i
   end
+
   puts "*" * 10
   SpeedSegment.average_speed(west_bound)
   puts "*" * 10
