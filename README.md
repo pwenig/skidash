@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/pwenig/skidash.svg?branch=master)](https://travis-ci.org/pwenig/skidash)
+[![Code Climate](https://codeclimate.com/github/pwenig/skidash/badges/gpa.svg)](https://codeclimate.com/github/pwenig/skidash)
+
 
 ![SkiDash Home Page](https://github.com/pwenig/skidash/blob/master/public/screen_shot_1.png)
 ![SkiDash Results Page](https://github.com/pwenig/skidash/blob/master/public/screen_shot_2.png)
