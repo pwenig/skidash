@@ -9,8 +9,8 @@ task :fetch_terrain => :environment do
   love = Mountain.find(10)
   url = "http://www.onthesnow.com/colorado/loveland/skireport.html"
   doc_love = Nokogiri::HTML(open(url))
-  runs_love = run_parser(doc_love)
-  lifts_love = lift_parser(doc_love)
+  runs_love = CLOSED
+  lifts_love = CLOSED
   base_love = 0
   love.update_attributes(:runs_open => runs_love, :lifts_open => lifts_love, :base => base_love, :updated_at => Time.now)
 
